@@ -38,7 +38,13 @@
 
 
 
+### 3 - Guardando Valores na memória do computador
 
+**Guardando Valores na memória do computador**
+
+
+- Exemplo:
+  - script_03
 
 
 
