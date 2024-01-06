@@ -13,6 +13,8 @@
 
 ### 1 - Introdução
 
+**Introdução**
+
 - Visual Studio Code
   - Link: https://code.visualstudio.com/Download
 
@@ -25,10 +27,13 @@
   - script_01
 
 
+### 2 - Instalando requisitos
+
+**Instalando requisitos**
 
 
-
-
+- Exemplo:
+  - script_02
 
 
 
