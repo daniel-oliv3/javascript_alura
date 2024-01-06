@@ -3,7 +3,7 @@
 ##
 
 <p align="center">
-  <img alt="...." src="./src/js.png" width="70%">
+  <img alt="...." src="./src/js.png" width="50%">
 </p>
 
 
@@ -20,7 +20,7 @@
 - NodeJS
   - Link; https://nodejs.org/en
 
-  
+
 - Exemplo:
   - script_01
 
