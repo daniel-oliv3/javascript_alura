@@ -48,7 +48,31 @@
 
 
 
+### 4 - Referênciando variáveis
 
+**Referênciando variáveis**
+
+Aprendemos que podemos salvar valores dentro de variáveis. Esses valores ficam salvos dentro da memória do computador e podem ser acessados em outros lugares do nosso código. Dado o seguinte código:
+
+```js
+const nome = "Lais";
+
+console.log("nome");
+```
+
+O que esperamos ver de saída do programa quando pedimos para que ele seja interpretado?
+
+- Selecione uma alternativa
+
+- A: - Esperamos ver um texto escrito nome.
+`Exatamente! Quando colocamos algo entre aspas o interpretador do JS entende aquilo como sendo um texto literal.`
+
+- B: - Esperamos que apareça no terminal o texto Lais
+
+- C: - É esperado que no terminal apareça o texto Meu nome é Lais
+
+- Exemplo:
+  - script_04
 
 
 
