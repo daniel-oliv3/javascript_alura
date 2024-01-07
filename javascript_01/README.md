@@ -128,7 +128,12 @@ Operadores aritméticos
 
 
 
+### 8 - Boas práticas com variáveis
 
+**Boas práticas com variáveis**
+
+- Exemplo:
+  - script_08
 
 
 
