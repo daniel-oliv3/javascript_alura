@@ -163,8 +163,13 @@ const anoDeNascimento = 1993;
   - script_09
 
 
+### 10 - Conversão de tipos
+
+**Conversão de tipos**
 
 
+- Exemplo:
+  - script_10
 
 
 
