@@ -112,13 +112,19 @@ Operadores aritméticos
   - script_06
 
 
+##
+### Parte 2 - Tipos de variáveis
+##
 
 
 
+### 7 - Projeto da aula anterior
+
+**Projeto da aula anterior**
 
 
-
-
+- Exemplo:
+  - script_07
 
 
 
