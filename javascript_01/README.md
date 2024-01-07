@@ -136,10 +136,31 @@ Operadores aritméticos
   - script_08
 
 
+### 9 - Seguindo convenções
+
+**Seguindo convenções**
+
+Ao escrevermos um programa é comum precisarmos criar muitas variáveis para guardar diferentes tipos de valores. Podemos inclusive declarar variáveis com letras maiúsculas e minúsculas. Seguindo as boas praticas, qual o erro do código a seguir:
+
+```js
+const nome = "Lais";
+const Sobrenome = "Silva";
+const Idade = 30;
+const anoDeNascimento = 1993;
+```
+
+- Selecione uma alternativa
 
 
+- A: - Esse código não segue um padrão definido de como declarar variáveis.
+  - `Isso mesmo! A falta de padronização entre os nomes das variáveis pode gerar muitos problemas no futuro da aplicação e os programadores não saberão quando usar cada tipo de nomenclatura;`
 
+- B: - Esse código não apresenta problemas, já que todas as variáveis estão sendo declaradas com a palavra-chave const.
 
+- C: - O problema é que em um mesmo programa estamos misturando variáveis do tipo número e do tipo texto sem nenhuma distinção.
+
+- Exemplo:
+  - script_09
 
 
 
