@@ -172,7 +172,12 @@ const anoDeNascimento = 1993;
   - script_10
 
 
+### 11 - Atribuição e imutabilidade
 
+**Atribuição e imutabilidade**
+
+- Exemplo:
+  - script_11
 
 
 
