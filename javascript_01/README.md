@@ -182,7 +182,31 @@ const anoDeNascimento = 1993;
 
 
 
+### 12 - Refletindo sobre variáveis
 
+**Refletindo sobre variáveis**
+
+
+Agora que vimos as diferentes formas de declarar uma variável e para que elas servem, o que podemos afirmar como sendo verdade:
+
+- Selecione 3 alternativas
+
+- A: - Existem diferentes tipos de dados que conseguimos manipular, como textos e números.
+  - `Isso mesmo! Outra forma de chamar as variáveis textuais é chamá-las de strings. Existem ainda outros tipos que veremos mais pra frente.`
+
+- B: - É uma boa prática declarar variáveis com as palavras-chaves conste let, ou sem nenhuma palavra-chave antes do nome dela.
+
+- C: - É recomendado que sempre que formos sobrescrever o valor de uma variável também mudarmos o tipo de dados que ela contem.
+
+- D: - Sobrescrever uma variável significa mudar o conteúdo dela e para isso precisamos atribuir com o = o novo valor que desejamos.
+  - `Sim, mas só podemos fazer isso em variáveis declaradas sem o const.`
+
+- E: - Sempre que declaramos uma variável estamos reservando um espaço de memória no computador.
+  - `Exatamente, uma variável serve como um nome, um endereço, para esse espaço de memória no computador.`
+
+
+- Exemplo:
+  - script_12
 
 
 
