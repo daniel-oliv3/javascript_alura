@@ -224,9 +224,21 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - script_13
 
 
+### 14 - O que aprendemos?
 
+**O que aprendemos?**
 
+O que aprendemos nessa aula:
 
+- Const e let
+- Case Sensitive
+- Adicionando comentários
+- parseInt e parseFloat
+- Usando números com casa decimal
+- Atribuição de variáveis
+
+- Exemplo:
+  - script_14
 
 
 
