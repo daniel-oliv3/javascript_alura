@@ -65,7 +65,7 @@ O que esperamos ver de saída do programa quando pedimos para que ele seja inter
 - Selecione uma alternativa
 
 - A: - Esperamos ver um texto escrito nome.
-`Exatamente! Quando colocamos algo entre aspas o interpretador do JS entende aquilo como sendo um texto literal.`
+  - `Exatamente! Quando colocamos algo entre aspas o interpretador do JS entende aquilo como sendo um texto literal.`
 
 - B: - Esperamos que apareça no terminal o texto Lais
 
@@ -77,4 +77,15 @@ O que esperamos ver de saída do programa quando pedimos para que ele seja inter
 
 
 
+### 5 - Faça como eu fiz na aula
 
+**Faça como eu fiz na aula**
+
+Praticar ajuda bastante no aprendizado de um novo conceito. Assim, é muito importante que você implemente o que foi apresentado nesta aula.
+
+- Opinião do instrutor
+
+Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos te esperando no fórum da Alura caso alguma dúvida surja.
+
+- Exemplo:
+  - script_05
