@@ -260,7 +260,15 @@ O que aprendemos nessa aula:
   - script_16
 
 
+### 17 - Removendo elementos
 
+**Removendo elementos**
+
+- Arrays
+  - Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+- Exemplo:
+  - script_17
 
 
 
