@@ -464,10 +464,22 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 
 
+### 28 - O que aprendemos?
+
+**O que aprendemos?**
 
 
+O que aprendemos nessa aula:
+
+- If e Else
+- Operadores lógicos
+- if encadeado
+- else if
+- && e ||
 
 
+- Exemplo:
+  - script_28
 
 
 
