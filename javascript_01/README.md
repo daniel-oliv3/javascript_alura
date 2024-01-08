@@ -482,7 +482,18 @@ O que aprendemos nessa aula:
   - script_28
 
 
+##
+### Parte 5 - Iterando sobre coleções
+##
 
+
+### 29 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+
+- Exemplo:
+  - script_29
 
 
 
