@@ -352,7 +352,12 @@ O que aprendemos nessa aula:
   - script_22
 
 
+### 23 - Ifs encadeados
 
+**Ifs encadeados**
+
+- Exemplo:
+  - script_23
 
 
 
