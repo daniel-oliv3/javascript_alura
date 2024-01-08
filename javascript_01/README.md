@@ -272,10 +272,28 @@ O que aprendemos nessa aula:
 
 
 
+### 18 - Acessando elementos
+
+**Acessando elementos**
 
 
+Começamos nessa aula a trabalhar com listas dentro do JavaScript e vimos que elas facilitam nossa vida quando trabalhamos com um conjunto de elementos. Normalmente usamos essas estruturas quando temos dados que aparecem sempre em conjunto.
+
+Quando usamos listas em nosso programa, como fazemos para acessar um elemento especifico dessa lista?
+
+- Selecione uma alternativa
+
+- A: Para acessar um elemento especifico podemos chamar o nome dessa lista seguido de colchetes com o index desse elemento. ex: `lista[2]`
+
+`Isso mesmo, lembre-se de que listas sempre começam a contagem de elementos a partir do 0 então o index 2 mostra o terceiro elemento da lista.`
+
+- B: Se queremos acessar diretamente um elemente da lista podemos usar o comando splice passando para ele o index que queremos acessar
+
+- C: Não é possível acessar um elemento único da lista. Já que ela é feita para trabalharmos com uma sequencia de informações.
 
 
+- Exemplo:
+  - script_18
 
 
 
