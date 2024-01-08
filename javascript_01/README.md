@@ -496,7 +496,13 @@ O que aprendemos nessa aula:
   - script_29
 
 
+### 30 - While
 
+**While**
+
+
+- Exemplo:
+  - script_30
 
 
 
