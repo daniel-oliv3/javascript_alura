@@ -414,7 +414,12 @@ if(salario <= 3750.0)
   - script_24
 
 
+### 25 - Operadores Lógicos encadeados
 
+**Operadores Lógicos encadeados**
+
+- Exemplo:
+  - script_25
 
 
 
