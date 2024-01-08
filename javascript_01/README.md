@@ -422,7 +422,30 @@ if(salario <= 3750.0)
   - script_25
 
 
+### 26 - Operadores Lógicos 
 
+**Operadores Lógicos**
+
+Abaixo há afirmações referentes às operações lógicas na linguagem JavaScript. Quais delas são verdadeiras?
+
+- Selecione 2 alternativas
+
+- A: O operador lógico AND é representado pelos caracteres && e o OR pelo ||.
+`Correta! AND é representado pelo && e OR pelo ||.`
+
+- B: Os operadores lógicos devem ter no lado esquerdo e direito uma expressão booleana.
+```js
+if (idade > 18 && idade < 65)
+{
+
+}
+```
+
+- C: O operador lógico AND é representado pela palavra chave and e o OR pela palavra chave or.
+
+
+- Exemplo:
+  - script_26
 
 
 
