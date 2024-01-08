@@ -507,14 +507,35 @@ O que aprendemos nessa aula:
 
 
 
+### 31 - Fixando o laço while
+
+**Fixando o laço while**
 
 
+Quais as afirmações abaixo são verdadeiras em relação ao while?
+
+- Selecione 2 alternativas
+
+- A: Dado o seguinte código:
+```JS
+while(false){
+    console.log(1);
+}
+//Ele imprimirá no console o valor 1 infinitas vezes.
+```
+
+- B :O while sempre precisará de uma expressão condicional que definirá quando o laço deve ser interrompido.
+`Correta. Muito bem! Lembre-se, essa expressão condicional precisará ser informada dentro dos parênteses do while e pode ainda utilizar qualquer um dos operadores de comparação e operadores lógicos aprendidos no capítulo 5.`
+
+- C: O while é executado enquanto a expressão condicional definida for falsa. Caso ela seja verdadeira o while deixa de ser executado.
 
 
+- D: Na expressão condicional do while é possível utilizar qualquer operador de comparação (< [menor], > [maior], <= [menor ou igual], >= [maior ou igual], == [igual a] e != [diferente de]) e qualquer operador lógico (&& [and], || [ou]).
+`Correta. Isso aí! Todos os operadores de comparação e lógicos são válidos na expressão condicional do while! Use-os com sabedoria!` 
 
 
-
-
+- Exemplo:
+  - script_31
 
 
 
