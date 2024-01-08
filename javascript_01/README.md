@@ -252,9 +252,12 @@ O que aprendemos nessa aula:
   - script_15
 
 
+### 16 - Criando listas
 
+**Criando listas**
 
-
+- Exemplo:
+  - script_16
 
 
 
