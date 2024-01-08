@@ -312,10 +312,20 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 
 
+### 20 - O que aprendemos?
 
+**O que aprendemos?**
 
+O que aprendemos nessa aula:
 
+- Criação de Arrays;
+- Inserção de itens em um array;
+- Array splice;
+- Palavras reservadas;
+- Indices do array;
 
+- Exemplo:
+  - script_20
 
 
 
