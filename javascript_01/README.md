@@ -448,9 +448,18 @@ if (idade > 18 && idade < 65)
   - script_26
 
 
+### 27 - Faça como eu fiz na aula
 
+**Faça como eu fiz na aula**
 
+Praticar ajuda bastante no aprendizado de um novo conceito. Assim, é muito importante que você implemente o que foi apresentado nesta aula.
 
+- Opinião do instrutor
+
+Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos te esperando no fórum da Alura caso alguma dúvida surja.
+
+- Exemplo:
+  - script_27
 
 
 
