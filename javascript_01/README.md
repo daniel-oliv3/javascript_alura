@@ -361,7 +361,57 @@ O que aprendemos nessa aula:
 
 
 
+### 24 - Trabalhando com if
 
+**Trabalhando com if**
+
+João está criando uma aplicação para calcular o IR a partir do salário. Ele olhou na tabela de IRPF e implementou as regras para 15% e 22.5%:
+
+```js
+const salario = 3300.0;
+
+if(salario < 2600.0) 
+    console.log("A sua aliquota é de 15%");
+    console.log("Você pode deduzir até R$ 350");
+
+else if(salario < 3750.0) 
+    console.log("A sua aliquota é de 22,5%");
+    console.log("Você pode deduzir até R$ 636");
+```
+
+Porém o programa tem um comportamento estranho. Ao compilar e rodar, é impresso:
+
+
+```console
+SyntaxError: Unexpected token 'else'
+```
+
+Como corrigir o problema?
+
+- Selecione uma alternativa
+
+- A: O problema é que faltam as chaves na condicional. Sem as chaves, o comando emitirá a mensagem de erro mencionada acima.
+
+`Correta! Devemos usar as chaves:`
+
+```js
+if(salario < 2600.0) {
+    console.log("A sua aliquota é de 15%");
+    console.log("Você pode deduzir até R$ 350");
+}        
+else if(salario < 3750.0) {
+    console.log("A sua aliquota é de 22,5%");
+    console.log("Você pode deduzir até R$ 636");
+}
+```
+- B: Não podemos usar uma variável do tipo númerico na condicional, sempre deve ser sempre um texto.
+
+- C: Devemos usar <= em cada if, por exemplo:
+```js
+if(salario <= 3750.0)
+```
+- Exemplo:
+  - script_24
 
 
 
