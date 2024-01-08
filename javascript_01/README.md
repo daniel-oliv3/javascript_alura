@@ -327,6 +327,7 @@ O que aprendemos nessa aula:
 - Exemplo:
   - script_20
 
+
 ##
 ### Parte 4 - Condicionais e fluxo de execução
 ##
@@ -341,6 +342,14 @@ O que aprendemos nessa aula:
   - script_21
 
 
+
+
+### 22 - Operadores Lógicos
+
+**Operadores Lógicos**
+
+- Exemplo:
+  - script_22
 
 
 
