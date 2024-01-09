@@ -538,7 +538,12 @@ while(false){
   - script_31
 
 
+### 32 - Break e Debbuger
 
+**Break e Debbuger**
+
+- Exemplo:
+  - script_32
 
 
 
