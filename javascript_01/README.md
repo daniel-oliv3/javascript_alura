@@ -547,3 +547,109 @@ while(false){
 
 
 
+
+
+### 33 - Refletindo sobre o Break
+
+**Refletindo sobre o Break**
+
+Ao trabalharmos com laços de repetição é comum iterarmos dentro desse laço até que a condição de saída seja atingida. Nesse sentido, qual o papel do comando break dentro de um laço de repetição?
+
+- Selecione uma alternativa
+
+- A: Esse comando faz com que o interpretador do JS reavalie a condição de saída naquele mesmo instante e saia do loop se for necessário.
+
+
+- B: O comando break pede que o interpretador passe para a próxima volta do loop ignorando o restante do código do laço.
+
+
+- C: O comando break interrompe o fluxo de execução do laço de maneira forçada, sem precisarmos atingir a condição de saída
+
+`Exatamente, ao colocarmos um break dentro do laço estamos falando para o interpretador que quando ele chegar nessa linha ele deve sair do laço independentemente de outras condições.`
+
+- Exemplo:
+  - script_33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
