@@ -573,9 +573,15 @@ Ao trabalharmos com laços de repetição é comum iterarmos dentro desse laço 
 
 
 
+### 34 - Debugger
 
+**Debugger**
 
+- vscode
+  - create a launch.json file
 
+- Exemplo:
+  - script_34
 
 
 
