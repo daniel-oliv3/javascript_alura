@@ -585,7 +585,12 @@ Ao trabalharmos com laços de repetição é comum iterarmos dentro desse laço 
 
 
 
+### 35 - For
 
+**For**
+
+- Exemplo:
+  - script_35
 
 
 
