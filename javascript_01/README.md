@@ -625,9 +625,12 @@ O que aprendemos nessa aula:
 
 
 
+### 38 - Projeto Final do Curso
 
+**Projeto Final do Curso**
 
-
+- Exemplo:
+  - script_38
 
 
 
