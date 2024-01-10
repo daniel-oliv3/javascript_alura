@@ -607,9 +607,21 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - script_36
 
 
+### 37 - O que aprendemos?
 
+**O que aprendemos?**
 
+O que aprendemos nessa aula:
 
+- While;
+- Break;
+- Usando o Debbuger do VS Code;
+- Entendendo o fluxo de execução do código;
+- Configurando o debbuger do VSCode;
+- For Loop;
+
+- Exemplo:
+  - script_37
 
 
 
