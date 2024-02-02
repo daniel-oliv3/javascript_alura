@@ -8,8 +8,9 @@
 
 
 ##
-### Parte 1 - Introdução a linguagem
+### Parte 1 - Conhecendo o JavaScript
 ##
+
 
 ### 1 - Introdução
 
@@ -84,7 +85,13 @@ Agora podemos começar!
 
 
 
+### 5 - Buscar um elemento
 
+**Buscar um elemento**
+
+
+- Exemplo:
+  - script_05
 
 
 
