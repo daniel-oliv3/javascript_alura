@@ -8,6 +8,8 @@
 
 ### 1 - JavaScript: explorando a linguagem
 
+### 2 - JavaScript para Web: Crie páginas dinâmicas
+
 
 
 
