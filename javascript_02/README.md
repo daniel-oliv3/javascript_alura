@@ -63,3 +63,31 @@ Agora podemos começar!
 
 - Exemplo:
   - script_02
+
+
+
+### 3 - Clicando no botão
+
+**Clicando no botão**
+
+- Exemplo:
+  - script_03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
