@@ -74,8 +74,13 @@ Agora podemos começar!
   - script_03
 
 
+### 4 - Conectar JS com o HTML
+
+**Conectar JS com o HTML**
 
 
+- Exemplo:
+  - script_04
 
 
 
