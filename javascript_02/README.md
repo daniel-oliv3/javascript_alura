@@ -302,14 +302,37 @@ Baixe o zip ou visualize os arquivos no Github!
   - script_11
 
 
+### 12 - O que é uma função?
+
+**O que é uma função?**
+
+- Exemplo:
+  - script_12
 
 
 
 
+### 13 - O local da tag script?
+
+**O local da tag script?**
+
+Como vimos nesta aula, é possível inserir um arquivo JavaScript em dois locais do documento HTML, dentro da tag `head` ou da tag `body`.
+
+Com base nessas informações, devemos colocar o JavaScript dentro da tag `body` logo antes do seu fechamento, `</body>`, quando:
+
+- Selecione uma alternativa
+
+- B: Nosso código JavaScript não depende obrigatoriamente de nenhum elemento dentro da tag <body>.
+`Alternativa correta! Quando o código JavaScript que vamos adicionar depende de elementos que estão no body, por exemplo um querySelector que espera receber determinado seletor, o local mais apropriado para sua inserção é dentro da tag body e na linha anterior ao fechamento da tag </body>. No head podemos inserir scripts, porém eles não devem ter dependencias de elementos do body, por exemplo uma biblioteca de funcionalidades.`
 
 
+- A: O script depende de elementos do body já carregados pelo navegador.
 
 
+- C: Não faz diferença entre carregar o arquivo JavaScript dentro da tag body ou head, ambas abordagens funcionam normalmente.
+
+- Exemplo:
+  - script_13
 
 
 
