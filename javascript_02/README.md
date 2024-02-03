@@ -336,13 +336,42 @@ Com base nessas informações, devemos colocar o JavaScript dentro da tag `body`
 
 
 
+### 14 - Faça como eu fiz: Para que serve uma função?
 
+**Faça como eu fiz: Para que serve uma função?**
 
+Como vimos nesta aula, declaramos uma função no JavaScript quando precisamos guardar um código que será executado num segundo momento, ou seja apenas quando ele for chamado/invocado.
 
+Agora declare a função `tocaSomClap`, e desenvolva dentro dela o código necessário para dar play no áudio do som clap.
 
+- Opinião do instrutor
 
+Gabarito:
 
+```js
+function tocaSomClap() {
+    document.querySelector('#som_tecla_clap').play()
+}
+```
 
+Para declarar uma função no JavaScript, usamos a palavra `function` e depois o nome que escolhemos, no caso `tocaSomClap` seguido da sua sintaxe padrão, que são os parênteses e depois chaves.
+
+O espaço dentro das chaves é conhecido como bloco ou corpo da função, e é nele que colocamos o script que desejamos executar quando a função for chamada.
+
+Como queremos executar o som do clap, devemos localizar o elemento `audio` pelo seu seletor id: `#som_tecla_clap`.
+
+```js
+ document.querySelector('#som_tecla_clap')
+```
+
+Este código irá retornar o elemento, portanto logo em seguida já podemos usar o operador ponto para entrar dentro deste elemento e já acessar a função `play()` que é nativa dos elementos `audio` do HTML.
+
+```js
+ document.querySelector('#som_tecla_clap').play()
+```
+
+- Exemplo:
+  - script_14
 
 
 
