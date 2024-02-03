@@ -277,6 +277,9 @@ Aprendemos os tipos de seletores que podemos usar no JavaScript (elemento, class
 - Exemplo:
   - script_09
 
+##
+### Parte 2 - Funções
+##
 
 
 ### 10 - Projeto da aula anterior
@@ -291,8 +294,12 @@ Baixe o zip ou visualize os arquivos no Github!
   - script_10
 
 
+### 11 -  Play no JS
 
+**Play no JS**
 
+- Exemplo:
+  - script_11
 
 
 
