@@ -95,11 +95,27 @@ Agora podemos começar!
 
 
 
+### 6 - Para que serve o DevTools?
+
+**Para que serve o DevTools?**
 
 
+A ferramenta DevTools presente nos navegadores web é de grande ajuda para comunidade de desenvolvedores web, a ponto de serem apelidados carinhosamente de “melhor amiga/o” da pessoa desenvolvedora.
+
+Marque as alternativas com afirmações verdadeiras a respeito da ferramenta DevTools.
+
+- Selecione 2 alternativas
+
+- A: Através dessa ferramenta, conseguimos editar a aplicação em tempo de execução, adicionar ou remover tags HTML, mexer no CSS da página, escrever código JavaScript no console e ver as modificações sem persistência.
+`Alternativa correta! É isso mesmo! Com essa ferramenta, conseguimos realizar modificações em tempo real tanto de HTML, como de CSS e JavaScript, porém sem alterar o código fonte real.`
+
+- B: Diferente do método tradicional para resolver problemas do código fonte que consistia em abrir o código e olhar linha a linha para descobrir o erro, o DevTools apresenta uma maneira mais simples e direta do problema no código, bastando acessar a aba Console que lá estará indicando o tipo e o arquivo onde se encontra o erro.
+`Alternativa correta! Como conseguimos mexer em tempo real no código da aplicação através do navegador, uma prática muito comum, principalmente se tratando do CSS, é ir escrevendo as propriedades e vendo como o site se comporta, para aí depois, colocar o código final no código fonte da aplicação.`
+
+- C: É o programa ou editor de texto principal utilizado escrever, salvar e desenvolver o código fonte de páginas e aplicações web.
 
 
-
-
+- Exemplo:
+  - script_06
 
 
