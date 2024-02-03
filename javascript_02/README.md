@@ -107,10 +107,10 @@ Marque as alternativas com afirmações verdadeiras a respeito da ferramenta Dev
 - Selecione 2 alternativas
 
 - A: Através dessa ferramenta, conseguimos editar a aplicação em tempo de execução, adicionar ou remover tags HTML, mexer no CSS da página, escrever código JavaScript no console e ver as modificações sem persistência.
-`Alternativa correta! É isso mesmo! Com essa ferramenta, conseguimos realizar modificações em tempo real tanto de HTML, como de CSS e JavaScript, porém sem alterar o código fonte real.`
+  - `Alternativa correta! É isso mesmo! Com essa ferramenta, conseguimos realizar modificações em tempo real tanto de HTML, como de CSS e JavaScript, porém sem alterar o código fonte real.`
 
 - B: Diferente do método tradicional para resolver problemas do código fonte que consistia em abrir o código e olhar linha a linha para descobrir o erro, o DevTools apresenta uma maneira mais simples e direta do problema no código, bastando acessar a aba Console que lá estará indicando o tipo e o arquivo onde se encontra o erro.
-`Alternativa correta! Como conseguimos mexer em tempo real no código da aplicação através do navegador, uma prática muito comum, principalmente se tratando do CSS, é ir escrevendo as propriedades e vendo como o site se comporta, para aí depois, colocar o código final no código fonte da aplicação.`
+  - `Alternativa correta! Como conseguimos mexer em tempo real no código da aplicação através do navegador, uma prática muito comum, principalmente se tratando do CSS, é ir escrevendo as propriedades e vendo como o site se comporta, para aí depois, colocar o código final no código fonte da aplicação.`
 
 - C: É o programa ou editor de texto principal utilizado escrever, salvar e desenvolver o código fonte de páginas e aplicações web.
 
@@ -212,13 +212,13 @@ input[type=tel] {
 ```
 
 
-Escreva o código em JavaScript capaz de selecionar o elemento HTML input do tipo telefone:
+Escreva o código em JavaScript capaz de selecionar o elemento HTML `input` do tipo telefone:
 
 Como fazer:
 
 - Abra o editor de código de sua preferência;
 - Crie dois arquivos: desafio.html e desafio-estilo.css;
-- Copie o código acima e cole dentro da tag < body> do arquivo chamado desafio.html e o código CSS no arquivo desafio-estilo.css;
+- Copie o código acima e cole dentro da tag `<body>` do arquivo chamado desafio.html e o código CSS no arquivo desafio-estilo.css;
 - Para resolver este desafio, você pode usar apenas a aba Console da ferramenta DevTools;
 
 
@@ -230,7 +230,116 @@ Gabarito:
 document.querySelector('input[type=tel]');
 ```
 
-Para selecionar o elemento HTML input do tipo tel podemos utilizar o código document.querySelector(‘input[type=tel]’), porquê com essa linha, o JavaScript vai acessar o documento HTML (representado por document) e procurar pelo elemento input que tenha como atributo [type=tel], os colchetes fazem parte da sintaxe para seleção de atributos de um elemento HTML, funciona tanto para o CSS quanto para o Javascript.
+Para selecionar o elemento HTML `input` do tipo `tel` podemos utilizar o código `document.querySelector(‘input[type=tel]’)`, porquê com essa linha, o JavaScript vai acessar o documento HTML (representado por `document`) e procurar pelo elemento `input` que tenha como atributo `[type=tel]`, os colchetes fazem parte da sintaxe para seleção de atributos de um elemento HTML, funciona tanto para o CSS quanto para o Javascript.
 
 - Exemplo:
   - script_07
+
+
+
+
+
+
+
+### 8 - Para saber mais: HTML x CSS x JavaScript
+
+**Para saber mais: HTML x CSS x JavaScript**
+
+Para que fique mais claro o porquê de se utilizar arquivos separados para HTML e JavaScript, leia o artigo da instrutora Rafaella Ballerini, que explica a diferença entre essas linguagens.
+
+Artigo: HTML X CSS X JavaScript. Quais as diferenças?
+
+- Link: https://www.alura.com.br/artigos/html-css-e-js-definicoes?
+
+
+- Exemplo:
+  - script_08
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
