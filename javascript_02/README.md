@@ -524,7 +524,16 @@ A estrutura de uma lista em JavaScript e como podemos acessar os elementos a par
   - script_23
 
 
+##
+### Parte 4 - Iterando em listas
+##
 
 
+### 24 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+  - script_24
 
 
