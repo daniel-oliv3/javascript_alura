@@ -374,9 +374,15 @@ Este código irá retornar o elemento, portanto logo em seguida já podemos usar
   - script_14
 
 
+### 15 - Clique no botão
+
+**Clique no botão**
+
+- Exemplo:
+  - script_15
 
 
-### 15 - O que aprendemos?
+### 16 - O que aprendemos?
 
 **O que aprendemos?**
 
@@ -396,13 +402,15 @@ A utilizar o `onclick` como atributo no JavaScript, e como atribuir uma função
 
 
 - Exemplo:
-  - script_15
+  - script_16
 
 
+### 17 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
-
-
+- Exemplo:
+  - script_17
 
 
 
