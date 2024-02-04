@@ -463,7 +463,12 @@ Desta forma, o uso do document.querySelectorAll se justifica por:
 
 
 
+### 21 - Conhecendo listas
 
+**Conhecendo listas**
+
+- Exemplo:
+  - script_21
 
 
 
