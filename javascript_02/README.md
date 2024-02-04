@@ -404,6 +404,10 @@ A utilizar o `onclick` como atributo no JavaScript, e como atribuir uma função
 - Exemplo:
   - script_16
 
+##
+### Parte 3 Listas
+##
+
 
 ### 17 - Projeto da aula anterior
 
