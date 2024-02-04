@@ -427,12 +427,29 @@ A utilizar o `onclick` como atributo no JavaScript, e como atribuir uma função
 
 
 
+### 19 - Por que o document.querySelectorAll()?
+
+**Por que o document.querySelectorAll()?**
 
 
+Como vimos durante a aula, apesar de utilizarmos o script document.querySelector(seletor) para capturar elementos do HTML individualmente, no Alura MIDI, trocamos ele pelo document.querySelectorAll(seletor).
+
+Desta forma, o uso do document.querySelectorAll se justifica por:
+
+- Selecione uma alternativa
+
+- A: O uso do script document.querySelectorAll() se justifica apenas para que possamos obter uma lista de elementos.
 
 
+- B: Utilizamos o document.querySelectorAll() para selecionarmos todos os elementos do seletor desejado, reduzindo a quantidade de repetição de código, que consequentemente, promoverá uma otimização no código em alternativa a repetição.
+`Alternativa correta! Ao utilizarmos esse script, ao invés de capturarmos um elemento por vez, conseguimos pegar todos de uma só vez. Portanto isto facilitará a manipulação, reutilização e manutenção do nosso código para todos os elementos que recebem o mesmo tipo de função.` 
 
 
+- C: Apesar de estarmos usando o script document.querySelectorAll(), o uso não se justifica, já que o projeto está funcionando utilizando o document.querySelector().
+
+
+- Exemplo:
+  - script_19
 
 
 
