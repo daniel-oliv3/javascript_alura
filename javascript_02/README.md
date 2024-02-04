@@ -549,12 +549,29 @@ A estrutura de uma lista em JavaScript e como podemos acessar os elementos a par
 
 
 
+### 26 - Por que usamos os while?
+
+**Por que usamos os while?**
 
 
+Assim como em outras linguagens de programação, o JavaScript também tem o while que é uma das formas de trabalhar com estruturas de repetição.
+
+Com isto, assinale a alternativa que justifique o uso de uma estrutura de repetição no projeto Alura MIDI:
+
+- Selecione uma alternativa
+
+- A: Usamos o while pois esta é a única forma de criar uma estrutura de repetição no JavaScript e foi necessário para passar a cada elemento da lista, sendo que esta lista só pode ter no máximo 9 elementos, caso contrário poderá ocorrer loop infinito.
 
 
+- B: O while se justifica pois como estamos organizando as teclas do Alura MIDI em uma lista, ao usá-lo conseguimos percorrer esta lista e acessar seu atributo onclick tornando o nosso código mais repetitivo.
 
 
+- C: Foi necessário usar o while como estrutura de repetição para auxiliar o acesso a cada elemento dentro da lista de teclas, podendo aplicar a rotina de associar uma função no atributo onclick de cada um destes elementos.
+
+`Alternativa correta! O while é uma estrutura de repetição que foi necessária para trabalhar com a lista de teclas. Esta estrutura possibilita que uma variável de contador tenha seu valor incrementado a cada repetição, e que pode ser utilizado para acessar os indices de uma lista além de ser comparado com o tamanho de lista, formando a condição para a repetição cessar.`
+
+- Exemplo:
+  - script_26
 
 
 
