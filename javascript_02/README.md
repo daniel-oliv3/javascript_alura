@@ -418,7 +418,12 @@ A utilizar o `onclick` como atributo no JavaScript, e como atribuir uma função
 
 
 
+### 18 - Lista de elementos
 
+**Lista de elementos**
+
+- Exemplo:
+  - script_18
 
 
 
