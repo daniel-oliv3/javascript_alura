@@ -453,7 +453,12 @@ Desta forma, o uso do document.querySelectorAll se justifica por:
 
 
 
+### 20 - Referências
 
+**Referências**
+
+- Exemplo:
+  - script_20
 
 
 
