@@ -471,10 +471,34 @@ Desta forma, o uso do document.querySelectorAll se justifica por:
   - script_21
 
 
+### 22 - Faça como eu fiz: Declarando uma referência
 
+**Faça como eu fiz: Declarando uma referência**
 
+No JavaScript podemos criar nossas próprias referências armazenarem de maneira mais simples valores para utilizarmos ao longo do código.
 
+- Desta forma, a partir deste código no CodePen, faça:
+    - Uma referência que armazene uma lista com todas as teclas e imprima o valor dela na aba console.
+    - CodePen: https://codepen.io/vanessametonini/pen/eYEVEqR
 
+- Como fazer:
+
+Abra o link do CodePen;
+Abra a aba JS e escreva seu código dentro dela;
+
+- Opinião do instrutor
+
+Gabarito:
+
+```js
+const listaDeTeclas = document.querySelectorAll('input[type=button]');
+console.log(listaDeTeclas);
+```
+
+Para selecionarmos todas as teclas do Alura Fone, é necessário usar o script `const listaDeTeclas = document.querySelectorAll(‘input[type=button])`, porquê o JavaScript vai criar uma referência chamada `listaDeTeclas` e armazenar dentro dela a *NodeList* com todas as teclas do Alura Fone, pois o script `document.querySelectorAll(‘input[type=button]’)` acessa o documento HTML (representado por document) e captura todos os elementos `input` que tenha como atributo `type=button`. É necessário passar o type, ou seja, o seletor de atributo, pois os inputs do HTML não tem classes nem IDs, e também temos um input que não é do tipo type, impossibilitando o uso do seletor de nome de tag `input`.
+
+- Exemplo:
+  - script_22
 
 
 
