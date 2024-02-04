@@ -405,7 +405,7 @@ A utilizar o `onclick` como atributo no JavaScript, e como atribuir uma função
   - script_16
 
 ##
-### Parte 3 Listas
+### Parte 3 - Listas
 ##
 
 
@@ -535,5 +535,31 @@ A estrutura de uma lista em JavaScript e como podemos acessar os elementos a par
 
 - Exemplo:
   - script_24
+
+
+
+
+### 25 - Percorrendo uma lista
+
+**Percorrendo uma lista**
+
+- Exemplo:
+  - script_25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
