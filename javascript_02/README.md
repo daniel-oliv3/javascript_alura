@@ -628,12 +628,57 @@ Deste modo, o que são os parâmetros em uma função?
   - script_30
 
 
+### 31 - Repetição otimizada com For
+
+**Repetição otimizada com For**
+
+- Exemplo:
+  - script_31
 
 
+### 32 - Faça como eu fiz: Utilizando o For
 
+**Faça como eu fiz: Utilizando o For**
 
+Como vimos nesta aula, usamos a estrutura de repetição for, para percorrer uma lista de forma mais otimizada, onde em sua declaração criamos a variável contadora da repetição, a condição de interrupção das repetições e a condição de incrementação da variável contadora.
 
+A partir deste código CodePen, faça:
 
+Um script que percorra a lista de teclas do AluraFone, e ao clicar em qualquer tecla do teclado, imprima o valor no campo Digite seu telefone.
+Como fazer:
+
+Abra o link do CodePen: https://codepen.io/vanessametonini/pen/eYEVEqR
+
+Abra a aba JS e escreva seu código dentro dela;
+
+- Opinião do instrutor
+
+Gabarito:
+
+```js
+const listaDeTeclas = document.querySelectorAll('input[type=button]');
+const inputTel = document.querySelector('input[type=tel]');
+
+for (let indice = 0; indice < listaDeTeclas.length; indice++) {
+  
+  const tecla = listaDeTeclas[indice];
+  
+  tecla.onclick = function () {
+    inputTel.value = inputTel.value + tecla.value;
+  }
+}
+```
+
+Primeiro, você precisa criar uma referência para receber a lista com todas as teclas do AluraFone e uma outra para capturar o `input` Digite seu telefone, que no caso do código foi `const` `listaDeTeclas` e `const` `inputTel`, respectivamente.
+
+O segundo passo é criar o laço de repetição `for`, que vai percorrer a lista de teclas, por esta razão, a condição do for é `indice` `<` `listaDeTeclas.length`, ou seja, enquanto o `indice` for menor que o tamanho de `listaDeTeclas`, executa um comando.
+
+Dentro do `for`, é necessário que se crie uma referência constante `const tecla` para que a cada iteração, receba o valor correspondente da tecla `listaDeTeclas[indice]`.
+
+Após isto, adicione no `onclick` uma função anônima que receberá o valor do campo Digite seu telefone `inputTel.value`, e atribua a ela a soma entre o valor do campo Digite seu telefone e o valor da tecla clicada `tecla.value`, ficando `inputTel.value` = `inputTel.value` + `tecla.value`.
+
+- Exemplo:
+  - script_32
 
 
 
