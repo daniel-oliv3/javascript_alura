@@ -790,7 +790,12 @@ Como foi resolvido a adição da classe ativa a partir do clique da tecla `Enter
 
 
 
+### 38 - Condições no código
 
+**Condições no código**
+
+- Exemplo:
+  - script_38
 
 
 
