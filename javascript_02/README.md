@@ -609,7 +609,12 @@ Deste modo, o que são os parâmetros em uma função?
   - script_28
 
 
+### 29 - Funções anônimas
 
+**Funções anônimas**
+
+- Exemplo:
+  - script_29
 
 
 
