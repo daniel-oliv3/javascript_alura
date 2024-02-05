@@ -724,7 +724,12 @@ Como é a estrutura de repetição for e como ela pode nos ajudar com um código
   - script_35
 
 
+### 36 - Adicionando e removendo classes
 
+**Adicionando e removendo classes**
+
+- Exemplo:
+  - script_36
 
 
 
