@@ -708,7 +708,12 @@ Como é a estrutura de repetição for e como ela pode nos ajudar com um código
   - script_33
 
 
+### 34 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+  - script_34
 
 
 
