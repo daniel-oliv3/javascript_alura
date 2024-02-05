@@ -798,7 +798,12 @@ Como foi resolvido a adição da classe ativa a partir do clique da tecla `Enter
   - script_38
 
 
+### 39 - Operador lógico
 
+**Operador lógico**
+
+- Exemplo:
+  - script_39
 
 
 
