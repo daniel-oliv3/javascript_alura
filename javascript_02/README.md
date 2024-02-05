@@ -575,7 +575,12 @@ Com isto, assinale a alternativa que justifique o uso de uma estrutura de repeti
 
 
 
+### 27 - Funções com parâmetros
 
+**Funções com parâmetros**
+
+- Exemplo:
+  - script_27
 
 
 
