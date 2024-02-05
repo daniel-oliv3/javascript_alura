@@ -620,7 +620,12 @@ Deste modo, o que são os parâmetros em uma função?
 
 
 
+### 30 - Textos dinâmicos
 
+**Textos dinâmicos**
+
+- Exemplo:
+  - script_30
 
 
 
