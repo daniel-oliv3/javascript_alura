@@ -584,4 +584,118 @@ Com isto, assinale a alternativa que justifique o uso de uma estrutura de repeti
 
 
 
+### 28 - O que é parâmetro de uma função?
+
+
+**O que é parâmetro de uma função?**
+
+
+A função é o conjunto de instruções de código, que executa uma determinada tarefa, que é utilizada somente quando chamada/invocado, podendo receber parâmetros ou não.
+
+Deste modo, o que são os parâmetros em uma função?
+
+- Selecione uma alternativa
+
+- A: Os parâmetros são os nomes que damos a valores que uma função pode receber em sua chamada, e que obrigatoriamente precisam ter um valor padrão informado em sua declaração.
+
+
+- B: Os parâmetros são configurações obrigatórias de uma função que são passadas em sua chamada e podendo ter seus valores alterados em qualquer lugar do código JavaScript.
+
+
+- C: Os parâmetros são os nomes que damos a valores que uma função pode receber em sua chamada, que podem ou não ter um valor padrão. Os parâmetros de uma função são como variáveis ficam disponíveis apenas no corpo da função.
+`Alternativa correta! Os parâmetros servem para auxiliar em alguma lógica no código dentro de uma função. Por exemplo, uma função calculaMedia(), pode ter como parâmetros notaA e notaB, que serão os valores utilizados para serem calculados e retornar o valor da média.`
+
+- Exemplo:
+  - script_28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
