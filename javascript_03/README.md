@@ -98,7 +98,19 @@ Sabendo que classes são apenas um dos recursos da linguagem Javascript, quando 
 
 
 
+### 6 - O que aprendemos?
 
+**O que aprendemos?**
+
+O que aprendemos nessa aula:
+
+- Criando classes
+- O que são atributos
+- Instâcia/Objeto
+- Operador new
+
+- Exemplo:
+  - script_06
 
 
 
