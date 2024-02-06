@@ -50,3 +50,33 @@ Caso esteja usando um sistema Windows vocês podem usar o gerenciador de pacotes
   - script_02
 
 
+
+
+### 3 - Entendendo o problema do cliente
+
+**Entendendo o problema do cliente**
+
+
+- Exemplo:
+  - script_03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
