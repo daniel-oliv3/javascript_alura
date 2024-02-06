@@ -806,10 +806,64 @@ Como foi resolvido a adição da classe ativa a partir do clique da tecla `Enter
   - script_39
 
 
+### 40 - Mais condições
+
+**Mais condições**
+
+- Exemplo:
+  - script_40
 
 
+### 41 - Estruturas condicionais
 
+**Estruturas condicionais**
 
+Uma empresa de transporte solicitou que você desenvolvesse uma função que entregue todos os pacotes vermelhos no Ceará, e os azuis no Rio de Janeiro.
+
+Assinale a alternativa correta que corresponde a função de entrega do pacote:
+
+- Selecione uma alternativa
+
+- A: 
+```js
+function entregaPacote(corDoPacote) {
+  if (corDoPacote == 'vermelho') {
+    mandaProRioDeJaneiro();
+  }
+  if (corDoPacote == 'azul') {
+    mandaProCeara();
+  }
+}
+```
+
+- B: 
+```js
+function entregaPacote(corDoPacote) {
+  if (corDoPacote == 'vermelho') {
+    mandaProCeara();
+  }
+  if (corDoPacote == 'azul') {
+    mandaProRioDeJaneiro();
+  }
+}
+```
+
+`Alternativa correta! Utilizando a estrutura condicional ifconseguimos saber o destino correto para entrega dos pacotes a partir das cores.`
+
+- C: 
+```js
+function entregaPacote(corDoPacote) {
+  if (corDoPacote == 'ceara') {
+      entregaPacote();
+  }
+  if (corDoPacotepacote == 'azul') {
+    mandaProRioDeJaneiro();
+  }
+}
+```
+
+- Exemplo:
+  - script_41
 
 
 
