@@ -866,10 +866,12 @@ function entregaPacote(corDoPacote) {
   - script_41
 
 
+### 42 - Melhorando o código
 
+**Melhorando o código**
 
-
-
+- Exemplo:
+  - script_42
 
 
 
