@@ -915,24 +915,12 @@ A estruturas condicionais `if` e `else` juntas. O operador not equals (`!=`), op
   - script_45
 
 
+### 45 - Conclusão
 
+**Conclusão**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Exemplo:
+  - script_45
 
 
 
