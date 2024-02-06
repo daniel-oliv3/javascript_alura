@@ -72,12 +72,29 @@ Caso esteja usando um sistema Windows vocês podem usar o gerenciador de pacotes
   - script_04
 
 
+### 5 - Refletindo sobre classes
+
+**Refletindo sobre classes**
 
 
+Vimos que a criação de uma classe pode ser feita através da palavra-chave `class` e com isso definimos quais atributos queremos que essa classe possua.
+
+Sabendo que classes são apenas um dos recursos da linguagem Javascript, quando é que devemos criar ou não uma classe ?
+
+- Selecione uma alternativa
+
+- A: Devemos evitar o uso de classes, uma vez que elas tornam nosso programa mais lento e difícil de ser compreendido.
 
 
+- B: Classes definem uma forma de organizarmos uma série de informações repetidas no nosso código e por isso devemos usar elas quando temos código que se repete e que faz parte de um contexto coeso.
+`Exatamente. Se tivermos código que se repete porém não forma um contexto coeso, provavelmente teremos que criar duas classes, cada uma delimitando um contexto único que faça sentido.` 
 
 
+- C: Só podemos usar classes onde tivermos código repetido. Não devemos usar elas em mais nenhum lugar.
+
+
+- Exemplo:
+  - script_05
 
 
 
