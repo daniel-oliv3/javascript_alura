@@ -8,7 +8,7 @@
 
 
 ##
-### Parte 1 - Conhecendo o JavaScript
+### Parte 1 - Repetição de código
 ##
 
 
@@ -26,5 +26,27 @@
 
 - Exemplo:
   - script_01
+
+
+
+
+### 2 - Preparando o ambiente
+
+**Preparando o ambiente**
+
+
+Para esse curso precisaremos usar o NodeJS a partir da versão 13.5 pois ela adiciona a capacidade de usarmos módulos JS dentro do Node.
+
+Caso você tenha uma versão mais antiga do Node em sua máquina e não possa desinstalá-la, nossa recomendação é que você instale o Node Version Manager(NVM) para que possa alterar entre versões de forma mais simples.
+
+Caso esteja usando um sistema Windows vocês podem usar o gerenciador de pacotes Chocolatey, que auxilia na instalação do NVM no Windows.
+
+- Node Version Manager(NVM)
+  - Link: https://github.com/nvm-sh/nvm
+- Chocolatey
+  - Link: https://community.chocolatey.org/packages/nvm
+
+- Exemplo:
+  - script_02
 
 
