@@ -1,5 +1,5 @@
 ##
-### JavaScript: programando a Orientação a Objetos
+### JavaScript: Programando a Orientação a Objetos
 ##
 
 <p align="center">
@@ -64,7 +64,12 @@ Caso esteja usando um sistema Windows vocês podem usar o gerenciador de pacotes
 
 
 
+### 4 - Nossa primeira classe
 
+**Nossa primeira classe**
+
+- Exemplo:
+  - script_04
 
 
 
