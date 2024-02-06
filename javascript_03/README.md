@@ -113,4 +113,18 @@ O que aprendemos nessa aula:
   - script_06
 
 
+##
+### Parte 2 - Adicionando comportamentos
+##
+
+
+### 6 - Projeto da Aula anterior
+
+**Projeto da Aula anterior**
+
+
+- Exemplo:
+  - script_06
+
+
 
