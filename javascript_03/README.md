@@ -196,6 +196,24 @@ O que aprendemos sobre métodos/funções?
 
 
 
+### 12 - Encapsulamento
+
+**Encapsulamento**
+
+Criamos métodos para proteger atributos e informações sensíveis de nossas classes. Porém, se não fizermos nada, essas informações ainda estão expostas e podem ser alteradas manualmente.
+
+Sobre a proteção de atributos, marque as alternativas corretas:
+
+- Selecione 2 alternativas
+
+-A: Não precisamos nos preocupar com proteção de atributos se tivermos os métodos necessários para alterar aquele atributo.
 
 
+-B: Por padrão no JS utilizamos o "_" para indicar que um atributo é privado e não deveria ser alterado.
+`Isso mesmo! Apesar de ainda ser possível alterar essa propriedade isso é considerado uma má prática e estamos quebrando o encapsulamento da classe.`
 
+-C: Atualmente no Js nenhum atributo ou método é realmente privado
+`Sim, o JS é uma linguagem de escopo aberto e por isso é possível visualizar qualquer atributo ou propriedade de nossa classe.`
+
+- Exemplo:
+  - script_12
