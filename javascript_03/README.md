@@ -138,7 +138,14 @@ O que aprendemos nessa aula:
 
 
 
+### 9 - Atributos Privados
 
+**Atributos Privados**
+
+- Link: https://github.com/tc39/proposal-class-fields
+
+- Exemplo:
+  - script_09
 
 
 
