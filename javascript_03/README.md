@@ -153,7 +153,16 @@ O que aprendemos nessa aula:
 
 
 
+### 10 - Proposta de campos Privados
 
+**Proposta de campos Privados**
+
+Aqui você pode encontrar a proposta que está sendo feita para uma sintaxe de campos privados dentro do JS.
+
+- Link: https://github.com/tc39/proposal-class-fields#private-fields
+
+- Exemplo:
+  - script_10
 
 
 
