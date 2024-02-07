@@ -118,13 +118,44 @@ O que aprendemos nessa aula:
 ##
 
 
-### 6 - Projeto da Aula anterior
+### 7 - Projeto da Aula anterior
 
 **Projeto da Aula anterior**
 
 
 - Exemplo:
-  - script_06
+  - script_07
+
+
+### 8 - Comportamentos de classes
+
+**Comportamentos de classes**
+
+
+- Exemplo:
+  - script_08
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
