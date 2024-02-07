@@ -165,9 +165,33 @@ Aqui você pode encontrar a proposta que está sendo feita para uma sintaxe de c
   - script_10
 
 
+### 11 - Sobre métodos
+
+**Sobre métodos**
+
+O que aprendemos sobre métodos/funções?
+
+"...que nos ajudam a criar um..."
+
+- Selecione 3 alternativas
+
+- A: Função e método são termos sinônimos e que nós ajudam a criar um vocabulário mais rico dentro do nosso sistema
+`Correta! Usamos métodos para dar nomes aos comportamentos que nossa classe possui e isso facilita a comunicação dentro da equipe`
+
+- B: Um método pode receber qualquer quantidade de parâmetros.
+`Correto, um método pode ter nenhum, um ou mais parâmetros. Essa é a maneira de passarmos informações para podermos reutilizar métodos em diferentes cenários`
+
+- C: Um método nunca consegue acessar atributos da classe que ele pertence.
 
 
+- D: Um método define o comportamento ou a maneira de fazer algo.
+`Correto, esse é o objetivo de métodos, definir o que um objeto saber fazer. O comportamento é implementado dentro do método.`
 
+- E: Nunca devemos chamar métodos diretamente de dentro de uma classe
+
+
+- Exemplo:
+  - script_11
 
 
 
