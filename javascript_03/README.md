@@ -477,7 +477,25 @@ O que aprendemos nessa aula:
   - script_25
 
 
+### 26 - Encapsulando com assessores
 
+**Encapsulando com assessores**
+
+Sobre os assessores do tipo get e set marque as alternativas corretas:
+
+- Selecione 2 alternativas
+
+- A: Usando assessores do tipo set podemos alterar a regra de como um atributo pode ou não ser modificado sem precisar alterar isso em diversos pontos do código
+`Excelente! Essa é a ideia mesmo, assim se qualquer regra de atribuição mudar só precisamos modificar um único lugar.`
+
+- B: Podemos usar assessores do tipo get para atribuir novos valores para um atributo.
+
+
+- C: Usar assessores do tipo set é uma boa prática para garantirmos que a atribuição de propriedades está sempre segura
+`Sim! Chamamos essa ideia de proteger atributos de nossas classes de encapsulamento e devemos sempre manter o máximo de encapsulamento possível.`
+
+- Exemplo:
+  - script_26
 
 
 
