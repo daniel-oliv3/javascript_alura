@@ -447,6 +447,14 @@ O que aprendemos nessa aula:
   - script_22
 
 
+##
+### Parte 4 - Acessando atributos privados
+##
 
 
+### 23 - Projeto da Aula anterior
 
+**Projeto da Aula anterior**
+
+- Exemplo:
+  - script_23
