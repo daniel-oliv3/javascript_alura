@@ -277,7 +277,27 @@ npm init
 
 
 
+### 17 - Organizando código
 
+**Organizando código**
+
+A organização de um projeto de programação é algo muito importante, isso pois conforme o sistema cresce, ainda seremos capazes de encontrar de forma fácil as classes e trechos de código que necessitam de manutenção.
+
+Dessa forma, para que serve a criação de módulos no JavaScript?
+
+- Selecione uma alternativa
+
+- A: Só devemos usar módulos quando temos código muito grande e que não conseguimos fazer caber em uma única tela.
+
+
+- B: Módulos servem apenas para conseguirmos exportar código de bibliotecas externas ao nosso projeto.
+
+
+- C: Criamos módulos para compartilhar código entre os diferentes arquivos do meu sistema, ajudando na organização dele.
+`Isso, dentro do JS cada arquivo é considerado um módulo e podemos escolher o que queremos exportar ou não a partir dele.`
+
+- Exemplo:
+  - script_17
 
 
 
