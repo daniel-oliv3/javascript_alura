@@ -516,9 +516,17 @@ O que aprendemos nessa aula:
   - script_27
 
 
+##
+### Parte 5 - Construtores e estáticos
+##
 
 
+### 28 - Projeto da Aula anterior
 
+**Projeto da Aula anterior**
+
+- Exemplo:
+  - script_28
 
 
 
