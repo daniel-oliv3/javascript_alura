@@ -499,10 +499,21 @@ Sobre os assessores do tipo get e set marque as alternativas corretas:
 
 
 
+### 27 - O que aprendemos?
+
+**O que aprendemos?**
+
+O que aprendemos nessa aula:
+
+- Diferenças entre null e undefined
+- Aprofundando nos conceitos de referências a um espaço de memória
+- Get e Set
+- Melhor encapsulamento da classe
+- Protegendo atributos sensíveis
 
 
-
-
+- Exemplo:
+  - script_27
 
 
 
