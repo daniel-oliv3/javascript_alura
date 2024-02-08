@@ -469,7 +469,12 @@ O que aprendemos nessa aula:
 
 
 
+### 25 - Getters e Setters
 
+**Getters e Setters**
+
+- Exemplo:
+  - script_25
 
 
 
