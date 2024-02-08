@@ -430,9 +430,21 @@ Caso você queira ver em detalhes como essa operação de alocação de memória
 
 
 
+### 22 - O que aprendemos?
 
+**O que aprendemos?**
 
+O que aprendemos nessa aula:
 
+- Package.json
+- Modules
+- import/export
+- Quais as vantagens de ter um código onde usamos classes e composição ao invés de tipos - primitivos
+- Tipos de valor e tipos de referência
+- Alterando dinamicamente um objeto
+
+- Exemplo:
+  - script_22
 
 
 
