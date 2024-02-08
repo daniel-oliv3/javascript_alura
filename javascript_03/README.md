@@ -263,6 +263,15 @@ O que aprendemos nessa aula:
 
 **Modulos JavaScript**
 
+- Package.json
+```
+npm init
+```
+
+```json
+"type": "module" 
+```
+
 - Exemplo:
   - script_16
 
