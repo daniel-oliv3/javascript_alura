@@ -217,3 +217,61 @@ Sobre a proteção de atributos, marque as alternativas corretas:
 
 - Exemplo:
   - script_12
+
+
+
+### 13 - O que aprendemos?
+
+**O que aprendemos?**
+
+
+O que aprendemos nessa aula:
+
+- Criação de métodos
+- Palavra chave this
+- Encapsulamento
+- Proposta de atributos privados
+- Return e early return
+
+- Exemplo:
+  - script_13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
