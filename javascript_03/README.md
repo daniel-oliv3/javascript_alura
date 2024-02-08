@@ -341,12 +341,41 @@ Até este momento no curso não fizemos muitas operações complicadas, pois só
 
 Podemos escrever um script com o comando que colocaríamos no terminal, por exemplo:
 
+```json
+"scripts": {
+    "start": "node index.js"
+}
+```
+
+E ao invés de escrever esse comando podemos chamar o script com o comando npm start. Dessa forma não precisamos lembrar de todo o comando sempre que vamos executar o programa. Se você quiser saber mais, veja na documentação do NPM os tipos de scripts e os casos de uso.
+
+"E por que eu preciso disso no meu programa agora?"
+
+Como esse arquivo de configurações está presente em praticamente todo projeto de Javascript moderno, algumas ferramentas usam-no para colocar informações de configuração que elas precisam. No caso do NodeJS eles escolheram adicionar uma propriedade chamada "type" dentro desse arquivo e, sempre que vão executar algum código JS, eles leem essa propriedade e configuram o interpretador do JS de acordo com o valor lido.
+
+Como os módulos JS são uma coisa nova e experimental, dentro desse interpretador do Node não é interessante deixá-lo configurado para tratar todo arquivo como um módulo, pois muitos projetos antigos teriam problemas ao atualizar a versão do Node que estão usando.
+
+Então, esta é a opção que eles encontraram para deixar quem quisesse usar os módulos JS conseguir configurar a ferramenta para fazer os testes, e quem não quisesse não teria problemas e não precisaria mudar nenhuma configuração.
+
+Se você quiser saber mais sobre as propriedades que esse arquivo suportam você pode encontrá-las nesta página da documentação.
+
+- Package.json: https://docs.npmjs.com/cli/v10/configuring-npm/package-json
+
 - Exemplo:
   - script_18
 
 
 
+### 19 - Composição de classes
 
+**Composição de classes**
+
+<p align="center">
+  <img alt="...." src="./src/console-gitbash.jpg" width="50%">
+</p>
+
+- Exemplo:
+  - script_19
 
 
 
