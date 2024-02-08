@@ -219,8 +219,16 @@ Sobre a proteção de atributos, marque as alternativas corretas:
   - script_12
 
 
+### 13 - Métodos com retorno
 
-### 13 - O que aprendemos?
+**Métodos com retorno**
+
+- Exemplo:
+  - script_13
+
+
+
+### 14 - O que aprendemos?
 
 **O que aprendemos?**
 
@@ -234,7 +242,7 @@ O que aprendemos nessa aula:
 - Return e early return
 
 - Exemplo:
-  - script_13
+  - script_14
 
 
 ##
@@ -242,14 +250,21 @@ O que aprendemos nessa aula:
 ##
 
 
-### 14 - Projeto da Aula anterior
+### 15 - Projeto da Aula anterior
 
 **Projeto da Aula anterior**
 
 - Exemplo:
-  - script_14
+  - script_15
 
 
+
+### 16 - Modulos JavaScript
+
+**Modulos JavaScript**
+
+- Exemplo:
+  - script_16
 
 
 
