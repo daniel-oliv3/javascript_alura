@@ -561,7 +561,12 @@ Qual delas é verdadeira?
 
 
 
+### 31 - Atributos estáticos
 
+**Atributos estáticos**
+
+- Exemplo:
+  - script_31
 
 
 
