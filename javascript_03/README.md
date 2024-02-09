@@ -622,9 +622,18 @@ O que aprendemos nessa aula:
 
 
 
+### 34 - Projeto Final do Curso
 
+**Projeto Final do Curso**
 
+Aqui você pode baixar o projeto do curso no ponto em que paramos na aula anterior.
 
+Baixe o zip ou visualize os arquivos no Github!
+
+- https://github.com/alura-cursos/js-orientacao-objetos/tree/aula5
+
+- Exemplo:
+  - script_34
 
 
 
