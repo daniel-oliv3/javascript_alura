@@ -606,11 +606,19 @@ Qual dos motivos abaixo explica a razão desse acontecimento?
   - script_32
 
 
+### 33 - O que aprendemos?
 
+**O que aprendemos?**
 
+O que aprendemos nessa aula:
 
+- Construtores
+- Encapsulamento
+- Atributos "readonly"
+- Atributos estáticos
 
-
+- Exemplo:
+  - script_33
 
 
 
