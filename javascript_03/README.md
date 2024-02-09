@@ -569,10 +569,41 @@ Qual delas é verdadeira?
   - script_31
 
 
+### 32 - Tipos de atributos
+
+**Tipos de atributos**
 
 
+Em seu jogo, Luan quer sempre manter o número do total de jogadores atualizado. Para isso, escreveu o código abaixo:
+
+```js
+class Jogador{
+
+    //Código omitido
+    _totalJogadores = 0;
+
+    constructor(){
+        this._totalJogadores++;
+    }
+}
+```
+
+Porém, o contador sempre apresenta 1 após inserir um novo jogador.
+
+Qual dos motivos abaixo explica a razão desse acontecimento?
+
+- Selecione uma alternativa
+
+- A: Luan deveria deixar o _totalJogadores como público, para que possa ser somado sem problemas.
 
 
+- B: O _totalJogadores deveria estar como estático, assim, sempre que fosse criado um novo objeto do tipo Jogador, não seria criado um novo total, mantendo o valor correto.
+`Correta! A declaração correta deste campo é static _totalJogadores;.`
+
+- C: Luan deveria deixar o _totalJogadores como propriedade, usando getters e settersdo JS.
+
+- Exemplo:
+  - script_32
 
 
 
