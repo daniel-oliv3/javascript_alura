@@ -537,10 +537,27 @@ O que aprendemos nessa aula:
   - script_29
 
 
+### 30 - Utilizando Construtores
+
+**Utilizando Construtores**
 
 
+Abaixo, temos algumas afirmações a respeito da utilização de construtores.
+
+Qual delas é verdadeira?
+
+- Selecione uma alternativa
+
+- A: Construtores são utilizados para inicializar os atributos.
+`Correta! A inicialização de atributos é a principal responsabilidade do construtor.`
+
+- B: Construtores não têm utilidade real, podemos deixar os atributos públicos e defini-los manualmente.
 
 
+- C: Construtores não podem receber parâmetros.
+
+- Exemplo:
+  - script_30
 
 
 
