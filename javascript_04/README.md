@@ -295,7 +295,18 @@ longoBt.addEventListener('click', () => {
   - script_fokus_08
 
 
+##
+### Parte 2 - Manipulando elementos da página
+##
 
+
+
+### 9 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+  - script_fokus_09
 
 
 
