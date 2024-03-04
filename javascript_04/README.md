@@ -89,9 +89,32 @@ document.getElementById('start-pause');  //pega o elemento pelo id
 
 
 
+### 4 - Selecionando todos os botões com JavaScript
+
+**Selecionando todos os botões com JavaScript**
+
+Você e um colega de equipe, chamado Enzo, estão desenvolvendo o projeto Fokus. Ele está com dificuldade em pegar todos os botões de uma só vez para manipulá-los no DOM.
+
+Qual das alternativas abaixo traz o método do JavaScript correto para capturar todos os botões de uma vez?
+
+- Selecione uma alternativa
+
+- A: Use o método document.getElementsByID('botão') para pegar todos os botões.
 
 
+- B: Utilize o método document.querySelector('botão') e o JavaScript vai automaticamente selecionar todos os botões.
 
+
+- C: Utilize o método document.getElementByTagName('botão') já que esta função busca pelos elementos com a mesma tag.
+
+
+- D: Utilize o método document.querySelectorAll('button') porque vai retornar uma node list com todos os elementos de botão.
+`Parabéns! O método document.querySelectorAll retorna todos os elementos correspondentes a um seletor ou tag, não apenas o primeiro.`
+
+- E: A captura de todos os botões não é possível em JavaScript.
+
+- Exemplo:
+  - script_fokus_03
 
 
 
