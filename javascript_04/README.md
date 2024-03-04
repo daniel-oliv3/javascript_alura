@@ -114,10 +114,20 @@ Qual das alternativas abaixo traz o método do JavaScript correto para capturar 
 - E: A captura de todos os botões não é possível em JavaScript.
 
 - Exemplo:
-  - script_fokus_03
+  - script_fokus_04
 
 
+### 5 - Alterando data attributes
 
+**Alterando data attributes**
+
+```js
+/*console browser*/
+
+```
+
+- Exemplo:
+  - script_fokus_05
 
 
 
