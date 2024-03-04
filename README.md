@@ -12,5 +12,5 @@
 
 ### 3 - JavaScript: programando a Orientação a Objetos
 
-
+### 4 - JavaScript: manipulando elementos no DOM
 
