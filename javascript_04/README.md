@@ -280,10 +280,19 @@ longoBt.addEventListener('click', () => {
 
 
 
+### 8 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu como:
+  - Iniciar a manipulação no DOM: Entendemos o que é o DOM (Document Object Model) e como ele representa a árvore de nós e objetos;
+  - Trabalhar com Elementos no DOM: Aprendemos a manipular elementos no DOM usando JavaScript, especificamente nos concentrando na manipulação de botões;
+  - Usar Seletores: Dominamos o uso de vários seletores e métodos, como querySelector, `querySelectorAll`, `getElementsByClassName` e `getElementById`, para selecionar elementos no DOM;
+  - Diferenciar o DOM vs Document: Compreendemos as diferenças entre o Document e o DOM; o Document é um objeto global que representa o HTML, enquanto o DOM é uma representação conjunta de vários elementos;
+  - Criar variáveis para elementos HTML: Aprendemos como criar uma variável para representar um elemento HTML em JavaScript.
 
-
+- Exemplo:
+  - script_fokus_08
 
 
 
