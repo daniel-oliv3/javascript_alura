@@ -121,16 +121,118 @@ Qual das alternativas abaixo traz o método do JavaScript correto para capturar 
 
 **Alterando data attributes**
 
-```js
-/*console browser*/
-
-```
 
 - Exemplo:
   - script_fokus_05
 
 
+### 6 - Para saber mais: EventListeners
 
+**Para saber mais: EventListeners**
+
+Para entendermos bem sobre este assunto, primeiro precisamos esclarecer uma coisa: O que é DOM? DOM é a sigla para Document Object Model (Modelo de Objeto de Documento) e é uma forma padronizada de representar e interagir com objetos em documentos HTML e XML. O DOM representa a estrutura de um documento através de uma árvore de objetos, onde cada objeto representa uma parte do documento.
+
+Entender essa definição ajuda a compreender a importância dos eventos e de como eles funcionam no DOM (Document Object Model), sendo essencial para avançar seus estudos em JavaScript.
+
+- O que é um Evento no DOM?
+
+Pense nisso como sinais que o navegador envia quando algo acontece - como um usuário que clica em um botão em sua página web, por exemplo. Quando um evento ocorre, você tem a capacidade de reagir a ele e executar algumas ações, como exibir uma mensagem para o usuário, alterar ou adicionar algum elemento na página.
+
+O Método `addEventListener`
+Antes de mergulharmos nos diferentes tipos de eventos, vamos entender rapidamente como o método addEventListener funciona. Ele é um método disponível para todos os elementos HTML e permite que registremos funções (callbacks) que serão chamadas quando um evento específico ocorrer.
+
+A sintaxe básica é a seguinte:
+
+`elemento.addEventListener(evento, callback);`
+
+- Onde:
+  - elemento: É o elemento HTML ao qual queremos associar o evento.
+  - evento: É uma string que representa o tipo de evento que desejamos capturar.
+  - callback: É a função que será chamada quando o evento ocorrer.
+
+- Tipos de Eventos
+
+- Eventos de clique (click)
+
+Os eventos de clique são alguns dos mais utilizados em desenvolvimento web. Eles ocorrem quando o usuário clica em um elemento específico da página, como um botão, um link ou até mesmo em uma imagem. Podemos usar o evento click para executar ações quando o usuário interage com esses elementos.
+
+Exemplo:
+```js
+// HTML <button id="meuBotao">Clique aqui</button>
+
+const meuBotao = document.getElementById("meuBotao");
+meuBotao.addEventListener("click", function() {
+  alert("O botão foi clicado!");
+});
+```
+
+Quando o usuário clicar no botão com o texto "Clique aqui", um alerta será exibido com a mensagem "O botão foi clicado!".
+
+- Eventos de submissão de formulário (submit)
+
+Quando temos um formulário em nossa página, podemos usar o evento submit para capturar a submissão do formulário pelo usuário. Isso nos permite executar ações como validar os dados inseridos antes de enviá-los para o servidor.
+
+Exemplo:
+```js
+//HTML <form id="meuFormulario">
+//HTML     <input type="text" name="nome" />
+//HTML     <input type="submit" value="Enviar" />
+//HTML  </form>
+
+const meuFormulario = document.getElementById("meuFormulario");
+meuFormulario.addEventListener("submit", function(event) {
+  event.preventDefault(); // Impede o envio padrão do formulário
+  const nome = event.target.elements.nome.value;
+  alert(`O formulário foi enviado com o nome: ${nome}`);
+});
+```
+
+Quando o usuário preencher o campo de texto do formulário e clicar no botão "Enviar", um alerta será exibido com a mensagem "O formulário foi enviado com o nome: [nome inserido no campo]".
+
+Eventos de teclado (keydown, keyup, keypress)
+Os eventos de teclado permitem que respondamos às ações do usuário no teclado, como pressionar ou soltar uma tecla específica. Existem três principais tipos de eventos de teclado:
+
+keydown: Ocorre quando uma tecla é pressionada. keyup: Ocorre quando uma tecla é solta. keypress: Ocorre quando uma tecla é pressionada e ainda não foi solta.
+
+Exemplo:
+
+```js
+//HTML<input type="text" id="meuInput" />
+
+const meuInput = document.getElementById("meuInput");
+meuInput.addEventListener("keydown", function(event) {
+  console.log(`Tecla pressionada: ${event.key}`);
+});
+```
+
+Quando o usuário pressiona uma tecla enquanto o cursor está no campo de texto, o evento keydown será acionado e o código imprimirá no console a mensagem "Tecla pressionada: [tecla pressionada]".
+
+Eventos de foco (focus, blur)
+Os eventos de foco são usados quando queremos capturar quando um elemento recebe ou perde o foco. O evento focus ocorre quando o elemento ganha o foco (por exemplo, quando clicamos em um campo de formulário), enquanto o evento blur ocorre quando o elemento perde o foco.
+
+Exemplo:
+
+```js
+//HTML <input type="text" id="meuCampo" />
+
+const meuCampo = document.getElementById("meuCampo");
+meuCampo.addEventListener("focus", function() {
+  console.log("Campo ganhou o foco.");
+});
+
+meuCampo.addEventListener("blur", function() {
+  console.log("Campo perdeu o foco.");
+});
+```
+
+Quando o usuário clicar no campo de texto, o evento focus será acionado e o código imprimirá no console a mensagem "Campo ganhou o foco.". Quando o usuário clicar fora do campo, fazendo-o perder o foco, o evento blur será acionado e o código imprimirá no console a mensagem "Campo perdeu o foco.".
+
+O método addEventListener em JavaScript é uma poderosa ferramenta para lidar com eventos em elementos HTML. Através dos diferentes tipos de eventos disponíveis, podemos criar páginas web mais interativas e responsivas, melhorando a experiência do usuário.
+
+Abordamos os eventos mais comuns, e também existem muitos outros que podem ser explorados para atender às necessidades específicas de cada projeto. Portanto, o conhecimento sobre eventos e a habilidade de utilizá-los adequadamente são fundamentais para se tornar uma pessoa desenvolvedora web mais eficiente e versátil.
+
+- Exemplo:
+  - script_fokus_06
 
 
 
