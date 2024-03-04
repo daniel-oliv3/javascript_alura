@@ -236,12 +236,44 @@ Abordamos os eventos mais comuns, e também existem muitos outros que podem ser 
 
 
 
+### 7 - Desafio: adicionando evento de click
+
+**Desafio: adicionando evento de click**
+
+- Agora é com você!
+
+Estamos desenvolvendo o projeto Fokus juntos, por isso, conto com sua ajuda para inserir um evento de interação com a pessoa usuária no botão “Descanso longo”. Similar ao que fizemos em aula referente aos botões de “Foco” e “Descanso curto”.
+
+- Para o desafio, seguem algumas dicas:
+  - Adicione um evento de clique (click) no botão "Descanso longo";
+  - Quando o botão for clicado, defina o valor 'descanso-longo' para o atributo data-contexto;
+  - Isso permitirá que a cor azul seja aplicada na tela, através do seletor data-contexto="descanso-longo" no arquivo CSS, na linha 18.
+
+- Opinião do instrutor
+
+Conseguiu resolver o desafio? Espero que sim! :)
+
+Abaixo segue a forma como fiz:
+
+Código JavaScript:
+
+```js
+const longoBt = document.querySelector('.app__card-button--longo');
+
+longoBt.addEventListener('click', () => {
+    html.setAttribute('data-contexto', 'descanso-longo');
+});
+```
+
+- Print do resultado na tela, após clique no botão “Descanso longo”:
+
+<p align="center">
+  <img alt="...." src="./src/aula1-img1.png" width="50%">
+</p>
 
 
-
-
-
-
+- Exemplo:
+  - script_fokus_07
 
 
 
