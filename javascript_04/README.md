@@ -35,6 +35,7 @@
 **Preparando o ambiente**
 
 Boas-vindas, Dev!
+
 Esta será uma jornada de muito aprendizado e prática, para você dominar a Manipulação de elementos no DOM com JavaScript. Para isso, vamos dar vida ao projeto Fokus, um sistema de temporizador, que ajuda a pessoa usuária a focar nas suas atividades do dia a dia.
 
 Arquivos iniciais do projeto
@@ -59,6 +60,141 @@ Recomendo utilizar o mesmo editor de código utilizado nas aulas. Você pode bai
 
 - Exemplo:
   - script_fokus_02
+
+
+
+### 3 - Conhecendo métodos do DOM
+
+**Conhecendo métodos do DOM**
+
+```js
+/*console browser*/
+// Métodos para pegar elementos da tela
+
+
+clear //limpa o console
+document.querySelector('button'); // pegar um elemento especifico
+document.querySelectorAll('button'); //pega todos elementos button
+document.querySelector('.app__card-button--curto'); //pegando elemento de uma classe
+
+document.getElementsByClassName('app__card-button--curto'); //pega o elemento pelo nome da classe, não reconhece com o .app__card-button--curto
+document.getElementById('start-pause');  //pega o elemento pelo id
+```
+
+- DOM: Document Object Model
+
+- Exemplo:
+  - script_fokus_03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
