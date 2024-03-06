@@ -564,9 +564,19 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 - Exemplo:
   - script_fokus_16
 
+### 17 - O que aprendemos?
 
+**O que aprendemos?**
 
+Parabéns!
 
+- Você finalizou a segunda aula. E nela você aprendeu como:
+  - Alterar textos HTML com `innerHTML`: Aprendemos a alterar estrutura de conteúdo HTML com textos, tags e classes;
+  - **Utilizar o método switch**: Aplicamos o método switch para alternar contextos e alterar a exibição de textos de acordo com o contexto;
+  - **Refatorar o código**: Identificamos linhas de código repetidas e refatoramos o código criando a primeira função do projeto alterarContexto.
+
+- Exemplo:
+  - script_fokus_17
 
 
 
