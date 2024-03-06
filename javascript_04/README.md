@@ -391,7 +391,12 @@ Em resumo, os métodos getAttribute, setAttribute, hasAttribute e removeAttribut
 
 
 
+### 12 - Separando funções e métodos
 
+**Separando funções e métodos**
+
+- Exemplo:
+  - script_fokus_12
 
 
 
