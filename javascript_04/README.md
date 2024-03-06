@@ -708,9 +708,9 @@ Substitua 'caminho/do/arquivo-de-audio.mp3' pelo caminho real do arquivo de áud
 
 Após criar um objeto ‘Audio’, podemos controlar sua reprodução e outras propriedades usando métodos e propriedades disponíveis.
 
-- play(): inicia a reprodução do áudio;
-- pause(): pausa a reprodução do áudio;
-- currentTime: propriedade que retorna ou define a posição atual de reprodução do áudio, em segundos;
+- `play()`: inicia a reprodução do áudio;
+- `pause()`: pausa a reprodução do áudio;
+- `currentTime`: propriedade que retorna ou define a posição atual de reprodução do áudio, em segundos;
 - volume: propriedade que retorna ou define o nível de volume do áudio, variando de 0 a 1.
 
 
@@ -732,7 +732,71 @@ audioElement.volume = 0.5; // Define o volume para metade (50%)
 
 
 
+### 23 - Exercitando objeto Audio
 
+**Exercitando objeto Audio**
+
+No desenvolvimento do projeto Fokus foi necessário inserir um arquivo de áudio. Como você poderia implementar uma música de fundo que começa quando o usuário clica no input checkbox, pausa quando o usuário clica novamente no input e que continua tocando em loop?
+
+- Selecione uma alternativa
+
+- A:
+
+```js
+// A
+let musicaFocoInput = document.querySelector("#alternar-musica");
+let musica = new Audio("/sons/Luna_Rise_Part_One.mp3");
+musica.loop = true;
+musicaFocoInput.addEventListener("click", function() {
+  musica.play();
+});
+```
+
+- B:
+
+```js
+// B
+let musicaFocoInput = document.querySelector("#alternar-musica");
+let musica = new Audio("/sons/Luna_Rise_Part_One.mp3");
+musicaFocoInput.addEventListener("click", function() {
+  musica.play();
+});
+```
+
+- C:
+
+```js
+// C
+let musicaFocoInput = document.querySelector("#alternar-musica");
+musicaFocoInput.addEventListener("change", function() {
+  let musica = new Audio("/sons/Luna_Rise_Part_One.mp3");
+  if (musica.paused) {
+    musica.play();
+  } else {
+    musica.pause();
+  }
+});
+```
+
+- D:
+
+```js
+// D
+let musicaFocoInput = document.querySelector("#alternar-musica");
+let musica = new Audio("/sons/Luna_Rise_Part_One.mp3");
+musica.loop = true;
+musicaFocoInput.addEventListener("change", function() {
+  if (musica.paused) {
+    musica.play();
+  } else {
+    musica.pause();
+  }
+});
+```
+`Esta é a resposta correta porque adiciona a funcionalidade de loop ao áudio e atende a todos os outros requisitos da questão.`
+
+- Exemplo:
+  - script_fokus_23
 
 
 
