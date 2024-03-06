@@ -835,10 +835,95 @@ Faça o teste e verifique se o código está funcionando corretamente.
 
 
 
+### 25 - Lista de exercícios
 
+**Lista de exercícios**
 
+Vamos praticar o que aprendemos até aqui?
 
+1) Inserindo estilos dos botões com JavaScript
+Crie uma página HTML simples que inclua três botões: "Foco", "Descanso Curto" e "Descanso Longo" (o layout não precisa ser muito complexo). Cada botão deve inicialmente ter um estilo básico. Utilize o JavaScript para inserir a classe active entre esses botões, de modo que, ao clicar em um botão, ele receba um estilo destacado (por exemplo, cor de fundo e borda diferenciada). Certifique-se de aplicar os conceitos de manipulação de classes com JavaScript aprendidos, alterando dinamicamente a classe active para indicar o botão selecionado.
 
+2) Alternando o estilo dos botões com JavaScript
+Com o método para aplicar a classe active nos três botões definidos no exercício anterior,, repare no seguinte: sempre quando um botão é clicado, o estilo é inserido. Para corrigir isso, aplique, na função alterarContexto, um método para retirar a classe active de modo que ela seja inserida apenas no último botão clicado.
+
+3) Controlando a reprodução de música com um Checkbox
+Desenvolva, no projeto Fokus, um input do tipo checkbox para controlar a reprodução de um arquivo de música. O arquivo de áudio, luna-rise-part-one.mp3, deve começar a tocar quando o checkbox for marcado e parar quando for desmarcado. Implemente essa lógica usando o JavaScript, criando um objeto Audio para o arquivo de música e um EventListener para o checkbox que verifica o estado da propriedade paused do objeto Audio, alternando entre os métodos play e pause conforme o estado do checkbox.
+
+4) Reproduzindo arquivo de Audio em modo infinito
+Você já aprendeu como inserir arquivos de Audio em um projeto utilizando JavaScript, e também aplicou métodos para reproduzir e pausar esse tipo de arquivo. Nesse momento, você deve utilizar das técnicas aplicadas nesta aula para fazer um arquivo de Audio ser reproduzido em modo de loop, ou seja, iniciando automaticamente sempre que finalizado.
+
+- Opinião do instrutor
+
+Veja as soluções dos exercícios. Lembre-se de que há várias maneiras de solucionar um mesmo problema (e tudo bem caso seu código tenha saído diferente). O importante é que ele esteja organizado, bem escrito e funcione.
+
+1) Alternando o estilo dos botões com JavaScript
+Crie um arquivo HTML e adicione três botões com os textos "Foco", "Descanso Curto" e "Descanso Longo". Adicione uma classe base aos botões para estilos iniciais e uma classe active para estilos destacados;
+Utilize CSS para definir os estilos básicos dos botões e os estilos quando a classe active estiver aplicada;
+Em um arquivo JavaScript separado, escreva o código para adicionar um event listener a cada botão. Quando um botão é clicado, ele deve receber a classe active, enquanto os outros botões devem ter essa classe removida.
+Código JavaScript:
+
+```js
+focoBt.addEventListener('click', () => {
+    alterarContexto('foco');
+    focoBt.classList.add('active');
+});
+
+curtoBt.addEventListener('click', () => {
+    alterarContexto('descanso-curto');
+    curtoBt.classList.add('active');
+});
+
+longoBt.addEventListener('click', () => {
+    alterarContexto('descanso-longo');
+    longoBt.classList.add('active');
+});
+```
+
+2) Alternando o estilo dos botões com JavaScript
+Crie uma variável para selecionar todos os três botões;
+Insira na função alterarContexto o método para retirar a classe active dos botões.
+O código Javascript ficaria assim:
+
+```js
+const botoes = document.querySelectorAll('.app__card-button')
+
+botoes.forEach(function (contexto){
+  contexto.classList.remove('active');
+});
+```
+
+3) Controlando a reprodução de música com um Checkbox
+Adicione um input do tipo checkbox com um ID específico, por exemplo, #alternar-musica;
+No seu arquivo JavaScript, crie uma variável para armazenar a referência ao checkbox usando document.querySelector('#alternar-musica');
+Crie um objeto Audio para o arquivo de música desejado, passando o caminho do arquivo como parâmetro para o construtor new Audio('caminho/do/arquivo.mp3');
+Adicione um EventListener ao checkbox para escutar pelo evento change. Dentro do callback deste evento, utilize a propriedade paused do objeto Audio para verificar se a música está pausada. Se estiver, chame o método play(), caso contrário, chame pause().
+O código JavaScript ficaria assim:
+
+```js
+const musicaFocoInput = document.querySelector('#alternar-musica');
+const musica = new Audio('sons/luna-rise-part-one.mp3');
+
+musicaFocoInput.addEventListener('change', () => {
+if (musica.paused) {
+     musica.play();
+    } else {
+      musica.pause();
+    }
+});
+```
+
+4) Reproduzindo arquivo de Audio em modo infinito
+Aplique na propriedade loop do objeto JavaScript Audio o valor true. O código JavaScript:
+
+```js
+musica.loop = true
+```
+
+Muito bom! Você chegou ao fim de mais uma lista de exercícios!
+
+- Exemplo:
+  - script_fokus_25
 
 
 
