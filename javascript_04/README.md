@@ -436,7 +436,30 @@ Boa sorte!
   - script_fokus_14
 
 
+### 15 - Inserindo elementos na tela
 
+**Inserindo elementos na tela**
+
+Você está trabalhando em um projeto web e precisa inserir um novo elemento de parágrafo em uma seção específica do seu documento HTML utilizando JavaScript. Você decidiu que a melhor maneira de fazer isso é através do método innerHTML.
+
+Qual das seguintes opções mostra a maneira correta de usar `innerHTML` para inserir um novo elemento de parágrafo com texto "Olá, mundo!" na seção com id "minhaSecao"?
+
+- Selecione uma alternativa
+
+- A: `document.getElementById("minhaSecao").innerHTML = "<p>Olá, mundo!</p>"`
+`Parabéns! Este código define corretamente o innerHTML do elemento com id "minhaSecao" para um novo elemento de parágrafo contendo o texto "Olá, mundo!".`
+
+
+- B: `document.getElementById("minhaSecao").innerHTML("<p>Olá, mundo!</p>")`
+
+
+- C: `document.getElementById("minhaSecao").innerText = "<p>Olá, mundo!</p>"`
+
+
+- D: `document.getElementById("<p>Olá, mundo!</p>").innerHTML = "minhaSecao"`
+
+- Exemplo:
+  - script_fokus_15
 
 
 
