@@ -927,9 +927,21 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 
 
+### 26 - O que aprendemos?
 
+**O que aprendemos?**
 
+Parabéns! Mais uma aula finalizada.
 
+E nela você aprendeu como:
+
+- Ativar e desativar áudio com input Checkbox: Entendemos como podemos ativar e desativar um arquivo de áudio na nossa página com a ajuda do input Checkbox;
+- Criar um objeto de áudio: Aprendemos a criar uma instância da classe de áudio usando a palavra-chave 'new';
+Usar propriedades e métodos de áudio: Usamos a propriedade 'paused' e os métodos 'play()' e 'pause()' para controlar a reprodução do áudio;
+- Configurar áudio para loop: Fizemos com que o áudio fique em loop contínuo ao definir a propriedade "loop" para "true".
+
+- Exemplo:
+  - script_fokus_26
 
 
 
