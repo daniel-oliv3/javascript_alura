@@ -579,6 +579,19 @@ Parabéns!
   - script_fokus_17
 
 
+##
+### Parte 3 - Aplicando áudio e estilos
+##
+
+
+### 18 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+  - script_fokus_18
+
+
 
 
 
