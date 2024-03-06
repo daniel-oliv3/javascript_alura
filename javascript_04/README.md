@@ -400,7 +400,12 @@ Em resumo, os métodos getAttribute, setAttribute, hasAttribute e removeAttribut
 
 
 
+### 13 - Alterando texto da página
 
+**Alterando texto da página**
+
+- Exemplo:
+  - script_fokus_13
 
 
 
