@@ -799,7 +799,37 @@ musicaFocoInput.addEventListener("change", function() {
   - script_fokus_23
 
 
+### 24 - Faça como eu fiz: manipulando elementos
 
+**Faça como eu fiz: manipulando elementos**
+
+Nesta aula, aprendemos a utilizar o método classList do JavaScript para adicionar e remover classes dos elementos HTML dinamicamente, assim como inserir e manipular um arquivo de áudio na página.
+
+Agora, pratique o que aprendeu seguindo estes passos:
+
+- Adicionando e removendo estilos dos botões
+
+  - Crie uma variável para armazenar todos os botões com a classe "appCardButton" usando document.querySelectorAll;
+  - Dentro dos eventListener de cada botão, utilize o método classList.add para inserir a classe active quando o botão for clicado;
+  - Na função ‘AlterarContexto’, utilize o loop forEach para iterar por cada botão e crie uma função que remova a classe ‘active’ dos botões não selecionados.
+
+- Inserindo áudio no projeto
+
+- No HTML, encontre o input com o id "Alternar-Musica" que controla a música;
+- No JavaScript, crie uma variável chamada "musicaFocoInput" usando document.querySelector e passe o id do input como parâmetro;
+- Crie uma nova variável chamada ‘musicaFoco’ e utilize o objeto Audio para criar uma instância dele com o caminho do arquivo de música "Sons/Luna-Rise-Part-1.mp3";
+- Defina o atributo loop do objeto Audio como true para tocar a música em loop;
+- Adicione um evento de change ao input ‘musicaFocoInput’ usando addEventListener;
+- Crie uma função anônima dentro do evento para verificar se a música está pausada utilizando a propriedade paused do objeto Audio:
+    - Se estiver pausada, utilize o método play para tocá-la;
+    - Caso contrário, utilize o método pause para pausar a música.
+
+- Opinião do instrutor
+
+Faça o teste e verifique se o código está funcionando corretamente.
+
+- Exemplo:
+  - script_fokus_24
 
 
 
