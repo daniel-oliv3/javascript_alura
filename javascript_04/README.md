@@ -679,7 +679,12 @@ Nota: Certifique-se de que o JavaScript seja carregado após a renderização do
 
 
 
+### 21 - Inserindo objeto de áudio
 
+**Inserindo objeto de áudio**
+
+- Exemplo:
+  - script_fokus_21
 
 
 
