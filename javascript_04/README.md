@@ -591,7 +591,12 @@ Parabéns!
 - Exemplo:
   - script_fokus_18
 
+### 19 - Adicionando e removendo classes
 
+**Adicionando e removendo classes**
+
+- Exemplo:
+  - script_fokus_19
 
 
 
