@@ -408,8 +408,32 @@ Em resumo, os métodos getAttribute, setAttribute, hasAttribute e removeAttribut
   - script_fokus_13
 
 
+### 14 - Faça como eu fiz: refatoração e manipulação de elementos
 
+**Faça como eu fiz: refatoração e manipulação de elementos**
 
+Aprendemos nessa aula a refatorar o código do projeto Focus para torná-lo mais legível e reutilizável, assim como utilizar o método "innerHTML" para alterar o texto exibido na tela de acordo com o contexto selecionado (Foco, Descanso Curto e Descanso Longo). E é muito importante que você implemente o que aprendeu. Por isso, é sua vez de praticar.
+
+- Crie uma função chamada "Alterar Contexto" para automatizar a mudança de imagens, cores de fundo dos elementos e textos;
+- Dentro da função, utilize os parâmetros para receber os valores de contexto (Foco, Descanso Curto, Descanso Longo);
+- Atualize os eventos de clique dos botões "Descanso Curto" e "Descanso Longo" para chamar a função "Alterar Contexto" com os respectivos parâmetros;
+- Crie uma variável para referenciar o elemento `<h1>` que contém o texto a ser alterado usando ‘document.querySelector’ e a classe ‘app__title’;
+- Utilize o método ‘innerHTML’ para modificar o conteúdo do elemento ‘título’ com os textos correspondentes aos contextos "Foco", "Descanso Curto" e "Descanso Longo";
+- Se desejar, utilize o design pronto no Figma como base.
+  - Link: https://www.figma.com/file/dEaMv34Wd5G7TBMPo8fPlK/Projeto-Fokus?type=design&mode=design
+
+Teste as alterações no navegador para verificar se as imagens e cores de fundo mudam corretamente quando você clica nos botões “Foco”, "Descanso Curto" e "Descanso Longo".
+
+- Opinião do instrutor
+
+Com esses passos, você estará concluindo a etapa de alteração de elementos do projeto Fokus e poderá avançar para o próximo passo, que é a customização dos estilos dos botões conforme o clique.
+
+Caso queira, você pode visualizar o código dessa aula no repositório do curso.
+
+Boa sorte!
+
+- Exemplo:
+  - script_fokus_14
 
 
 
