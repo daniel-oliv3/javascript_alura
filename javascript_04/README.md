@@ -945,7 +945,12 @@ Usar propriedades e métodos de áudio: Usamos a propriedade 'paused' e os méto
 
 
 
+### 27 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+  - script_fokus_27
 
 
 
