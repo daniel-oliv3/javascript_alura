@@ -944,6 +944,10 @@ Usar propriedades e métodos de áudio: Usamos a propriedade 'paused' e os méto
   - script_fokus_26
 
 
+##
+### Parte 4 - Desenvolvendoo temporizador
+##
+
 
 ### 27 - Projeto da aula anterior
 
@@ -953,7 +957,12 @@ Usar propriedades e métodos de áudio: Usamos a propriedade 'paused' e os méto
   - script_fokus_27
 
 
+### 28 - Iniciando o temporizador (setInterval)
 
+**Iniciando o temporizador (setInterval)**
+
+- Exemplo:
+  - script_fokus_28
 
 
 
