@@ -965,5 +965,11 @@ Usar propriedades e métodos de áudio: Usamos a propriedade 'paused' e os méto
   - script_fokus_28
 
 
+### 29 - Pausando o temporizador clearInterval
+
+**Pausando o temporizador clearInterval**
+
+- Exemplo:
+  - script_fokus_29
 
 
