@@ -973,3 +973,181 @@ Usar propriedades e métodos de áudio: Usamos a propriedade 'paused' e os méto
   - script_fokus_29
 
 
+
+
+### 30 - Animação dinâmica
+
+**Animação dinâmica**
+
+Você, como pessoa desenvolvedora web de uma startup tecnológica, tem a tarefa de criar uma animação na página em que elementos se movem a cada 2 segundos. Além disso, é essencial permitir ao usuário a opção de interromper a animação quando desejar.
+
+Com base no que foi estudado sobre setInterval e clearInterval, como você organizaria o código para criar a animação que altera a cada dois segundos, mas que também pode ser interrompida pelo usuário?
+
+- Selecione uma alternativa
+
+- Exemplo:
+  - script_fokus_30
+
+- A: 
+```js
+let myAnim = clearInterval(moveElements, 2000);
+    
+function stopAnim() {
+setInterval(myAnim);
+}
+```
+
+- B: 
+```js
+let myAnim = setInterval(moveElements, 2000);
+    
+function stopAnim() {
+clearInterval(myAnim);
+}
+```
+`Parabéns! O código define um intervalo para a animação dos elementos usando a função moveElements, que acontecerá a cada dois segundos graças ao segundo argumento do setInterval (2000 milissegundos). A função stopAnim está utilizando clearInterval para interromper a animação quando chamada.`
+
+
+
+- C: 
+```js
+function startAnim() {
+setInterval(moveElements, 2000);
+}
+
+function stopAnim() {
+clearInterval(startAnim);
+}
+```
+
+- D: 
+```js
+let myAnim = setInterval(moveElements, 2000);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
