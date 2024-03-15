@@ -1203,7 +1203,12 @@ E nela você aprendeu como:
 
 
 
+### 35 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+  - script_fokus_35
 
 
 
