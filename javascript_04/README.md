@@ -1138,16 +1138,21 @@ Com essas propriedades, é possível navegar, acessar e modificar elementos HTML
 **Desafio: inserindo áudios no projeto**
 
 Agora é com você!
+
 Em aula, te mostrei que o projeto Fokus poderá ficar ainda melhor se inserirmos alguns sons. Nesse momento, conto com sua ajuda para realizar essa tarefa!
 
 Para o desafio, seguem algumas dicas:
 
-Os arquivos de áudio utilizados neste desafio encontram-se na pasta “sons” do projeto. Os nomes dos arquivos são “beep.mp3”, “play.wav” e “pause.mp3”.
-No arquivo script.js, crie uma instância do objeto Audio para cada arquivo de áudio e guarde-os em variáveis.
-Utilize cada variável junto do método play() de acordo com as funcionalidades do projeto.
-O arquivo de áudio “beep.mp3” deve tocar quando o temporizador chegar a zero.
-O arquivo de áudio “play.mp3” deve tocar sempre que o temporizador for iniciado.
-O arquivo de áudio “pause.mp3” deve tocar sempre que o temporizador for pausado.
+- Os arquivos de áudio utilizados neste desafio encontram-se na pasta “sons” do projeto. Os nomes dos arquivos são “beep.mp3”, “play.wav” e “pause.mp3”.
+- No arquivo script.js, crie uma instância do objeto Audio para cada arquivo de áudio e guarde-os em variáveis.
+- Utilize cada variável junto do método play() de acordo com as funcionalidades do projeto.
+  - O arquivo de áudio “beep.mp3” deve tocar quando o temporizador chegar a zero.
+  - O arquivo de áudio “play.mp3” deve tocar sempre que o temporizador for iniciado.
+  - O arquivo de áudio “pause.mp3” deve tocar sempre que o temporizador for pausado.
+
+- Opinião do instrutor
+
+Conseguiu resolver o desafio? Espero que sim! :) Abaixo segue a forma como fiz: Primeiro, para cada arquivo de áudio, é preciso criar uma instância do objeto `Audio` e guardá-los em variáveis. Então, fiz o seguinte: ``` const audioPlay = new Audio('/sons/play.wav'); const audioPausa = new Audio('/sons/pause.mp3'); const audioTempoFinalizado = new Audio('./sons/beep.mp3') ``` Depois, chamei “audioTempoFinalizado” dentro da função contagemRegressiva() ``` const contagemRegressiva = () => { if(tempoDecorridoEmSegundos <= 0) { audioTempoFinalizado.play() <<<<<<<< alert('Tempo finalizado') zerar() return } tempoDecorridoEmSegundos -= 1 console.log('Tempo: ' + tempoDecorridoEmSegundos) console.log('Id: ' + intervaloId) } ``` E por último, chamei “audioPause” e “audioPlay” dentro da função iniciarOuPausar() ``` function iniciarOuPausar() { if (intervaloId) { audioPausa.play(); <<<<<<< zerar() return // early return -- circuit breaker } audioPlay.play(); <<<<<<< intervaloId = setInterval(contagemRegressiva, 1000) } ```
 
 - Exemplo:
   - script_fokus_32
