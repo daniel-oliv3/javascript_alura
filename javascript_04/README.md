@@ -1133,101 +1133,21 @@ Com essas propriedades, é possível navegar, acessar e modificar elementos HTML
 
 
 
-### 32 - Para saber mais: acessando dados com propriedades no DOM
+### 32 - Desafio: inserindo áudios no projeto
 
-**Para saber mais: acessando dados com propriedades no DOM**
+**Desafio: inserindo áudios no projeto**
 
-No projeto Fokus, estamos utilizando algumas das propriedades mais conhecidas para acessar elementos no DOM, como o classList e o innerHTML, porém, existem outros igualmente importantes.
+Agora é com você!
+Em aula, te mostrei que o projeto Fokus poderá ficar ainda melhor se inserirmos alguns sons. Nesse momento, conto com sua ajuda para realizar essa tarefa!
 
-Vamos conhecê-los?
+Para o desafio, seguem algumas dicas:
 
-Propriedade parentNode
-- Link: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/parentNode
-
-A propriedade parentNode é utilizada para acessar o nó pai de um elemento no DOM. Por meio dela, podemos navegar pela árvore do DOM em direção ao nó pai do elemento atual.
-
-Exemplo de uso:
-
-Suponha que temos o seguinte código HTML:
-
-```html
-<div id="container">
-  <p>Este é um parágrafo</p>
-</div>
-```
-
-Agora, podemos usar o ‘parentNode’ para acessar o elemento pai do parágrafo:
-
-```js
-const paragraph = document.querySelector('p');
-const parentElement = paragraph.parentNode;
-
-console.log(parentElement.id); // Saída: "container"
-```
-
-Propriedade childNodes
-- Link: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/childNodes
-
-A propriedade childNodes é utilizada para acessar todos os nós filhos de um elemento no DOM. Ela retorna uma lista de nós, incluindo nós de texto e elementos HTML.
-
-Exemplo de uso:
-
-Considerando o mesmo HTML do exemplo anterior, podemos usar o childNodes para obter todos os nós filhos do elemento com o ID "container":
-
-```js
-const container = document.getElementById('container');
-const childNodes = container.childNodes;
-
-console.log(childNodes.length); // Saída: 1 (o nó de texto "\n  " é considerado um nó filho)
-console.log(childNodes[0].nodeName); // Saída: "#text"
-console.log(childNodes[1].nodeName); // Saída: "P"
-```
-
-Propriedade nextElementSibling
-- Link: https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling
-
-A propriedade nextElementSibling permite acessar o próximo irmão (nó adjacente) de um elemento no DOM.
-
-Exemplo de uso:
-
-Vamos considerar o seguinte HTML:
-
-```html
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
-```
-
-Agora, podemos usar o nextElementSibling para acessar o próximo irmão de um elemento `<li>`:
-
-```js
-const item1 = document.querySelector('li:first-child');
-const item2 = item1.nextElementSibling;
-
-console.log(item2.textContent); // Saída: "Item 2"
-```
-
-Propriedade previousElementSibling
-- Link: https://developer.mozilla.org/en-US/docs/Web/API/Element/previousElementSibling
-
-A propriedade previousElementSibling é semelhante ao nextElementSibling, mas permite acessar o irmão anterior (nó adjacente) de um elemento no DOM.
-
-Exemplo de uso:
-
-Continuando o exemplo anterior, vamos usar o previousElementSibling para acessar o irmão anterior do elemento `<li>` que selecionamos:
-
-```js
-const item3 = document.querySelector('li:last-child');
-const item2 = item3.previousElementSibling;
-
-console.log(item2.textContent); // Saída: "Item 2"
-```
-
-Com essas propriedades, é possível navegar, acessar e modificar elementos HTML em uma página da web, tornando a manipulação do DOM uma tarefa poderosa para pessoas desenvolvedoras web.
-
-É importante continuar praticando e explorando o DOM para aprofundar seu conhecimento e habilidades em JavaScript.
+Os arquivos de áudio utilizados neste desafio encontram-se na pasta “sons” do projeto. Os nomes dos arquivos são “beep.mp3”, “play.wav” e “pause.mp3”.
+No arquivo script.js, crie uma instância do objeto Audio para cada arquivo de áudio e guarde-os em variáveis.
+Utilize cada variável junto do método play() de acordo com as funcionalidades do projeto.
+O arquivo de áudio “beep.mp3” deve tocar quando o temporizador chegar a zero.
+O arquivo de áudio “play.mp3” deve tocar sempre que o temporizador for iniciado.
+O arquivo de áudio “pause.mp3” deve tocar sempre que o temporizador for pausado.
 
 - Exemplo:
   - script_fokus_32
