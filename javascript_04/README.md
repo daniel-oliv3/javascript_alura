@@ -1185,11 +1185,20 @@ Veja as soluções dos exercícios. Lembre-se de que há várias maneiras de sol
 
 
 
+### 34 - O que aprendemos?
 
+**O que aprendemos?**
 
+Mais uma aula finalizada. Parabéns!
 
+E nela você aprendeu como:
 
+- Utilizar o SetInterval: Compreendemos o papel do método setInterval na execução contínua de trechos de código;
+- Utilizar o ClearInterval: Aprendemos como utilizar o método clearInterval para interromper a execução do código;
+- Concatenar strings e variáveis: Utilizamos o operador + para juntar strings e variáveis.
 
+- Exemplo:
+  - script_fokus_34
 
 
 
