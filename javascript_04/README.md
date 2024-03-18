@@ -1352,10 +1352,33 @@ Lembre-se de que, dependendo do fuso horário e configurações regionais do sis
 
 
 
+### 41 - Faça como eu fiz: formatando botão dinâmico e temporizador
+
+**Faça como eu fiz: formatando botão dinâmico e temporizador**
 
 
+Agora é com você!
+Até aqui fizemos o ajuste no botão “iniciar/pausar” e printamos o temporizador na tela. Coloque em prática essa parte do projeto. Para isso:
+
+Alternando elementos no botão de forma dinâmica
+
+- Crie uma variável para pegar a tag HTML onde o ícone de play está inserido.
+- Crie uma variável para pegar a tag span onde a palavra “Começar” está inserida.
+- Utilize o método textContent para alternar a palavra "começar" e "pausar" no botão do temporizador.
+- Utilize o método setAttribute para alternar o caminho do ícone de play e pause no botão do temporizador.
+
+Formatando temporizador na tela
+
+- Crie uma variável para pegar a tag div onde o tempo deverá ser exibido, utilize o id timer.
+- Crie uma função para mostrar o tempo do temporizador na tela.
+- Formate o tempo para cada contexto de temporizador do projeto Fokus, utilizando uma instância do objeto Date, sendo:
+    - Para o modo “Foco”, "25:00" representando 25 minutos e 0 segundos;
+    - Para o modo “Descanso curto”, “05:00” representando 5 minutos e 0 segundos;
+    - Para o modo “Descanso longo”, “15:00” representado 15 minutos e 0 segundos.
 
 
+- Exemplo:
+  - script_fokus_41
 
 
 
