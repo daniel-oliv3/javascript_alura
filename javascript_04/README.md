@@ -1275,6 +1275,12 @@ document.querySelector("welcome-message").textContent = "Bem-vindo à nossa pág
   - script_fokus_38
 
 
+### 39 - Formatando tempo com objeto Date
+
+**Formatando tempo com objeto Date**
+
+- Exemplo:
+  - script_fokus_39
 
 
 
