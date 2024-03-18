@@ -1201,6 +1201,10 @@ E nela você aprendeu como:
   - script_fokus_34
 
 
+##
+### Parte 5 - Finalizando o projeto
+##
+
 
 
 ### 35 - Projeto da aula anterior
@@ -1211,8 +1215,14 @@ E nela você aprendeu como:
   - script_fokus_35
 
 
+### 36 - Alternando texto com textContent
 
+**Alternando texto com textContent**
 
+- ERRO: som, botão play, pause, finalizado!
+
+- Exemplo:
+  - script_fokus_36
 
 
 
