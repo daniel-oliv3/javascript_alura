@@ -1219,17 +1219,50 @@ E nela você aprendeu como:
 
 **Alternando texto com textContent**
 
-- ERRO: som, botão play, pause, finalizado!
+- ERRO: - net::ERR_FILE_NOT_FOUND
+  - som, botão play, pause, finalizado!
 
 - Exemplo:
   - script_fokus_36
 
 
 
+### 37 - Adicionando texto em elementos HTML
 
+**Adicionando texto em elementos HTML**
 
+Você está trabalhando como desenvolvedora web em uma start-up e o seu chefe pediu para você adicionar um texto em um elemento específico de uma página web. Para isto, você deve manipular o DOM utilizando a propriedade textContent.
 
+Como você adicionaria o texto "Bem-vindo à nossa página!" em um elemento com o id welcome-message?
 
+- Selecione uma alternativa
+
+- A:
+```js
+document.getElementByClass("welcome-message").textContent = "Bem-vindo à nossa página!"
+```
+
+- B:
+```js
+document.getElementById("welcome-message").textContent = "Bem-vindo à nossa página!"
+```
+
+`
+Esta é a forma correta de adicionar um texto em um elemento pela id. Você capturou corretamente o elemento utilizando o método getElementById e inseriu o texto utilizando a propriedade textContent.
+`
+
+- C:
+```js
+document.querySelector("#welcome-message") = "Bem-vindo à nossa página!"
+```
+
+- D:
+```js
+document.querySelector("welcome-message").textContent = "Bem-vindo à nossa página!"
+```
+
+- Exemplo:
+  - script_fokus_37
 
 
 
