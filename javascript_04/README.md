@@ -1382,7 +1382,12 @@ Formatando temporizador na tela
 
 
 
+### 42 - Projeto final do curso
 
+**Projeto final do curso**
+
+- Exemplo:
+  - script_fokus_42
 
 
 
