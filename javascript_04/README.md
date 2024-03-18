@@ -1267,7 +1267,12 @@ document.querySelector("welcome-message").textContent = "Bem-vindo à nossa pág
 
 
 
+### 38 - Printando tempo na tela
 
+**Printando tempo na tela**
+
+- Exemplo:
+  - script_fokus_38
 
 
 
