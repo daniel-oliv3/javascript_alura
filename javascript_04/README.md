@@ -276,9 +276,102 @@ longoBt.addEventListener('click', () => {
   - script_fokus_07
 
 
+### 8.1 - Lista de exercícios
+
+O que é:
+Boas-vindas à nossa lista de exercícios , um caminho prático e envolvente para aprender e aprimorar suas habilidades em tecnologia. Aqui, você não encontrará longas leituras teóricas ou explicações abstratas. Em vez disso, nossos exercícios são projetados para colocar você no centro do processo de aprendizado, permitindo que você construa, experimente e explore conceitos tecnológicos de forma direta e aplicada.
+
+Para que serve:
+Esta lista é uma ferramenta dinâmica para aprender, reforçar e aprimorar habilidades práticas em programação e desenvolvimento web. Cada exercício é uma oportunidade de aplicar conhecimentos teóricos em cenários reais, preparando você não apenas para entender a tecnologia, mas para utilizá-la de maneira eficaz e criativa em seus próprios projetos ou no ambiente de trabalho.
+
+Como fazer:
+- Leia cada exercício com atenção: comece entendendo o cenário proposto e o que se espera como resultado.
+- Escreva o código: utilize o ambiente de codificação de sua escolha para escrever e testar o seu código. Não se preocupe em acertar de primeira, a prática leva à perfeição.
+- Verifique o gabarito: após tentar resolver o exercício, compare seu código com o gabarito fornecido em “Opinião do instrutor”. Isso ajudará a identificar áreas de melhoria e consolidar o aprendizado.
+- Repita: a repetição é chave para o aprendizado. Tente fazer os exercícios mais de uma vez, aplicando melhorias e variantes.
+- Lembre-se, cada desafio é uma chance de crescer. Não se desanime com os erros; eles são degraus no caminho do aprendizado. E acima de tudo, divirta-se! O aprendizado mais eficaz acontece quando nos engajamos e nos interessamos pelo que estamos fazendo. Não se esqueça que estamos no Fórum e no Discord para te ajudar!
+
+Bons estudos!
+
+1) Capturando elementos com JavaScript
+Você está trabalhando no projeto Fokus, um aplicativo de cronômetro, onde será possível clicar no botão “Iniciar”, para iniciar e pausar um cronômetro. Para realizar o passo a passo, seu primeiro objetivo é implementar métodos do JavaScript que permitam selecionar os seguintes elementos do HTML:
+
+- O documento HTML, onde serão manipulados os elementos;
+- O elemento HTML, em que irá aparecer o temporizador;
+- O elemento HTML, no qual as imagens de cada contexto irão trocar de posição;
+- O elemento HTML, onde as frases de cada contexto irão trocar de posição.
+- Vamos lá?
+
+2) Criando variáveis no JavaScript
+Com os elementos selecionados (conforme visto no exercício anterior), a próxima etapa é guardar cada um desses elementos em variáveis para serem utilizados posteriormente no sistema que você está desenvolvendo. Para verificar se as variáveis estão corretas, utilize o console do navegador, por exemplo: console.log(nome-da-variável).
+
+3) Criando botões da aplicação
+Já definimos vários elementos que serão modificados no projeto “Fokus”, porém essas mudanças irão acontecer a partir do click em botões. Nesta etapa do projeto, crie as variáveis dos 4 (quatro) botões que vamos utilizar:
+
+- Botão que servirá para iniciar e pausar o temporizador;
+- Botão para escolher o temporizador de “Foco”;
+- Botão para escolher o temporizador de “Descanso curto”;
+- Botão para escolher o temporizador de “Descanso longo”.
+
+4) Selecionando botões com JavaScript
+Até essa etapa, você já selecionou diversos elementos e os guardou em variáveis. Agora, crie variáveis com o tempo de cada tipo de temporizador:
+
+- Temporizador de foco com valor 1500;
+- Temporizador de descanso curso com valor 300;
+- Temporizador de descanso longo com valor 900.
+- Esses valores serão convertidos em segundos posteriormente.
 
 
+- Opinião do instrutor
 
+Veja as soluções dos exercícios. Lembre-se de que há várias maneiras de solucionar um mesmo problema (e tudo bem caso seu código tenha saído diferente). O importante é que ele esteja organizado, bem escrito e funcione.
+
+1) Capturando elementos com JavaScript
+Veja como podemos capturar elementos com o Javascript:
+
+Abra o projeto no VSCode;
+Identifique, no arquivo HTML, os elementos solicitados no enunciado da atividade;
+Utilize métodos como querySelector(), getElementsByClassName() para referenciar cada um dos elementos.
+Veja abaixo os códigos que realizam a captura:
+
+```js
+document.querySelector('html');
+document.querySelector('.app__card-primary-button');
+document.querySelector('#timer');
+document.querySelector('.app__image');
+document.querySelector('.app__title');
+```
+
+2) Criando variáveis no JavaScript
+Neste exercício, a ideia é que você crie cada uma das variáveis solicitadas, realizando referência aos elementos HTML.
+
+```js
+const html = document.querySelector('html');
+const displayTempo = document.querySelector('#timer');
+const banner = document.querySelector('.app__image');
+const titulo = document.querySelector('.app__title')
+```
+
+3) Criando botões da aplicação
+Criar botões é uma habilidade essencial em Javascript. Para fazer isso, crie variáveis para guardar os botões para cada tipo de temporizador, “Foco”, “Descanso curto” e “Descanso longo”, além do botão para iniciar o temporizador:
+
+```js
+const botaoIniciar = document.querySelector('.app__card-primary-button');
+const focoBt = document.querySelector('.app__card-button--foco')
+const curtoBt = document.querySelector('.app__card-button--curto')
+const longoBt = document.querySelector('.app__card-button--longo')
+```
+
+4) Selecionando botões com JavaScript
+Crie três variáveis com o nome ideal para cada contexto e guarde seus valores:
+
+```js
+const duracaoFoco = 1500; 
+const duracaoDescansoCurto = 300; 
+const duracaoDescansoLongo = 900; 
+```
+
+Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 ### 8 - O que aprendemos?
 
