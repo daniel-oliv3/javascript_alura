@@ -1584,7 +1584,12 @@ Coloque em prática todo o conhecimento adquirido. Fique livre para personalizar
 
 
 
+### 46 - Conclusão
 
+**Conclusão**
+
+- Exemplo:
+  - script_fokus_46
 
 
 
