@@ -1551,9 +1551,21 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 
 
+### 44 - O que aprendemos?
+
+**O que aprendemos?**
+
+Parabéns!!! Você finalizou a nossa última aula.
+
+Vamos relembrar o que aprendemos?
+
+- Implementar objeto Date: Entendemos como implementar o objeto Date do JavaScript no projeto Fokus para formatar minutos e segundos;
+- Configurar diferentes temporizadores: Configuramos o temporizador para três contextos diferentes: foco, descanso curto e descanso longo;
+- Inserir temporizador na tela: Criamos a função “mostrarTempo()” e utilizamos o método innerHTML para mostrar o temporizador na tela.
 
 
-
+- Exemplo:
+  - script_fokus_44
 
 
 
