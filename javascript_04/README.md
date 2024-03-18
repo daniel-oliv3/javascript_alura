@@ -1569,11 +1569,18 @@ Vamos relembrar o que aprendemos?
 
 
 
+### 45 - Recados finais
 
+**Recados finais**
 
+Parabéns!!!
+Parabéns!!! Você se dedicou e concluiu o curso de JavaScript: Manipulando elementos no DOM!!! 😀
+Neste curso, construímos juntos o projeto Fokus, explorando diversos métodos para manipular elementos no DOM! Agora, você tem superpoderes para construir páginas incríveis integrando interatividade com a pessoa usuária! É hora de voar! 🚀
 
+Coloque em prática todo o conhecimento adquirido. Fique livre para personalizar o seu projeto da maneira que desejar e compartilhar no GitHub, LinkedIn e onde mais desejar! Não deixe de nos marcar, vamos adorar ver como ficou! #AprendiNaAlura @luanalvesdev
 
-
+- Exemplo:
+  - script_fokus_45
 
 
 
