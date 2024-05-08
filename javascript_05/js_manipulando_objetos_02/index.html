@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Montserrat:ital,wght@0,300;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body class="has-text-grey hero">
+
+    <main class="column is-7 hero-body is-offset-one-fifth is-unselectable">
+
+        <form id="form-itens" class="has-text-centered"> 
+            <input type="text" class="input has-text-centered" required placeholder="Digite o item que deseja adicionar" id="receber-item">
+            <button for="salvar" type="submit" class="mt-2 has-text-weight-bold button is-small is-primary">Salvar item</button>
+        </form>
+
+        <div class="has-background-white mt-4">
+            <div>
+                <h2 class="has-text-link has-text-weight-bold is-size-4 ml-2">Lista de compras</h1>
+                    <ul class="mx-2 borda-lista" id="lista-de-itens">
+                    </ul>
+            </div>
+
+            <section class="pb-2">
+                <h2 class="has-text-link has-text-weight-bold is-size-4 ml-2">Comprados</h1>
+                    <ul class="mx-2 borda-lista" id="itens-comprados">
+                    </ul>
+            </section>
+
+        </div>
+        <footer class="has-text-centered has-text-white has-text-weight-bold">Desenvolvido por Alura.</footer>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

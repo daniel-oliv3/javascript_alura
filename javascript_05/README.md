@@ -2,9 +2,9 @@
 ### JavaScript: manipulando objetos
 ##
 
-<p align="center">
+<!-- <p align="center">
   <img alt="...." src="./src/js.png" width="50%">
-</p>
+</p> -->
 
 
 
@@ -35,4 +35,9 @@ Crie métodos para receber dados da pessoa usuária
 
 
 
+### 2 - Preparando o ambiente: download do projeto
 
+**Preparando o ambiente: download do projeto**
+
+- Exemplo:
+  - js_manipulando_objetos_02
