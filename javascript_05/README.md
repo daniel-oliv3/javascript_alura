@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img alt="...." src="./src/JavaScript.jpg" width="50%">
+  <img alt="...." src="./src/JavaScript.jpg" width="100%">
 </p>
 
 ##
