@@ -140,3 +140,185 @@ Na próxima atividade deixei um desafio para você poder exercitar o que aprende
   - js_manipulando_objetos_04
 
 
+
+
+
+### 5 - Desafio: método de ponto ou colchetes
+
+**Desafio: método de ponto ou colchetes**
+
+
+Um desafio para você fixar bem o conteúdo, vamos utilizar o objeto criado na última atividade:
+
+```js
+cliente = {
+   nome: 'Mariana', 
+   idade: 35,
+   genero: ‘Feminino’
+}
+```
+
+`Dica: utilize o método de ponto ou colchetes, para inserir uma nova propriedade ao objeto.`
+
+- Opinião do instrutor
+
+Resultado do desafio com notação de colchetes:
+
+```js
+cliente = {
+    nome: 'Mariana', 
+    idade: 35,
+    genero: 'Feminino'
+ }
+
+cliente['estado'] = 'Pernambuco'
+
+ alert('Olá, meu nome é ' + cliente.nome + ' e moro no estado de ' + cliente.estado + '.')
+```
+
+Resultado do desafio com notação de ponto:
+
+```js
+cliente = {
+    nome: 'Mariana', 
+    idade: 35,
+    genero: 'Feminino'
+ }
+
+cliente.estado = 'Pernambuco'
+
+ alert('Olá, meu nome é ' + cliente.nome + ' e moro no estado de ' + cliente.estado + '.')
+```
+
+- Exemplo:
+  - js_manipulando_objetos_05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
