@@ -41,3 +41,23 @@ Crie métodos para receber dados da pessoa usuária
 
 - Exemplo:
   - js_manipulando_objetos_02
+
+
+
+### 3 - Criando um objeto
+
+**Criando um objeto**
+
+- Exemplo:
+  - js_manipulando_objetos_03
+
+
+
+
+
+
+
+
+
+
+
