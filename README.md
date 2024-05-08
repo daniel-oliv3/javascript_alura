@@ -14,3 +14,5 @@
 
 ### 4 - JavaScript: manipulando elementos no DOM
 
+### 5 - JavaScript: manipulando objetos
+
