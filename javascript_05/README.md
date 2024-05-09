@@ -355,6 +355,99 @@ Resultado no pop up: Seja bem-vinda Rafaela dos Santos Soares
   - js_manipulando_objetos_13
 
 
+### 14 - Para saber mais: escopo léxico
+
+**Para saber mais: escopo léxico**
+
+Existem três tipos de escopo que você deve conhecer no JavaScript que são: Escopo de funções, escopo de blocos e escopo léxico.
+
+Vamos abordar agora o Escopo léxico e entender seu funcionamento a partir dos exemplos a seguir:
+
+Escopo global e escopo local
+
+Um elemento de escopo global significa que foi declarado no primeiro nível de código, ou seja, ele não se encontra dentro de nenhuma outra função.
+
+```js
+function mostraFilme() {             // Exemplo de função de escopo global
+    const filme = { titulo: 'Titanic'}  // Exemplo de objeto de escopo local
+    console.log(filme.titulo)         // Exemplo de objeto de escopo local
+}
+
+mostraFilme()
+```
+
+Esse código retorna no console: Titanic.
+
+No exemplo acima a função mostraFilme() se encontra no escopo global, e o objeto filme, se encontra no escopo local da função mostraFilme(). É importante entender que métodos do JavaScript também possuem escopo, como log(), forEach(), e while().
+
+Por que é importante entender a diferença entre escopo global e local?
+
+Vamos acrescentar mais elementos no nosso exemplo:
+
+```js
+const filme = { 
+    titulo: 'Wakanda',
+}
+
+function declaraFilme() {
+    console.log(filme.titulo)
+}
+
+function mostraFilme() {
+    const filme = { titulo: 'Titanic'}
+    console.log(filme.titulo)
+}
+
+mostraFilme()
+declaraFilme()
+```
+
+Esse código retorna no console:
+
+Titanic
+
+Wakanda
+
+É possível perceber que a função declaraFilme() recebe o objeto filme com a propriedade + chave titulo ‘Wakanda’ que foi declarado fora do seu escopo.
+
+Já a função mostraFilme() recebe o objeto filme com propriedade + chave titulo ’Titanic’, que está declarado dentro do seu escopo.
+
+Com isso, podemos observar que:
+
+Objetos podem ser declarados com o mesmo nome se estiverem em escopos diferentes.
+Funções podem acessar objetos que estiverem no seu interior.
+Se uma função estiver chamando um objeto que não está declarado no seu interior, esse objeto será buscado nos escopos acima(como no caso da função declaraFilme()).
+Os apontamentos acima possuem o mesmo resultado substituindo objetos por variáveis.
+Agora vamos conferir o código abaixo, neste caso, a função mostraFilme() está chamando no console filme.titulo, e também guarda uma nova função chamada novoFilme(). e nesta função está declarado o objeto filme:
+
+
+```js
+function mostraFilme() {
+    console.log(filme.titulo)
+
+    function novoFilme() {
+        const filme = { 
+            titulo: 'Wakanda',
+        }
+    }
+
+}
+
+mostraFilme()
+```
+
+Este código retorna um erro de referência no console: “Uncaught ReferenceError: filme is not defined”. O aviso informa que o objeto filme não conseguiu ser acessado quando a função mostraFilme() foi executada.
+
+Com isso, é possível chegar a mais algumas conclusões:
+
+Objetos podem ser acessados fora de uma função, ou dentro de uma função, mas nesse último caso não é possível ser acessado caso esteja dentro de outro escopo no seu interior.
+A conclusão acima tem o mesmo resultado substituindo objetos por variáveis.
+Escopo léxico nada mais é que funções alinhadas estarem sujeitas a buscar objetos ou variáveis no escopo acima delas.
+
+Entender sobre escopos na linguagem JavaScript é importante para construção de códigos no qual seus blocos estejam interligados, o que acontece na maioria dos casos.
+
+- Exemplo:
+  - js_manipulando_objetos_14
 
 
 
