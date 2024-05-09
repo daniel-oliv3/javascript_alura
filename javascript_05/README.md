@@ -218,8 +218,13 @@ No vídeo abaixo, o youtuber Marco Bruno explica a diferença entre var, let e c
   - js_manipulando_objetos_07
 
 
+### 8 - Clonando objetos
+
+**Clonando objetos**
 
 
+- Exemplo:
+  - js_manipulando_objetos_08
 
 
 
