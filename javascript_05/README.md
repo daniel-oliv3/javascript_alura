@@ -318,9 +318,20 @@ Resultado no pop up: Seja bem-vinda Rafaela dos Santos Soares
 
 
 
+### 11 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu como:
+  - Definiu o que é objetos em JavaScript;
+  - Aprendeu na prática como criar objetos;
+  - Aprendeu como editar e deletar valores de objetos;
+  - Utilizou o conjunto de objetos, métodos e funções do JavaScript para criar funcionalidades no projeto;
+  - Aprendeu a diferença entre var, let e const;
+  - Aprendeu como criar objetos a partir das informações passadas pela pessoa usuária.
 
+- Exemplo:
+  - js_manipulando_objetos_11
 
 
 
