@@ -227,7 +227,7 @@ No vídeo abaixo, o youtuber Marco Bruno explica a diferença entre var, let e c
   - js_manipulando_objetos_08
 
 
-### 9 Comparando objetos
+### 9 - Comparando objetos
 
 **Comparando objetos**
 
@@ -238,6 +238,83 @@ No vídeo abaixo, o youtuber Marco Bruno explica a diferença entre var, let e c
 
 
 
+### 10 - Estrutura de objetos
+
+**Estrutura de objetos**
+
+No JavaScript, vimos que objetos são estruturas de dados compostas por chave e valor, que nos ajudam a representar algo da vida real. Observando esses conceitos, assinale o objeto que possui o conjunto de sintaxe e semântica corretos.
+
+- A: 
+```js
+const d = {
+  nome: "Rafaela dos Santos Soares",
+  agencia: 2158,
+  conta: 525,
+  saldo: 123.13,
+  eMail: "rafaela.soares@email.com.br",
+  c: function () {
+    alert("Seja bem-vinda " + d.nome + "." )
+  }
+}
+d.c()
+```
+Resultado no pop up: Seja bem-vinda rafaela.soares@email.com.br.
+
+- B: 
+```js
+const dadosDeUsuario = {
+  nome: "Rafaela dos Santos Soares"
+  agencia: 2158
+  conta: 525
+  saldo: 123.13
+  eMail: "rafaela.soares@email.com.br"
+}
+
+mostraDados: function () {
+  alert(dadosDeUsuario.nome)
+}
+
+dadosDeUsuario.mostraDados()
+```
+
+Resultado no pop up: Rafaela dos Santos Soare
+
+- C: 
+```js
+const dadosDeUsuario = {
+  nome: "Rafaela dos Santos Soares",
+  agencia: 2158,
+  conta: 525,
+  saldo: 123.13,
+  eMail: "rafaela.soares@email.com.br",
+  mostraDados: function () {
+    alert("Seja bem-vinda " + dadosDeUsuario.nome + "." )
+  }
+}
+dadosDeUsuario.mostraDados()
+```
+Resultado no pop up: ”Seja bem-vinda Rafaela dos Santos Soares.”
+`Parabéns! O nome do objeto representa os dados que ele guarda, e o nome da função representa o que ela realmente faz. A sintaxe do código está correta, retornando o que foi proposto: “Rafaela Soares dos Santos”.`
+
+- D: 
+```js
+const dadosDeUsuario = {
+  nome: "Rafaela dos Santos Soares",
+  agencia: 2158,
+  conta: 525,
+  saldo: 123.13,
+  eMail: "rafaela.soares@email.com.br",
+  mostraDados: function () {
+    alert(dadosDeUsuario.nome)
+  }
+}
+dadosDeUsuario.mostraDados()
+```
+
+Resultado no pop up: Seja bem-vinda Rafaela dos Santos Soares
+
+- Exemplo:
+  - js_manipulando_objetos_10
 
 
 
