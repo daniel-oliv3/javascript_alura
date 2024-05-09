@@ -227,7 +227,13 @@ No vídeo abaixo, o youtuber Marco Bruno explica a diferença entre var, let e c
   - js_manipulando_objetos_08
 
 
+### 9 Comparando objetos
 
+**Comparando objetos**
+
+
+- Exemplo:
+  - js_manipulando_objetos_09
 
 
 
