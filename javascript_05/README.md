@@ -335,9 +335,16 @@ Resultado no pop up: Seja bem-vinda Rafaela dos Santos Soares
 
 
 
+##
+### Parte 2 - Métodos e escopo léxico
+##
 
+### 12 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
+- Exemplo:
+  - js_manipulando_objetos_12
 
 
 
