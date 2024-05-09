@@ -196,13 +196,17 @@ cliente.estado = 'Pernambuco'
 
 
 
+### 6 - Para saber mais: objetos com var, let ou const
 
+**Para saber mais: objetos com var, let ou const**
 
+No vídeo abaixo, o youtuber Marco Bruno explica a diferença entre var, let e const, e porque é indicado que objetos nunca iniciem a partir de uma variável do tipo: var.
 
+- Como funciona o var, let e const? #01
+  - Link: https://www.youtube.com/watch?v=EFoEqHIwxqY
 
-
-
-
+- Exemplo:
+  - js_manipulando_objetos_06
 
 
 
