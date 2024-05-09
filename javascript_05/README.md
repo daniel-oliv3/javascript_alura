@@ -347,9 +347,12 @@ Resultado no pop up: Seja bem-vinda Rafaela dos Santos Soares
   - js_manipulando_objetos_12
 
 
+### 13 - Definindo métodos
 
+**Definindo métodos**
 
-
+- Exemplo:
+  - js_manipulando_objetos_13
 
 
 
