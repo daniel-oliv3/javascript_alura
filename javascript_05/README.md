@@ -624,7 +624,137 @@ mostraSeries()
   - js_manipulando_objetos_22
 
 
+### 23 - Para saber mais: recortando objetos
 
+**Para saber mais: recortando objetos**
+
+No vídeo passado, você aprendeu como utilizar o método splice(), e é importante não confundir com outro método com nome parecido, o slice().
+
+Que tal entender como o slice() funciona?
+
+Vamos supor que no projeto que estamos desenvolvendo, o Lista de Compras exista um orçamento máximo, sendo possível comprar apenas alguns itens da lista. O slice() poderia nos ajudar a selecionar quais itens poderiam ser comprados. Veja como:
+
+O slice() recorta uma cópia do array original e salva esse corte em um novo array, para isso, é possível passar dois parâmetros:
+
+O primeiro parâmetro determina a partir de onde os elementos serão recortados:
+
+```js
+let listaDeItens = [
+    {
+        item1: 'Maracujá'
+    },
+    {
+        item2: 'Manga'
+    },
+    {
+        item3: 'Uva'
+    },
+    {
+        item4: 'Suco'
+    },
+    {
+        item5: 'Alface'
+    },
+    {
+        item6: 'Feijão'
+    },
+]
+
+novaLista = listaDeItens.slice(2)
+
+console.log(novaLista)
+
+```
+
+O console irá retornar:
+
+```js
+{item3: 'Uva'}
+{item4: 'Suco'}
+{item5: 'Alface'}
+{item6: 'Feijão'}
+```
+
+O segundo parâmetro determina até onde essa fatia será recortada:
+
+```js
+let listaDeItens = [
+    {
+        item1: 'Maracujá'
+    },
+    {
+        item2: 'Manga'
+    },
+    {
+        item3: 'Uva'
+    },
+    {
+        item4: 'Suco'
+    },
+    {
+        item5: 'Alface'
+    },
+    {
+        item6: 'Feijão'
+    },
+]
+
+novaLista = listaDeItens.slice(2, 4)
+
+console.log(novaLista)
+```
+
+O console irá retornar:
+
+```js
+{item3: 'Uva'}
+{item4: 'Suco'}
+```
+
+Passando valores negativos para o segundo parâmetro, será contado de forma decrescente quantos elementos ficarão de fora do recorte, ou seja, será contado de trás pra frente:
+
+Passando valor 2 no primeiro parâmetro, e valor -2 no segundo parâmetro. O primeiro parâmetro identificará em ordem crescente a partir de onde os itens serão recortados('Maracujá', 'Manga'), já o segundo parâmetro com valor negativo -2, irá contar de forma decrescente quantos elementos ficarão de fora do recorte('Feijão', 'Tapioca'), ou seja, será contado de trás pra frente:
+
+```js
+let listaDeItens = [
+    {
+        item1: 'Maracujá'
+    },
+    {
+        item2: 'Manga'
+    },
+    {
+        item3: 'Uva'
+    },
+    {
+        item4: 'Suco'
+    },
+    {
+        item5: 'Alface'
+    },
+    {
+        item6: 'Feijão'
+    },
+    {
+        item7: 'Tapioca'
+    },
+]
+
+novaLista = listaDeItens.slice(2,-2)
+```
+
+O console irá retornar:
+
+```js
+{item3: 'Uva'}
+{item4: 'Suco'}
+{item5: 'Alface'}
+```
+
+**OBS**: O `slice()` não altera os valores do array original, ele salva os itens selecionados em um novo array. Este método também pode ser utilizado para selecionar caracteres de uma string, ou qualquer outro conjunto de elementos salvos em um array.
+
+- Exemplo:
+  - js_manipulando_objetos_23
 
 
 
