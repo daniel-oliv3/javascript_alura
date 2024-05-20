@@ -769,7 +769,13 @@ O console irá retornar:
 
 
 
+### 25 - Editando no DOM
 
+**Editando no DOM**
+
+
+- Exemplo:
+  - js_manipulando_objetos_25
 
 
 
