@@ -498,11 +498,6 @@ Uma dica, caso tenha alguma dificuldade em entender sobre os escopos nos código
 
 - Selecione uma alternativa
 
-
-- Exemplo:
-  - js_manipulando_objetos_19
-
-
 - A: 
 
 ```js
@@ -586,13 +581,24 @@ function mostraSeries() {
 mostraSeries()
 ```
 
+- Exemplo:
+  - js_manipulando_objetos_19
 
 
+### 20 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+  - Aprendeu como renderizar objetos na página;
+  - Uniu funções e eventos para manipular objeto no DOM, alterando o valor de sua chave;
+  - Entendeu na prática e com conhecimento extra o que é escopo léxico no JavaScript;
+  - Aprendeu e implementou método Callback em um array de objetos;
+  - Analisou e utilizou de métodos do JavaScript para melhorar a experiência da pessoa usuária na utilização do projeto.
 
 
-
-
-
+- Exemplo:
+  - js_manipulando_objetos_20
 
 
 
