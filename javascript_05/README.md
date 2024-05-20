@@ -759,8 +759,13 @@ O console irá retornar:
 
 
 
+### 24 - Identificando índice de objetos
+
+**Identificando índice de objetos**
 
 
+- Exemplo:
+  - js_manipulando_objetos_24
 
 
 
