@@ -475,6 +475,7 @@ Entender sobre escopos na linguagem JavaScript é importante para construção d
   - js_manipulando_objetos_17
 
 
+
 ### 18 - Manipulando objetos no DOM
 
 **Manipulando objetos no DOM**
@@ -485,15 +486,105 @@ Entender sobre escopos na linguagem JavaScript é importante para construção d
 
 
 
+### 19 - Conhecendo escopos
+
+**Conhecendo escopos**
+
+Nesta aula você aprendeu como os escopos influenciam no acesso de objetos na linguagem JavaScript, além de que é possível criar objetos e variáveis com o mesmo nome, estando em escopos diferentes.
+
+Utilizando do conhecimento adquirido, assinale a alternativa que retorne no console o título: Casa do Dragão.
+
+Uma dica, caso tenha alguma dificuldade em entender sobre os escopos nos códigos abaixo, você pode copiá-los e testá-los no editor de código, ou no próprio console do navegador.
+
+- Selecione uma alternativa
 
 
+- Exemplo:
+  - js_manipulando_objetos_19
 
 
+- A: 
+
+```js
+function retornaSerie() {
+
+    const serie = {
+        titulo: "Casa do Dragão"
+    }
+
+    function retornaNovaSerie() {
+        console.log(serie.titulo)
+
+        function novaSerie() {
+            const serie = {
+                titulo: "Grey's Anatomy"
+            }
+        }
+
+    }
+
+}
+
+retornaNovaSerie()
+```
 
 
+- B: 
+
+```js
+function mostraSeries() {
+
+    const serie = {
+        titulo: "Casa do Dragão"
+    }
+
+    function mostraNovaSerie() {
+        console.log(serie.titulo)
+
+        function novaSerie() {
+            const serie = {
+                titulo: "Grey's Anatomy"
+            }
+        }
+
+    }
+
+    mostraNovaSerie()
+
+}
+
+mostraSeries()
+```
+
+`O chamado do objeto no console.log declarado na função mostraNovaSerie() busca o objeto no seu escopo, e como não encontra, busca um escopo anterior, localizando o objeto que está declarado na função mostraSeries().`
 
 
+- C: 
 
+```js
+function mostraSeries() {
+
+    const serie = {
+        titulo: "Grey's Anatomy"
+    }
+
+    function mostraNovaSerie() {
+        console.log(serie.titulo)
+
+        function novaSerie() {
+            const serie = {
+                titulo: "Casa do Dragão"
+            }
+        }
+
+    }
+
+    mostraNovaSerie()
+
+}
+
+mostraSeries()
+```
 
 
 
