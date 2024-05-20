@@ -467,7 +467,12 @@ Entender sobre escopos na linguagem JavaScript é importante para construção d
   - js_manipulando_objetos_16
 
 
+### 17 - lterando o valor do objeto
 
+**lterando o valor do objeto**
+
+- Exemplo:
+  - js_manipulando_objetos_17
 
 
 
