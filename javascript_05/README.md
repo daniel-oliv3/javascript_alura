@@ -601,11 +601,17 @@ mostraSeries()
   - js_manipulando_objetos_20
 
 
+##
+### Parte 3 - Deletando e editando objetos
+##
 
 
+### 21 - Projeto da aula anterior
 
+**Projeto da aula anterior**
 
-
+- Exemplo:
+  - js_manipulando_objetos_21
 
 
 
