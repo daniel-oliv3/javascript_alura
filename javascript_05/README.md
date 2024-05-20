@@ -475,7 +475,12 @@ Entender sobre escopos na linguagem JavaScript é importante para construção d
   - js_manipulando_objetos_17
 
 
+### 18 - Manipulando objetos no DOM
 
+**Manipulando objetos no DOM**
+
+- Exemplo:
+  - js_manipulando_objetos_18
 
 
 
