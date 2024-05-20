@@ -779,6 +779,40 @@ O console irá retornar:
 
 
 
+### 26 - Array de objetos
+
+**Array de objetos**
+
+Aprendemos que em um array de objetos o índice inicia a partir de 0, porém sua posição inicia a partir de 1. Supondo que em um array de objetos chamado de veiculos, são guardados dados contendo nomes de modelos de veículos. Adicione novos objetos a partir da posição 3, sem substituir por nenhum dos outros objetos que já estão no array.
+
+Marque a alternativa que possibilita chegar nesse objetivo:
+
+- Selecione uma alternativa
+
+- A: 
+```js
+veiculos.splice(0,2, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
+```
+
+- B:
+```js
+veiculos.splice(3,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
+```
+
+- C:
+```js
+veiculos.splice(2,3, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
+```
+
+- D:
+```js
+veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
+```
+
+`Parabéns! Passando como primeiro parâmetro 2, é indicado que serão adicionados novos elementos a partir da posição seguinte, ou seja, posição 3. O segundo parâmetro determina quantos elementos serão substituídos pelos novos, neste caso 0, já que o objetivo é apenas adicionar novos elementos. E o terceiro parâmetro são quais serão os novos elementos a serem adicionados no array.`
+
+- Exemplo:
+  - js_manipulando_objetos_26
 
 
 
