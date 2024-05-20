@@ -616,7 +616,12 @@ mostraSeries()
 
 
 
+### 22 - Deletando objetos
 
+**Deletando objetos**
+
+- Exemplo:
+  - js_manipulando_objetos_22
 
 
 
