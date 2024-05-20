@@ -459,7 +459,12 @@ Entender sobre escopos na linguagem JavaScript é importante para construção d
   - js_manipulando_objetos_15
 
 
+### 16 - Índice do objeto
 
+**Índice do objeto**
+
+- Exemplo:
+  - js_manipulando_objetos_16
 
 
 
