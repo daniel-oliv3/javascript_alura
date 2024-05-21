@@ -844,7 +844,12 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
   - js_manipulando_objetos_29
 
 
+### 30 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+  - js_manipulando_objetos_30
 
 
 
