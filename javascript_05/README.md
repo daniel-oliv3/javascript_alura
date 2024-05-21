@@ -824,9 +824,12 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
   - js_manipulando_objetos_27
 
 
+### 28 - Comparando e modificando valores
 
+**Comparando e modificando valores**
 
-
+- Exemplo:
+  - js_manipulando_objetos_28
 
 
 
