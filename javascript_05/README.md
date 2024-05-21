@@ -832,7 +832,16 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
   - js_manipulando_objetos_28
 
 
+### 29 - O que aprendemos?
 
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+  - Utilizou de métodos do JavaScript que possibilitam remover, editar, adicionar e substituir elementos de um array, contextualizando com objetos;
+  - Aprendeu métodos para comparar e modificar valores.
+
+- Exemplo:
+  - js_manipulando_objetos_29
 
 
 
