@@ -816,7 +816,12 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
 
 
 
+### 27 - Editando objetos
 
+**Editando objetos**
+
+- Exemplo:
+  - js_manipulando_objetos_27
 
 
 
