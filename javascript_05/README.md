@@ -1027,6 +1027,77 @@ Para aprender e praticar mais Git e GitHub, você pode realizar o curso Git e Gi
 
 
 
+### 40 - Para saber mais: explorando o this
+
+**Para saber mais: explorando o this**
+
+O this no JavaScript aponta para um objeto, e o objeto para onde está apontando, varia dependendo do contexto onde o this está inserido.
+
+Por padrão, quando chamamos o this sem nenhuma referência no escopo global, por exemplo, chamando direto no console: console.log(this), ele vai sempre estar apontando para o window, que é o objeto global do navegador.
+
+```js
+console.log(this === window)        // true
+```
+
+```js
+this.idade = 37
+console.log(window.idade)             //37
+```
+
+Alguns contextos do this em funções
+No exemplo abaixo, quando serie.retornaSerie() é declarado no console, o this dentro da função é vinculado ao objeto filme.
+
+```js
+var serie = {
+  titulo: "Wandinha",
+  retornaSerie: function() {
+  return this.titulo;
+    }
+};
+
+console.log("O título da série é " + serie.retornaSerie());    // O título da série é Wandinha
+```
+
+Seria possível também definir a função e objeto separados e apenas depois anexar o objeto à função:
+
+```js
+var serie = {
+  titulo: "Wandinha"
+
+}
+  function retornaSerie() {
+    return this.titulo;
+}
+
+serie.novaSerie = retornaSerie
+
+console.log("O título da série é " + serie.novaSerie());     //  O título da série é Wandinha
+```
+
+O this em arrow functions
+Caso você utilize o this em uma arrow function, o seu valor será herdado do this do escopo que envolve a declaração da arrow function, o escopo léxico. Para entender melhor, confere o exemplo abaixo:
+
+```js
+const serie = {
+  titulo: "Wandinha",
+    retornaSerie: () => this.titulo
+}
+
+console.log("O título da série é " + serie.retornaSerie());      // O título da série é undefined
+```
+
+Neste código, o this está declarado em uma arrow function, e essa função está declarada em um objeto no escopo global. Como o this na arrow function herda o escopo do elemento pai, que nesse caso é o objeto que se encontra no escopo global, a arrow function aponta para o window. O objeto global window não possui nenhuma chave com o nome titulo, e por esse motivo, o console retorna undefined.
+
+É importante entender que a forma de uso do this deve variar de acordo com o seu contexto. Gostaria de compartilhar mais alguma outra forma do uso do this? Compartilha com a gente no fórum.
+
+Se você deseja entender mais sobre o this também no contexto de Classes, pode conferir no artigo This, Getters e Setters, escrito pela Rafaella Ballerini. E se deseja entender mais sobre Arrow Functions, separei o artigo Conhecendo Arrow Functions, escrito pelo instrutor Felipe Nascimento.
+
+- https://www.alura.com.br/artigos/as-classes-no-javascript
+- https://www.alura.com.br/artigos/conhecendo-arrow-functions
+
+- Exemplo:
+  - js_manipulando_objetos_40
+
 
 
 
