@@ -949,9 +949,26 @@ Nesta aula, utilizamos o armazenador da web localStorage para salvar objetos. De
 
 
 
+### 35 - Conhecendo o localStorage
 
+**Conhecendo o localStorage**
 
+Nesta aula você utilizou o localStorage para salvar dados do JavaScript e permitiu a funcionalidade do projeto Lista de Compras. Dessa forma, foi possível manter os itens de compra na página.
 
+Marque a alternativa correta sobre a transferência de dados entre o JavaScript e localStorage:
+
+- Selecione uma alternativa
+
+- A: A linguagem de programação JavaScript possibilita criar métodos para receber informações de quem estiver utilizando alguma aplicação, e também possui métodos de armazenar essas informações de forma persistente, não sendo necessário conectar uma aplicação a um banco de dados ou armazenador de dados, como o localStorage.
+
+- B: A linguagem de programação JavaScript possibilita criar métodos para receber informações de quem estiver utilizando alguma aplicação, porém ela não possui métodos de armazenar essas informações de forma persistente, sendo sempre necessário conectar tal aplicação a um banco de dados ou armazenador de dados, como o localStorage para viabilizar sua funcionalidade.
+
+- C: A linguagem de programação JavaScript possibilita criar métodos para receber informações de quem estiver utilizando alguma aplicação, porém ela não possui métodos para armazenar essas informações de forma persistente, sendo necessário conectar tal aplicação a um banco de dados ou armazenador de dados, como o localStorage.
+
+`Parabéns! A linguagem JavaScript possibilita receber informações e guardá-las em objetos, arrays, variáveis, porém não possui métodos próprios para guardar de forma persistente esses dados, para isso existem banco de dados e armazenadores de dados.`
+
+- Exemplo:
+  - js_manipulando_objetos_35
 
 
 
