@@ -927,10 +927,35 @@ Saber dessas regras acerca dos padrões de escrita do JSON é importante, porém
 
 **GetItem**
 
-- Valores que retornão false:
+- Valores que retornam false:
 
 `Valores omitidos`, `0`, `Null`, `Underfined`, `""`, `false`.
 
 - Exemplo:
   - js_manipulando_objetos_33
+
+
+### 34 - Para saber mais: armazenadores de dados
+
+**Para saber mais: armazenadores de dados**
+
+Nesta aula, utilizamos o armazenador da web localStorage para salvar objetos. Dessa forma, vimos a sua importância na prática para permitir a usabilidade do projeto e como existem outros armazenadores web indico a leitura do artigo Armazenadores de dados do navegador, escrito por mim.
+
+- Link: https://www.alura.com.br/artigos/armazenadores-de-dados-do-navegador
+
+- Exemplo:
+  - js_manipulando_objetos_34
+
+
+
+
+
+
+
+
+
+
+
+
+
 
