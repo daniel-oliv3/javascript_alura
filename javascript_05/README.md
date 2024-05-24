@@ -1010,6 +1010,68 @@ Marque a alternativa correta sobre a transferência de dados entre o JavaScript 
   - js_manipulando_objetos_38
 
 
+### 39 - Para saber mais: conhecendo o GitHub
+
+**Para saber mais: conhecendo o GitHub**
+
+Apresentei para você o GitHub, que é o repositório online mais utilizado por empresas de tecnologia e pessoas programadoras atualmente. E assim, para guardar e fazer deploy do seu projeto!
+
+Para aprender e praticar mais Git e GitHub, você pode realizar o curso Git e GitHub: repositório, commit e versões aqui da Alura.
+
+- Curso GITHUB:
+  - Link: https://cursos.alura.com.br/course/git-github-repositorio-commit-versoes
+
+- Exemplo:
+  - js_manipulando_objetos_39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
