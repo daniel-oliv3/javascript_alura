@@ -1184,7 +1184,12 @@ Agora é sua vez de colocar em prática todo o conhecimento adquirido. Você pod
   - js_manipulando_objetos_43
 
 
+### 44 - Conclusão
 
+**Conclusão**
+
+- Exemplo:
+  - js_manipulando_objetos_44
 
 
 
