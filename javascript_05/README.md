@@ -864,4 +864,59 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
   - js_manipulando_objetos_31
 
 
+### 32 - Para saber mais: o JSON
 
+**Para saber mais: o JSON**
+
+Nesta aula aprendemos a enviar e receber dados do localStorage utilizando de alguns métodos, dois deles são: JSON.parse e JSON.stringify. E o que significa JSON?
+
+O nome JSON é abreviação de JavaScript Object Notation, ou, “notação de objeto JavaScript”. O JSON é um arquivo que nos permite armazenar e trocar dados. Para possibilitar essa troca de dados, é necessário que eles estejam em um formato padrão. Vamos comparar os exemplos abaixo:
+
+Formato JSON:
+
+```json
+{
+“id”: 15,
+“carro”: “Fusca”,
+“ano”: 1950,
+“categoria”: “Colecionador”,
+“raridade”: “Muito raro”
+}
+```
+
+Formato JavaScript:
+
+```js
+{
+id: 15,
+carro: “Fusca”,
+ano: 1950,
+categoria: “Colecionador”,
+raridade: “Muito raro”
+}
+```
+
+Como observado acima, JSON e JavaScript armazenam dados de formas diferentes. E a sintaxe de ambos, apesar de terem algumas diferenças, são bastante similares e pouco verbosas(muito ou pouco verboso, na programação, são expressões para caracterizar quando algum bloco de código possui muito ou pouco caracteres).
+
+O JSON é o padrão mais utilizado para troca de informações atualmente entre APIs, porém não é o único. Existem também outras soluções, o XML, é uma dessas soluções, sua sintaxe é mais verbosa, e utiliza o sistema de tags para guardar os dados.
+
+Formato XML:
+
+```xml
+<auto id=”15”>
+    <carro>FUSCA</carro>
+    <ano>1950<ano>
+    <categoria>Colecionador</categoria>
+    <raridade></raridade>
+</auto>
+```
+
+Apesar de simples, o formato JSON exige que os dados devam seguir alguns padrões:
+
+Os dados devem sempre estar entre aspas duplas ” ”
+É possível armazenar dados primitivos(string, number para número finitos, true, false e null)
+Não são permitidas vírgulas após o último conjunto de chave/valor do objeto
+Saber dessas regras acerca dos padrões de escrita do JSON é importante, porém, muito provavelmente não será a pessoa que estiver programando que irá refatorar os dados. Como realizado nesta aula, basta utilizar o método JSON.stringify, e essa refatoração irá ser automatizada.
+
+- Exemplo:
+  - js_manipulando_objetos_32
