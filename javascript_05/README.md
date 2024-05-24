@@ -1099,8 +1099,62 @@ Se você deseja entender mais sobre o this também no contexto de Classes, pode 
   - js_manipulando_objetos_40
 
 
+### 41 - Acessando objeto com this
 
+**Acessando objeto com this**
 
+Nesta aula conhecemos o uso da função this, e como é possível acessar objetos com seu uso, vamos praticar? Marque a alternativa na qual a função retorna no console:
+
+```js
+Seja bem-vinda Carla 
+```
+
+- Selecione uma alternativa
+
+- A: 
+```js
+var pessoa = {
+  nome: "Carla",
+  idade: 37,
+  profissao: "Desenvolvedora Front-end",
+  mostraNome: function() {
+    return this.nome;
+  }
+};
+
+console.log("Seja bem-vinda " + pessoa.mostraNome());
+```
+
+`O this busca o objeto primeiro no escopo onde se encontra, dentro da função mostraNome, como não encontra, ele segue para o escopo anterior, ao qual a função está declarada. E assim, localiza o valor da chave nome do objeto pessoa.`
+
+- B:
+
+```js
+const pessoa = {          
+  nome: "Carla",
+  idade: 37,
+  profissao: "Desenvolvedora Front-end",
+  mostraPessoa: () => this.nome
+}
+
+console.log("Seja bem-vinda " + mostraPessoa()); 
+```
+
+- C:
+
+```js
+const pessoa = {          
+  nome: "Carla",
+  idade: 37,
+  profissao: "Desenvolvedora Front-end",
+  mostraPessoa: () => this.nome
+}
+
+console.log("Seja bem-vinda " + pessoa.mostraPessoa()); 
+```
+
+- Exemplo:
+  - js_manipulando_objetos_41
 
 
 
