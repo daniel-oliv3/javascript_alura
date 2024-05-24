@@ -1171,9 +1171,17 @@ console.log("Seja bem-vinda " + pessoa.mostraPessoa());
   - js_manipulando_objetos_42
 
 
+### 43 - Parabéns
 
+**Parabéns**!!!!
 
+Agora é hora de te dar os parabéns!! :)
+Neste treinamento você aprendeu sobre objetos no JavaScript criando um projeto completo, e de quebra ainda fez o deploy!
 
+Agora é sua vez de colocar em prática todo o conhecimento adquirido. Você pode personalizar o projeto como desejar, criar mais funcionalidades e compartilhar no GitHub, LinkedIn ou Instagram. Publique também com as hashtags #alura #aprendinaalura, assim a gente fica sabendo, e vamos adorar ver seu desenvolvimento!
+
+- Exemplo:
+  - js_manipulando_objetos_43
 
 
 
