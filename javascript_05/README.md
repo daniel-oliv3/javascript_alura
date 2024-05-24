@@ -2,11 +2,6 @@
 ### JavaScript: manipulando objetos
 ##
 
-<!-- <p align="center">
-  <img alt="...." src="./src/js.png" width="50%">
-</p> -->
-
-
 
 <p align="center">
   <img alt="...." src="./src/JavaScript.jpg" width="100%">
