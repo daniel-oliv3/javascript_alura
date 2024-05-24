@@ -920,3 +920,17 @@ Saber dessas regras acerca dos padrões de escrita do JSON é importante, porém
 
 - Exemplo:
   - js_manipulando_objetos_32
+
+
+
+### 33 - GetItem
+
+**GetItem**
+
+- Valores que retornão false:
+
+`Valores omitidos`, `0`, `Null`, `Underfined`, `""`, `false`.
+
+- Exemplo:
+  - js_manipulando_objetos_33
+
