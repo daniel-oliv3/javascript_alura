@@ -69,7 +69,12 @@ Ao infinito e além! Vamos explorar novos horizontes de conhecimento juntos!
   - js_vidflow_api_04
 
 
+### 5 - Ícones do cabeçalho
 
+**Ícones do cabeçalho**
+
+- Exemplo:
+  - js_vidflow_api_05
 
 
 
