@@ -61,7 +61,12 @@ Ao infinito e além! Vamos explorar novos horizontes de conhecimento juntos!
   - js_vidflow_api_03
 
 
+### 4 - Construindo o cabeçalho
 
+**Construindo o cabeçalho**
+
+- Exemplo:
+  - js_vidflow_api_04
 
 
 
