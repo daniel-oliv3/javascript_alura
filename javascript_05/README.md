@@ -999,6 +999,19 @@ Marque a alternativa correta sobre a transferência de dados entre o JavaScript 
   - js_manipulando_objetos_37
 
 
+### 38 - Deploy no GitHub
+
+**Deploy no GitHub**
+
+- Vercel
+  - Link: https://lista-de-compras-alura-js.vercel.app/
+
+- Exemplo:
+  - js_manipulando_objetos_38
+
+
+
+
 
 
 
