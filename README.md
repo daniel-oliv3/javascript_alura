@@ -16,3 +16,5 @@
 
 ### 5 - JavaScript: manipulando objetos
 
+### 6 - JavaScript: consumindo e tratando dados de uma API
+
