@@ -819,8 +819,12 @@ E a barra lateral está pronta!😄
   - js_vidflow_api_06
 
 
+### 7 - Criando seção de categoria
 
+**Criando seção de categoria**
 
+- Exemplo:
+  - js_vidflow_api_07
 
 
 
