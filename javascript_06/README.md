@@ -53,9 +53,12 @@ Ao infinito e além! Vamos explorar novos horizontes de conhecimento juntos!
 
 
 
+### 3 - Conhecendo o projeto
 
+**Conhecendo o projeto**
 
-
+- Exemplo:
+  - js_vidflow_api_03
 
 
 
