@@ -828,7 +828,28 @@ E a barra lateral está pronta!😄
 
 
 
+### 8 - Analisando divs e classes em HTML
 
+**Analisando divs e classes em HTML**
+
+Durante o desenvolvimento do aplicativo VidFlow, você recebeu uma tarefa de revisão de código de um colega de equipe. No código fornecido, esse colega está tentando implementar a interface do VidFlow usando HTML e CSS. Ele pediu sua ajuda para verificar se as regras de codificação de estilo, organização e boas práticas foram seguidas corretamente. Examinando o código HTML deste colega, você observa várias divs com classes diferentes associadas ao elemento header.
+
+O que isso significa no código?
+
+- Selecione uma alternativa
+
+- A: Significa que estas divs precisarão ser removidas para melhorar o desempenho da página.
+
+- B: Isso indica que o código está bem organizado, pois cada div está associada a uma função ou seção específica do cabeçalho.
+
+`Usar classes diferentes dentro de um elemento pai é uma prática comum e útil no desenvolvimento front-end. Isso permite a criação de vários estilos CSS que podem ser aplicados às divs para alterar sua aparência e comportamento.`
+
+- C: Indica que o código precisa ser refatorado, pois não é uma boa prática ter muitas classes diferentes em uma seção.
+
+- D: sso indica que o código está em conformidade com as diretrizes de acessibilidade da Web, pois cada div possui uma única classe para identificação por leitores de tela.
+
+- Exemplo:
+  - js_vidflow_api_08
 
 
 
