@@ -844,6 +844,10 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
   - js_manipulando_objetos_29
 
 
+##
+### Parte 4 - GetItem e SetItem
+##
+
 ### 30 - Projeto da aula anterior
 
 **Projeto da aula anterior**
@@ -852,7 +856,12 @@ veiculos.splice(2,0, {veiculo3: "Bicicleta"}, {veiculo4: "Automóvel"})
   - js_manipulando_objetos_30
 
 
+### 31 - SetItem
 
+**SetItem**
+
+- Exemplo:
+  - js_manipulando_objetos_31
 
 
 
