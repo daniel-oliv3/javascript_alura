@@ -1157,7 +1157,18 @@ console.log("Seja bem-vinda " + pessoa.mostraPessoa());
   - js_manipulando_objetos_41
 
 
+### 42 - O que aprendemos?
 
+**O que aprendemos?**
+
+- Nessa aula, você aprendeu como:
+  - Nesta aula você aprendeu o que é o Git e GitHub;
+  - Aprendeu métodos para salvar um projeto em um repositório;
+  - Realizou e entendeu o que é deploy de um projeto;
+  - Conheceu o this no JavaScript.
+
+- Exemplo:
+  - js_manipulando_objetos_42
 
 
 
