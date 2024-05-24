@@ -971,8 +971,16 @@ Marque a alternativa correta sobre a transferência de dados entre o JavaScript 
   - js_manipulando_objetos_35
 
 
+### 36 - O que aprendemos?
+
+**O que aprendemos?**
 
 
+- Nessa aula, você aprendeu como:
+  - Implementou métodos para tratar dados e salvá-los no localStorage;
+  - Utilizou o JSON para viabilizar a transferência de dados para uma API;
+  - Implementou métodos setItem e getItem para enviar e recuperar dados.
 
-
+- Exemplo:
+  - js_manipulando_objetos_36
 
