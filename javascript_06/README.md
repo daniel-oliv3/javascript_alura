@@ -1290,7 +1290,12 @@ json-server --watch backend/videos.json
   - js_vidflow_api_13
 
 
+### 14 - Buscando dados na API
 
+**Buscando dados na API**
+
+- Exemplo:
+  - js_vidflow_api_14
 
 
 
