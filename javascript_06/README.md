@@ -852,19 +852,201 @@ O que isso significa no código?
   - js_vidflow_api_08
 
 
+### 9 - Lista de exercícios
+
+**Lista de exercícios**
 
 
+O que é:
+Boas-vindas à nossa lista de exercícios, um caminho prático e envolvente para aprender e aprimorar suas habilidades em tecnologia. Aqui, você não encontrará longas leituras teóricas ou explicações abstratas. Em vez disso, nossos exercícios são projetados para colocar você no centro do processo de aprendizado, permitindo que você construa, experimente e explore conceitos tecnológicos de forma direta e aplicada.
 
+Para que serve:
+Esta lista é uma ferramenta dinâmica para aprender, reforçar e aprimorar habilidades práticas em programação e desenvolvimento web. Cada exercício é uma oportunidade de aplicar conhecimentos teóricos em cenários reais, preparando você não apenas para entender a tecnologia, mas para utilizá-la de maneira eficaz e criativa em seus próprios projetos ou no ambiente de trabalho.
 
+Como fazer:
+Leia cada exercício com atenção: comece entendendo o cenário proposto e o que se espera como resultado.
+Escreva o código: utilize o ambiente de codificação de sua escolha para escrever e testar o seu código. Não se preocupe em acertar de primeira, a prática leva à perfeição.
+Verifique o gabarito: após tentar resolver o exercício, compare seu código com o gabarito fornecido em “Opinião do instrutor”. Isso ajudará a identificar áreas de melhoria e consolidar o aprendizado.
+Repita: a repetição é chave para o aprendizado. Tente fazer os exercícios mais de uma vez, aplicando melhorias e variantes.
+Lembre-se, cada desafio é uma chance de crescer. Não se desanime com os erros; eles são degraus no caminho do aprendizado. E acima de tudo, divirta-se! O aprendizado mais eficaz acontece quando nos engajamos e nos interessamos pelo que estamos fazendo.
 
+Não se esqueça que estamos no Fórum e no Discord para te ajudar!
 
+Bons estudos!
 
+1) Criando uma barra de navegação responsiva
+Imagine que você está desenvolvendo o front-end de um site para uma startup de tecnologia inovadora. O design do site precisa ser moderno, responsivo e seguir as últimas tendências de UI/UX. Sua liderança compartilhou com você o layout no Figma, e sua primeira tarefa é criar uma barra de navegação superior que seja responsiva e se ajuste a diferentes tamanhos de tela, incluindo a logo da empresa, uma barra de pesquisa, e ícones de usuário e notificações, baseando-se no layout "1440 - Desktop Light" fornecido.
 
+Sua barra de navegação deve incluir:
 
+A logo da empresa alinhada à esquerda;
+Uma barra de pesquisa ao centro;
+Ícones de usuário e notificações alinhados à direita.
+Utilize HTML e CSS para estruturar e estilizar sua barra de navegação, garantindo que ela seja adaptável a telas menores, como tablets e smartphones. Implemente um menu hambúrguer para dispositivos móveis que, ao ser clicado, exibe os itens da navegação.
 
+2) Personalizando a barra de pesquisa com ícones interativos
+Depois de estruturar a barra de navegação, ao perceber que a barra de pesquisa pode ser aprimorada para oferecer uma melhor experiência ao usuário, você decide incorporar funcionalidades adicionais à barra de pesquisa do site, inspirando-se novamente no layout "1440 - Desktop Light" do Figma.
 
+Sua tarefa é:
 
+Adicionar um ícone de lupa dentro da barra de pesquisa que, ao ser clicado, submete a pesquisa;
+Incluir um ícone de microfone ao final da barra para pesquisas por voz, visando a uma maior acessibilidade;
+Garantir que ambos os ícones sejam interativos, mudando de cor ou estilo quando o usuário passa o mouse sobre eles ou os seleciona;
+Utilize HTML, CSS e, se necessário, JavaScript para implementar essas funcionalidades, assegurando que a barra de pesquisa seja intuitiva e fácil de usar em diferentes dispositivos.
+3) Adicionando ícones interativos na barra superior
+Você está trabalhando no desenvolvimento de uma plataforma de conteúdo digital. Inspirando-se em um projeto existente, sua próxima tarefa é enriquecer a barra superior do site com ícones interativos para vídeos, aplicativos, notificações e perfil do usuário, além de um botão de alternância para o modo escuro.
 
+Para esta atividade, você deve:
 
+Adicionar ícones representativos para vídeos, aplicativos, notificações e perfil do usuário na barra de navegação superior;
+Implementar um botão de alternância que mude o tema do site de claro para escuro, afetando imediatamente a aparência da página;
+Use HTML para estruturar os ícones e o botão de alternância, e CSS para estilizá-los. Considere usar JavaScript para adicionar a funcionalidade de alternância do tema.
+4) Construindo uma barra lateral dinâmica
+O projeto está crescendo, e agora você tem a tarefa de criar uma barra lateral que oferece acesso rápido às diferentes seções do site, como home, categorias, sobre nós e contato. Este componente deve seguir o design moderno da plataforma e ser funcional em diferentes dispositivos.
+
+Sua barra lateral deve incluir:
+
+Ícones ou texto para cada seção (home, categorias, sobre nós, contato);
+Animação ou efeito visual ao passar o mouse ou tocar em cada item;
+Responsividade, garantindo que a barra lateral se ajuste bem a dispositivos móveis, talvez se transformando em um menu hambúrguer;
+Utilize HTML, CSS e, se necessário, JavaScript para implementar a barra lateral, focando na usabilidade e na experiência do usuário.
+
+- Opinião do instrutor
+
+Veja as soluções dos exercícios, lembrando de que há várias maneiras de solucionar um mesmo problema (e tudo bem caso seu código tenha saído diferente). O importante é que ele esteja organizado, bem escrito e funcione.
+
+1) Criando uma barra de navegação responsiva
+Estruture sua barra de navegação no HTML utilizando a tag <nav> dentro de um <header>. Inclua três <div> para a logo, barra de pesquisa e ícones;
+Para a logo, use uma tag <img> com o atributo src apontando para o caminho da imagem da logo;
+Para a barra de pesquisa, utilize um <form> contendo um <input type="search">;
+Para os ícones, considere usar <img> para ícones estáticos ou <i> para ícones de bibliotecas como FontAwesome;
+No CSS, use @media queries para tornar a barra de navegação responsiva. Defina estilos específicos para diferentes larguras de tela, garantindo que a navegação se adapte bem desde desktops até smartphones;
+Para o menu hambúrguer, use um ícone de hambúrguer no HTML e, com JavaScript, adicione uma funcionalidade para mostrar e esconder os itens da navegação ao clicar no ícone. Utilize CSS para animar a transição dos itens da navegação.
+Veja uma possível solução do código em HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup de Tecnologia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="caminho_para_logo.png" alt="Logo da Empresa">
+            </div>
+            <div class="pesquisa">
+                <form>
+                    <input type="search" placeholder="Pesquisar">
+                </form>
+            </div>
+            <div class="icones">
+                <img src="icone_usuario.png" alt="Usuário">
+                <img src="icone_notificacoes.png" alt="Notificações">
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+```
+
+2) Personalizando a barra de pesquisa com ícones interativos
+Dentro do <form> da barra de pesquisa, adicione um <button> para a lupa, configurando-o para não recarregar a página ao ser clicado. Para o ícone de microfone, você pode usar outro <button> ou simplesmente um <img> com um evento de clique que ative a funcionalidade de pesquisa por voz;
+Use CSS para estilizar os ícones dentro da barra de pesquisa, aplicando :hover e :focus para mudar a cor ou adicionar outros efeitos visuais quando interagidos;
+Se optar por funcionalidades mais avançadas, como a pesquisa por voz, você pode usar a Web Speech API do JavaScript para capturar entrada de voz.
+Veja uma possível solução do código em HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Cabeçalho omitido para brevidade -->
+</head>
+<body>
+    <header>
+        <nav class="cabecalho__container">
+            <!-- Conteúdo anterior omitido para brevidade -->
+            <div class="cabecalho__pesquisar__item">
+                <form class="form__pesquisa">
+                    <input type="search" class="pesquisar__input" placeholder="Pesquisar">
+                    <button type="submit" class="pesquisar__btn">
+                        <img src="./img/topbar/search.png" alt="Ícone de lupa">
+                    </button>
+                    <button class="cabecalho__audio">
+                        <img src="./img/topbar/Mic.png" alt="Ícone de microfone">
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+```
+
+3) Adicionando ícones interativos na barra superior
+Adicione ícones à barra superior usando a tag <a> para cada ícone. Por exemplo, para vídeos, use <a href="#" class="cabecalho__videos"></a>. Você pode inserir ícones como imagens (<img>) dentro das tags <a> ou usar ícones de uma biblioteca como FontAwesome;
+Para o botão de alternância do tema, use uma <label> contendo um <input type="checkbox"> para o controle de alternância e um <span> para o deslizador visual. Use JavaScript para alternar as classes CSS do corpo do documento, mudando assim o tema do site;
+Aplique estilos CSS para posicionar os ícones na barra de navegação e para o botão de alternância. Use :hover para efeitos visuais interativos nos ícones.
+Veja uma possível solução do código em HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Cabeçalho omitido para brevidade -->
+</head>
+<body>
+    <header>
+        <nav class="cabecalho__container">
+            <!-- Outros elementos da barra de navegação omitidos para brevidade -->
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"><img src="video_icon.png" alt="Vídeos"></a>
+                <a href="#" class="cabecalho__apps"><img src="apps_icon.png" alt="Aplicativos"></a>
+                <a href="#" class="cabecalho__notificacoes"><img src="notifications_icon.png" alt="Notificações"></a>
+                <a href="#" class="cabecalho__avatar"><img src="avatar_icon.png" alt="Perfil"></a>
+                <label class="cabecalho__switch">
+                    <input type="checkbox" class="cabecalho__switch-input" id="theme-switch">
+                    <span class="cabecalho__switch-slider"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+```
+
+4) Construindo uma barra lateral dinâmica
+Estruture a barra lateral no HTML dentro de um <aside> ou <nav>, utilizando <a> ou <button> para cada item do menu. Por exemplo, use <a href="#home" class="sidebar__item">Home</a> para o link da home.
+Use CSS para estilizar a barra lateral, incluindo animações ou transformações (:hover, :focus) para melhorar a interação do usuário. Para dispositivos móveis, considere transformar a barra lateral em um menu hambúrguer que pode ser expandido ou colapsado.
+Implemente a funcionalidade de menu hambúrguer com JavaScript, permitindo que os usuários acessem os itens do menu em telas menores.
+Veja uma possível solução do código em HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Cabeçalho omitido para brevidade -->
+</head>
+<body>
+    <aside class="sidebar">
+        <a href="#home" class="sidebar__item">Home</a>
+        <a href="#categorias" class="sidebar__item">Categorias</a>
+        <a href="#sobre" class="sidebar__item">Sobre Nós</a>
+        <a href="#contato" class="sidebar__item">Contato</a>
+        <!-- Mais itens conforme necessário -->
+    </aside>
+</body>
+</html>
+```
+
+Esses exemplos fornecem um guia básico para adicionar ícones interativos à barra superior e construir uma barra lateral dinâmica, melhorando a navegação e a experiência geral do usuário no site.
+
+Muito bom! Você chegou ao fim de mais uma lista de exercícios!
+
+- Exemplo:
+  - js_vidflow_api_09
 
 

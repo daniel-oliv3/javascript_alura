@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/flexbox.css">
+        <title>VidFlow</title>
+        <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
+    </head>
+<body>
+    <header>
+        <nav class="cabecalho__container">
+            <div class="logo__item">
+                <img src="./img/VidFlow--Logo-light-mode.png" alt="Logo de VidFlow">
+            </div>
+            <div class="cabecalho__pesquisar__item">
+                <form class="form__pesquisa">
+                    <input type="search" class="pesquisar__input" placeholder="Pesquisar">
+                    <img class="pesquisar__input-teclado" src="./img/topbar/keyboard.png" alt="Icone de teclado">
+                    <button class="pesquisar__btn">
+                        <img src="./img/topbar/search.png" alt="Icone de lupa">
+                    </button>
+                    <button class="cabecalho__audio">
+                        <img src="./img/topbar/Mic.png" alt="Icone de microfone">
+                    </button>
+                </form>
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"></a>
+                <a href="#" class="cabecalho__apps"></a>
+                <a href="#" class="cabecalho__notificacoes"></a>
+                <a href="#" class="cabecalho__avatar"></a>
+                <label class="cabecalho__switch">
+                    <input type="checkbox" class="cabecalho__switch-input">
+                    <span class="cabecalho__switch-slider"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+<!-- Menu lateral -->
+<aside class="menu__container">
+    <ul class="menu__lista">
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__inicio icone-item"></i>
+                <span>Início</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__explorar icone-item"></i>
+                <span>Explorar</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__shorts icone-item"></i>
+                <span>Shorts</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__inscricoes icone-item"></i>
+                <span>Inscrições</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__biblioteca icone-item"></i>
+                <span>Biblioteca</span>
+            </a>
+        </li>
+    </ul>
+
+    <ul class="menu__lista">
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__historico icone-item"></i>
+                <span>Histórico</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__relogio icone-item"></i>
+                <span>Assistir mais tarde</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__like icone-item"></i>
+                <span>Marcados com like</span>
+            </a>
+        </li>
+    </ul>
+
+    <ul class="menu__lista">
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__mostrar icone-item"></i>
+                <span>Mostrar mais 2</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__deschamps icone-item"></i>
+                <span>Felipe Deschamps</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__nerd icone-item"></i>
+                <span>Jovem Nerd</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__souto icone-item"></i>
+                <span>Mario Souto</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__iamarino icone-item"></i>
+                <span>Atila Iamarino</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__ballerini icone-item"></i>
+                <span>Rafaella Ballerini</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__gaveta icone-item"></i>
+                <span>Gaveta</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens" href="#">
+                <i class="icone__alura icone-item"></i>
+                <span>Alura</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="menu__itens inscricoes" href="#">INSCRIÇÕES</a>
+        </li>
+    </ul>
+
+    <ul class="menu__lista">
+        <li class="jogos">
+            <a class="menu__itens" href="#">
+                <i class="icone__jogos icone-item"></i>
+                <span>Jogos</span>
+            </a>
+        </li>
+
+        <li class="filmes">
+            <a class="menu__itens" href="#">
+                <i class="icone__filmes icone-item"></i>
+                <span>Filmes</span>
+            </a>
+        </li>
+        <li class="premium">
+            <a class="menu__itens" href="#">
+                <i class="icone__videos icone-item"></i>
+                <span>Vídeo Premium</span>
+            </a>
+        </li>
+
+        <li class="menu__itens">
+            <a href="#">MAIS DA PÁGINA</a>
+        </li>
+
+    </ul>
+</aside>
+
+<section class="superior__secao__container">
+    <div class="superior__secao__container__wrapper">
+        <a href="#" name="Tudo" class="superior__item">Tudo</a>
+        <a href="#" name="Debates" class="superior__item">Debates</a>
+        <a href="#" name="Ao Vivo" class="superior__item">Ao Vivo</a>
+        <a href="#" name="Podcasts" class="superior__item">Podcasts</a>
+        <a href="#" name="Front-end" class="superior__item">Front-end</a>
+        <a href="#" name="Mobile" class="superior__item">Mobile</a>
+        <a href="#" name="Data Science" class="superior__item">Data Science</a>
+        <a href="#" name="Apps" class="superior__item">Apps</a>
+        <a href="#" name="Programação" class="superior__item">Programação</a>
+        <a href="#" name="Inteligência Artificial" class="superior__item">Inteligência Artificial</a>
+        <a href="#" name="Inovação" class="superior__item">Inovação</a>
+    </div>
+    <label class="superio__slider">
+        <span>
+            <img src="./img/arrow_forward_ios.png" alt="Flecha direcionada para direita">
+        </span>
+    </label>
+</section>    
+
+
+</body>
+</html>
