@@ -916,10 +916,10 @@ Utilize HTML, CSS e, se necessário, JavaScript para implementar a barra lateral
 Veja as soluções dos exercícios, lembrando de que há várias maneiras de solucionar um mesmo problema (e tudo bem caso seu código tenha saído diferente). O importante é que ele esteja organizado, bem escrito e funcione.
 
 1) Criando uma barra de navegação responsiva
-Estruture sua barra de navegação no HTML utilizando a tag <nav> dentro de um <header>. Inclua três <div> para a logo, barra de pesquisa e ícones;
-Para a logo, use uma tag <img> com o atributo src apontando para o caminho da imagem da logo;
-Para a barra de pesquisa, utilize um <form> contendo um <input type="search">;
-Para os ícones, considere usar <img> para ícones estáticos ou <i> para ícones de bibliotecas como FontAwesome;
+Estruture sua barra de navegação no HTML utilizando a tag `<nav>` dentro de um `<header>`. Inclua três `<div>` para a logo, barra de pesquisa e ícones;
+Para a logo, use uma tag `<img>` com o atributo src apontando para o caminho da imagem da logo;
+Para a barra de pesquisa, utilize um `<form>` contendo um `<input type="search">`;
+Para os ícones, considere usar `<img>` para ícones estáticos ou `<i>` para ícones de bibliotecas como FontAwesome;
 No CSS, use @media queries para tornar a barra de navegação responsiva. Defina estilos específicos para diferentes larguras de tela, garantindo que a navegação se adapte bem desde desktops até smartphones;
 Para o menu hambúrguer, use um ícone de hambúrguer no HTML e, com JavaScript, adicione uma funcionalidade para mostrar e esconder os itens da navegação ao clicar no ícone. Utilize CSS para animar a transição dos itens da navegação.
 Veja uma possível solução do código em HTML:
@@ -954,7 +954,7 @@ Veja uma possível solução do código em HTML:
 ```
 
 2) Personalizando a barra de pesquisa com ícones interativos
-Dentro do <form> da barra de pesquisa, adicione um <button> para a lupa, configurando-o para não recarregar a página ao ser clicado. Para o ícone de microfone, você pode usar outro <button> ou simplesmente um <img> com um evento de clique que ative a funcionalidade de pesquisa por voz;
+Dentro do `<form>` da barra de pesquisa, adicione um `<button>` para a lupa, configurando-o para não recarregar a página ao ser clicado. Para o ícone de microfone, você pode usar outro `<button>` ou simplesmente um `<img>` com um evento de clique que ative a funcionalidade de pesquisa por voz;
 Use CSS para estilizar os ícones dentro da barra de pesquisa, aplicando :hover e :focus para mudar a cor ou adicionar outros efeitos visuais quando interagidos;
 Se optar por funcionalidades mais avançadas, como a pesquisa por voz, você pode usar a Web Speech API do JavaScript para capturar entrada de voz.
 Veja uma possível solução do código em HTML:
@@ -987,8 +987,8 @@ Veja uma possível solução do código em HTML:
 ```
 
 3) Adicionando ícones interativos na barra superior
-Adicione ícones à barra superior usando a tag <a> para cada ícone. Por exemplo, para vídeos, use <a href="#" class="cabecalho__videos"></a>. Você pode inserir ícones como imagens (<img>) dentro das tags <a> ou usar ícones de uma biblioteca como FontAwesome;
-Para o botão de alternância do tema, use uma <label> contendo um <input type="checkbox"> para o controle de alternância e um <span> para o deslizador visual. Use JavaScript para alternar as classes CSS do corpo do documento, mudando assim o tema do site;
+Adicione ícones à barra superior usando a tag `<a>` para cada ícone. Por exemplo, para vídeos, use `<a href="#" class="cabecalho__videos"></a>`. Você pode inserir ícones como imagens `(<img>)` dentro das tags `<a>` ou usar ícones de uma biblioteca como FontAwesome;
+Para o botão de alternância do tema, use uma `<label>` contendo um `<input type="checkbox">` para o controle de alternância e um `<span>` para o deslizador visual. Use JavaScript para alternar as classes CSS do corpo do documento, mudando assim o tema do site;
 Aplique estilos CSS para posicionar os ícones na barra de navegação e para o botão de alternância. Use :hover para efeitos visuais interativos nos ícones.
 Veja uma possível solução do código em HTML:
 
@@ -1019,7 +1019,7 @@ Veja uma possível solução do código em HTML:
 ```
 
 4) Construindo uma barra lateral dinâmica
-Estruture a barra lateral no HTML dentro de um <aside> ou <nav>, utilizando <a> ou <button> para cada item do menu. Por exemplo, use <a href="#home" class="sidebar__item">Home</a> para o link da home.
+Estruture a barra lateral no HTML dentro de um `<aside>` ou `<nav>`, utilizando `<a>` ou `<button>` para cada item do menu. Por exemplo, use `<a href="#home" class="sidebar__item">Home</a>` para o link da home.
 Use CSS para estilizar a barra lateral, incluindo animações ou transformações (:hover, :focus) para melhorar a interação do usuário. Para dispositivos móveis, considere transformar a barra lateral em um menu hambúrguer que pode ser expandido ou colapsado.
 Implemente a funcionalidade de menu hambúrguer com JavaScript, permitindo que os usuários acessem os itens do menu em telas menores.
 Veja uma possível solução do código em HTML:
@@ -1080,10 +1080,199 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 
 
+### 12 - Preparando o ambiente: instalação do JSON
+
+**Preparando o ambiente: instalação do JSON**
+
+- Passo 1: Preparação - Instale o Node.js
+
+Antes de começar, é importante ter o Node.js instalado em seu sistema. Não se preocupe se ainda não tiver, temos um guia de Como Instalar o Node.js (Windows, Linux e macOS).
+
+Siga-o, e assim que o Node.js estiver instalado, volte aqui para continuar com a instalação do JSON Server.
+
+- Link: https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos
+
+- Passo 2: Instalação do JSON Server
+
+Agora que você possui o Node.js, podemos prosseguir com a instalação do JSON Server. Vamos lá!
+
+Abra seu terminal ou prompt de comando;
+
+Para instalar o JSON Server globalmente, você só precisa digitar o seguinte comando e pressionar "Enter":
+
+```
+npm install -g json-server
+```
+
+Isso fará com que o JSON Server seja instalado globalmente em seu sistema, e você estará pronto para utilizá-lo em qualquer projeto.
+
+- Passo 3: Preparando o arquivo JSON
+
+Agora, o arquivo JSON videos.json, que está dentro da pasta backend do nosso projeto, servirá como a fonte de dados para o JSON Server. Para isso, copie o JSON a seguir e cole em videos.json:
+
+```json
+{
+    "videos": [
+      {
+        "id": 1,
+        "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+        "descricao": "3 mil visualizações",
+        "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Programação"
+      },
+      {
+        "id": 2,
+        "titulo": "Desmistificando mobile - Linguagens e Frameworks",
+        "descricao": "1,5 mil visualizações",
+        "url": "https://www.youtube.com/embed/fmu1LQvZhms",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Mobile"
+      },
+      {
+        "id": 3,
+        "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
+        "descricao": "30 mil visualizações",
+        "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Programação"
+      },
+      {
+        "id": 4,
+        "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
+        "descricao": "2,5 mil visualizações",
+        "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Data Science"
+      },
+      {
+        "id": 5,
+        "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
+        "descricao": "1,2 mil visualizações",
+        "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Podcasts"
+      },
+      {
+        "id": 6,
+        "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
+        "descricao": "1,6 mil visualizações",
+        "url": "https://www.youtube.com/embed/vf9P_PycgRw",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Mobile"
+      },
+      {
+        "id": 7,
+        "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
+        "descricao": "3,2 mil visualizações",
+        "url": "https://www.youtube.com/embed/Nts3P35mHzE",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Data Science"
+      },
+      {
+        "id": 8,
+        "titulo": "baNaNa | Memes do JavaScript #2",
+        "descricao": "1,2 mil visualizações",
+        "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "categoria": "Programação"
+      },
+      {
+        "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
+        "descricao": "1 mil visualizações",
+        "url": "https://www.youtube.com/embed/z43rcfjXOxU",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "id": 9,
+        "categoria": "Ao Vivo"
+      },
+      {
+        "titulo": "Guia de carreira Front-end | #HipstersPontoTube",
+        "descricao": "18 mil visualizações",
+        "url": "https://www.youtube.com/embed/fpth65ts3cw",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "id": 10,
+        "categoria": "Debates"
+      },
+      {
+        "titulo": "Educação coorporativa",
+        "descricao": "4 mil visualizações",
+        "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "id": 11,
+        "categoria": "Inovação"
+      },
+      {
+        "titulo": "Como deixar o Layout Responsivo no seu site | #AluraMais",
+        "descricao": "7 mil visualizações",
+        "url": "https://www.youtube.com/embed/kyFiT4ofMwk",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "id": 12,
+        "categoria": "Front-end"
+      },
+      {
+        "titulo": "Será que a inteligência artificial será tão poderosa quanto os seres humanos? com Gui Silveira",
+        "descricao": "12 mil visualizações",
+        "url": "https://www.youtube.com/embed/Kk3vBRqKA2o",
+        "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+        "id": 13,
+        "categoria": "Inteligência Artificial"
+      }
+    ]
+  }
+```
 
 
 
 
+- Passo 4: Permitindo política de execução de scripts (apenas Windows)
 
+Caso você utiliza o Windows, é necessário que você siga os seguintes passos para conseguir executar o JSON Server:
 
+- 1: Abra o PowerShell como administrador. Para fazer isso, pesquise "PowerShell" no menu Iniciar, clique com o botão direito do mouse sobre "Windows PowerShell" (ou "Windows Terminal") e selecione "Executar como administrador".
+
+- 2: No PowerShell, você pode verificar a política de execução atual com o seguinte comando:
+
+```
+Get-ExecutionPolicy
+```
+
+A política de execução pode ser "Restricted" (Restrita), que é a configuração padrão que impede a execução de scripts.
+
+- 3: Execute o seguinte comando para permitir a execução de scripts no seu computador:
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+- 4: O PowerShell pode solicitar confirmação para realizar a operação. Pressione "S" (Sim) ou "Y" (Yes) dependendo da linguagem do seu terminal e pressione Enter para confirmar.
+
+Ao finalizar o curso, é uma boa prática reverter a política de execução de scripts para o valor original para garantir a segurança do sistema. Você pode fazer isso definindo a política de execução de volta para "Restricted" com o seguinte comando:
+
+```
+Set-ExecutionPolicy Restricted
+```
+
+- Passo 5: Inicialização do JSON Server
+
+Agora que você tem o JSON Server e o arquivo JSON preparados, é hora de colocá-los em funcionamento:
+
+- 1: Abra o terminal integrado do VSCode, assim o terminal irá abrir automaticamente dentro da pasta do projeto;
+
+- 2: Execute o seguinte comando para iniciar o JSON Server e usá-lo com o arquivo videos.json:
+
+```
+json-server --watch backend/videos.json
+```
+
+*--watch: Este é um dos argumentos que você pode fornecer opcionalmente ao comando JSON Server. A opção --watch é usada para especificar que o servidor deve ficar "observando" um arquivo JSON específico para quaisquer mudanças. Isso significa que se você modificar o arquivo videos.json, o JSON Server automaticamente recarregará os dados para refletir as alterações.*
+
+O JSON Server será iniciado e começará a servir uma API REST falsa com base nos dados do arquivo videos.json, o que vai nos permitir o consumo dos dados para o VidFlow.
+
+Caso queira aprender mais sobre a instalação e uso do JSON Server, recomendamos o artigo Mockando APIs REST com json-server.
+
+- Link: https://www.alura.com.br/artigos/mockando-apis-rest-com-json-server
+- Localhost: http://localhost:3000/videos
+
+- Exemplo:
+  - js_vidflow_api_12
 
