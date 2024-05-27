@@ -1276,3 +1276,60 @@ Caso queira aprender mais sobre a instalação e uso do JSON Server, recomendamo
 - Exemplo:
   - js_vidflow_api_12
 
+
+### 13 - Instalando o JSON Server
+
+**Instalando o JSON Server**
+
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
+
+- Exemplo:
+  - js_vidflow_api_13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
