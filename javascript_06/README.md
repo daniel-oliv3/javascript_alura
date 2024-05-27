@@ -1057,17 +1057,25 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 **O que aprendemos?**
 
-Nessa aula, você aprendeu como:
-Organizar os arquivos e pastas do projeto;
-Transformar o layout do Figma em código;
-Construir o cabeçalho, barra lateral e seção de categorias do VidFlow.
+- Nessa aula, você aprendeu como:
+  - Organizar os arquivos e pastas do projeto;
+  - Transformar o layout do Figma em código;
+  - Construir o cabeçalho, barra lateral e seção de categorias do VidFlow.
 
 - Exemplo:
   - js_vidflow_api_10
 
 
+##
+### Parte 2 - Consumindo API
+##
 
+### 11 - Projeto da aula anterior
 
+**Projeto da aula anterior**
+
+- Exemplo:
+  - js_vidflow_api_11
 
 
 
