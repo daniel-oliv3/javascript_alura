@@ -1298,7 +1298,20 @@ json-server --watch backend/videos.json
   - js_vidflow_api_14
 
 
+### 15 - Preparando o ambiente: código a ser utilizado
 
+**Preparando o ambiente: código a ser utilizado**
+
+No próximo vídeo, utilizaremos o código à seguir:
+
+```html
+<iframe src="" title="" frameborder="0" allowfullscreen></iframe>
+```
+
+Quando esse código for citado em aula, fique à vontade para copiá-lo daqui e adicioná-lo ao seu projeto :)
+
+- Exemplo:
+  - js_vidflow_api_15
 
 
 
