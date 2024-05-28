@@ -1310,14 +1310,28 @@ No próximo vídeo, utilizaremos o código à seguir:
 
 Quando esse código for citado em aula, fique à vontade para copiá-lo daqui e adicioná-lo ao seu projeto :)
 
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
+
 - Exemplo:
   - js_vidflow_api_15
 
 
 
 
+### 16 - Exibindo os vídeos na aplicação
 
+**Exibindo os vídeos na aplicação**
 
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
+
+- Exemplo:
+  - js_vidflow_api_16
 
 
 
