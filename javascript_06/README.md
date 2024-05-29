@@ -1406,11 +1406,53 @@ Para se aprofundar mais, acesse a documentação de Promises.
   - js_vidflow_api_18
 
 
+### 19 - Adicionando vídeos da API
 
+**Adicionando vídeos da API**
 
+Você está colaborando no projeto VidFlow, uma plataforma de compartilhamento de vídeos, e recebeu o código de busca de vídeos de outro desenvolvedor. Sua tarefa atual é aplicar tratamentos de erros a esse código. No entanto, antes de começar, é fundamental entender a responsabilidade de cada bloco de código:
 
+```js
+const containerVideos = document.querySelector(".videos__container");
 
+const api = fetch("http://localhost:3000/videos")
+  .then((res) => res.json())
+  .then((videos) =>
+    videos.forEach((video) => {
+      containerVideos.innerHTML += `
+        <li class="videos__item">
+        <iframe width="100%" height="62%" src="${video.url}"
+        title="${video.titulo}" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img class="img-canal" src="${video.imagem}" alt="Logo do canal">
+                <h3 class="titulo-video">${video.titulo}</h3>
+                <p class="titulo-canal">${video.descricao}</p>
+            </div>
+        </li>
+        `;
+    })
+  );
+```
+Diante disso, qual bloco de código é responsável por percorrer os dados da API adicionando a lista de vídeos à página?
 
+- Selecione uma alternativa
+
+- A: `videos.forEach((video) => ...)`
+
+`Este código percorre a lista de vídeos retornada pela API e executa o bloco de código para adicionar cada vídeo à página.`
+
+- B: `.then((res) => res.json())`
+
+- C: `const api = fetch("http://localhost:3000/videos")`
+
+- D: `const containerVideos = document.querySelector(".videos__container");`
+
+- E:  `containerVideos.innerHTML += ...`
+
+- Exemplo:
+  - js_vidflow_api_19
 
 
 
