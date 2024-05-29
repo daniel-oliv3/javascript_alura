@@ -1633,9 +1633,19 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 
 
+### 22 - O que aprendemos?
 
+**O que aprendemos?**
 
+Nessa aula, você aprendeu:
+O que é e como instalar a API Fake JSON Server;
+Como fazer a busca dos dados na API com o Fetch;
+Como lidar com .then e com Promises;
+Como manipular o DOM para exibir os dados da API;
+Como usar o .catch para capturar erros.
 
+- Exemplo:
+  - js_vidflow_api_22
 
 
 
