@@ -1335,7 +1335,17 @@ json-server --watch backend/videos.json
 
 
 
+### 17 - Capturando erros com .catch
 
+**Capturando erros com .catch**
+
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
+
+- Exemplo:
+  - js_vidflow_api_17
 
 
 
