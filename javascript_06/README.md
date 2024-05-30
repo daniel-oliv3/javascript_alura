@@ -1978,9 +1978,17 @@ buscarEMostrarVideos();
   - js_vidflow_api_31
 
 
+### 32 - Vinculando evento à barra de pesquisa
 
+**Vinculando evento à barra de pesquisa**
 
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
 
+- Exemplo:
+  - js_vidflow_api_32
 
 
 
