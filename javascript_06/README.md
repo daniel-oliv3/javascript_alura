@@ -1690,13 +1690,59 @@ json-server --watch backend/videos.json
   - js_vidflow_api_25
 
 
+### 26 - Para saber mais: Callback Hell
+
+**Para saber mais: Callback Hell**
 
 
+Entendendo Callbacks
 
+Imagine que você está preparando uma refeição e coloca o pão na torradeira. Agora, você não vai ficar parado olhando para a torradeira até que ela finalize, você provavelmente vai fazer outra coisa, como preparar café, até o momento em que a torradeira apitar, indicando que o pão está pronto. Nesse cenário da cozinha, o apito da torradeira funciona como um callback na programação.
 
+Callbacks em JavaScript:
 
+Em JavaScript, um callback é uma função que é passada como argumento para outra função e é executada após a conclusão de uma operação assíncrona ou evento específico. Os callbacks são amplamente utilizados para lidar com tarefas assíncronas, como chamadas de API, leitura de arquivos, eventos de usuário e muito mais.
 
+O Problema do "Callback Hell":
 
+O "Callback Hell" é um termo usado para descrever a situação em que múltiplas chamadas de função com callbacks são aninhadas profundamente dentro de outras chamadas de função. Isso cria um código que se assemelha a uma pirâmide, tornando-o difícil de ler, manter e depurar. À medida que mais operações assíncronas são adicionadas, a complexidade do código aumenta rapidamente.
+
+Exemplo de "Callback Hell" com .then:
+
+Vamos considerar um exemplo hipotético de "Callback Hell" usando .then para encadear operações assíncronas. Suponhamos que desejamos executar três tarefas assíncronas sequenciais, onde cada uma depende do resultado da anterior:
+
+```js
+fazerAlgoAsync()
+  .then(resultado1 => {
+    console.log(resultado1);
+    return fazerOutraCoisaAsync();
+  })
+  .then(resultado2 => {
+    console.log(resultado2);
+    return fazerMaisAlgoAsync();
+  })
+  .then(resultado3 => {
+    console.log(resultado3);
+  })
+  .catch(erro => {
+    console.error('Ocorreu um erro:', erro);
+  });
+```
+
+Nesse exemplo, fazerAlgoAsync, fazerOutraCoisaAsync e fazerMaisAlgoAsync representam operações assíncronas, como chamadas de API ou acesso a banco de dados. Cada uma retorna uma Promise, que é encadeada usando .then. A complexidade aumenta à medida que mais operações são adicionadas, tornando o código difícil de entender e manter.
+
+Conclusão:
+
+Embora os callbacks sejam úteis para controlar fluxos de execução assíncronos, é importante evitar o "Callback Hell" sempre que possível. Alternativas, como o uso de Async-Await, tornam o código mais legível e manutenível, especialmente em projetos maiores. Entender como lidar com callbacks de forma eficaz é fundamental para desenvolver aplicativos JavaScript robustos e de fácil manutenção. Para se aprofundar mais no assunto, recomendamos que acesse a Introdução ao JavaScript Assíncrono e também acesse a documentação das Funções Callback.
+
+- Introdução ao JavaScript Async
+  Link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing#manipuladores_de_eventos_2
+
+- Função Callback
+  - Link: https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function
+
+- Exemplo:
+  - js_vidflow_api_26
 
 
 
