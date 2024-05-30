@@ -1755,10 +1755,81 @@ Embora os callbacks sejam úteis para controlar fluxos de execução assíncrono
 
 
 
+### 27 - Tratando erros específicos
 
+**Tratando erros específicos**
 
+Você foi encarregado de refatorar o código do VidFlow para lidar melhor com os erros. Por isso, precisa implementar uma regra específica que sinalize um erro caso um vídeo que venha da API não tenha descrição.
 
+Para corrigir esse problema, você decidiu utilizar o bloco de tratamento de erros try…catch para capturar erros do navegador e agora precisa construir um código que exiba o erro específico quando um vídeo não possua descrição.
 
+Qual das implementações abaixo funcionaria para tratar esse erro?
+
+- Selecione uma alternativa
+
+- A:
+
+```js
+try {
+  videos.forEach((video)=> {
+    if(video.descricao == ""){
+      throw new Error('Vídeo não tem descrição’);
+    }
+    //resto do código
+  }
+} finally {
+  console.log("Operação finalizada.");
+}
+```
+
+- B:
+
+```js
+videos.forEach((video)=> {
+  try {
+    if(video.descricao == ""){
+      throw new Error('Vídeo não tem descrição’);
+    }
+    //resto do código
+  } catch(error) {
+    console.log(error);
+  }
+})
+```
+
+- C:
+
+```js
+try {
+  videos.forEach((video)=> {
+    if(video.descricao == ""){
+      throw new Error('Vídeo não tem descrição’);
+    }
+    //resto do código
+  })
+} catch(error) {
+  console.log(error);
+}
+```
+`Com essa implementação, o código irá parar de executar assim que um vídeo sem descrição for encontrado. O erro é, então, capturado pelo bloco catch e tratado.`
+
+- D:
+
+```js
+try {
+  videos.forEach((video)=> {
+    if(video.descricao == ""){
+      console.log("Vídeo não tem descrição");
+    }
+    //resto do código
+  })  
+} catch(error) {
+  console.log(error);
+}
+```
+
+- Exemplo:
+  - js_vidflow_api_27
 
 
 
