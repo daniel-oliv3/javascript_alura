@@ -1951,11 +1951,18 @@ buscarEMostrarVideos();
   - js_vidflow_api_29
 
 
+### 30 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu como:
+  - Evitar o “Callback Hell”;
+  - Refatorar o código assíncrono com Async/await;
+  - Realizar tratamento de erros com os blocos Try-Catch-Finally;
+  - Tratar erros personalizados com o throw new Error.
 
-
-
+- Exemplo:
+  - js_vidflow_api_30
 
 
 
