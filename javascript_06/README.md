@@ -1832,13 +1832,38 @@ try {
   - js_vidflow_api_27
 
 
+### 28 - Faça como eu fiz: praticando a melhoria de código
+
+**Faça como eu fiz: praticando a melhoria de código**
 
 
+Nessa aula, buscamos e mostramos vídeos a partir de uma API, dessa vez utilizando uma função Async/await. Após uma busca bem-sucedida, os vídeos são exibidos na página normalmente, mas dessa vez sem nos preocuparmos com o Callback Hell. Também tratamos os erros com o try…catch e caso algum vídeo não possua uma categoria, será lançado um erro e uma mensagem de erro será exibida em vez dos vídeos.
+
+Caso você não tenha feito ainda, que tal colocar em prática essas funcionalidades?
+
+- VER OPINIÃO DO INSTRUTOR
+
+Lembre-se de que a prática é essencial no aprendizado de programação. Vamos ao código para aplicar o que aprendemos. Mãos à obra!
+
+- No arquivo "script.js":
+
+1. Crie uma função assíncrona "buscarEMostrarVideos";
+
+2. Use `try` para buscar e converter vídeos em JSON com `fetch`;
+
+3. Adicione uma tag `<p class="categoria" hidden>${video.categoria}</p>` para cada vídeo;
+
+4. Verifique se os vídeos têm categoria no loop e lance um erro com throw se não tiverem;
+
+5. Capture erros com `catch` e exiba uma mensagem de erro no elemento `containerVideos`;
+
+6. Chame a função `buscarEMostrarVideos` para buscar e mostrar vídeos, respeitando a regra das categorias.
+
+Dessa forma, ao executar o script, a função `buscarEMostrarVideos` será chamada e os vídeos serão buscados e exibidos na página, respeitando a regra de que apenas vídeos com categoria serão mostrados. Em caso de erro, uma mensagem específica será exibida.
 
 
-
-
-
+- Exemplo:
+  - js_vidflow_api_28
 
 
 
