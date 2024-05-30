@@ -1965,8 +1965,17 @@ buscarEMostrarVideos();
   - js_vidflow_api_30
 
 
+##
+### Parte 4 - Criando filtros de exibição
+##
 
 
+### 31 - Projeto da aula anterior
+
+**Projeto da aula anterior**
+
+- Exemplo:
+  - js_vidflow_api_31
 
 
 
