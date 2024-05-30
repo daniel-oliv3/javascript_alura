@@ -1662,7 +1662,17 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 
 
+### 24 - Async/Await
 
+**Async/Await**
+
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
+
+- Exemplo:
+  - js_vidflow_api_24
 
 
 
