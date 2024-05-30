@@ -1867,10 +1867,88 @@ Dessa forma, ao executar o script, a função `buscarEMostrarVideos` será chama
 
 
 
+### 29 - Lista de exercícios
 
+**Lista de exercícios**
 
+Vamos praticar o que aprendemos até aqui?
 
+1) Refatorando para async/await
 
+Imagine que você trabalha em um projeto de desenvolvimento web e sua liderança solicitou a otimização do carregamento de dados de uma API de vídeos educacionais. Atualmente, o código utiliza muitos .then() para tratar as promessas, tornando-o difícil de ler e consertar. Sua tarefa é refatorar o código que você desenvolveu no exercício da aula anterior chamado “Exibindo mensagens de erro personalizadas”, substituindo os .then() por async/await, visando a melhorar a legibilidade e a manutenção do código.
+
+2) Aplicando try/catch com finally
+
+Você percebeu que, além do tratamento de erros, seria interessante implementar uma lógica que sempre execute uma ação após as tentativas de carregar os vídeos, independentemente de haver sucesso ou falha na operação. Utilize o bloco finally para mostrar uma mensagem no console que confirme a tentativa de carregar os vídeos, demonstrando a aplicação do bloco finally em operações assíncronas.
+
+- Opinião do instrutor
+
+Veja as soluções dos exercícios, lembrando de que há várias maneiras de solucionar um mesmo problema (e tudo bem caso seu código tenha saído diferente). O importante é que ele esteja organizado, bem escrito e funcione.
+
+1) Refatorando para async/await
+
+Crie uma função assíncrona utilizando async function nomeDaFuncao() {};
+Declare, antes de realizar a chamada à API, a função como assíncrona, adicionando async antes da declaração da função;
+Substitua os .then() por await para esperar pelas respostas das promessas. Por exemplo, substitua fetch("URL").then(res => res.json()) por const resposta = await fetch("URL"); const dados = await resposta.json();;
+Aproveite para melhorar a legibilidade do código, renomeando variáveis de forma mais descritiva e ajustando a indentação.
+Veja uma possível solução em código JavaScript:
+
+```js
+async function buscarEMostrarVideos() {
+    try {
+        const busca = await fetch("http://localhost:3000/videos");
+        const videos = await busca.json();
+
+        videos.forEach((video) => {
+            containerVideos.innerHTML += `
+            <li class="videos__item">
+                <iframe src="${video.url}" title="${video.titulo}" frameborder="0" allowfullscreen></iframe>
+                <div class="descricao-video">
+                    <img class="img-canal" src="${video.imagem}" alt="Logo do Canal">
+                    <h3 class="titulo-video">${video.titulo}</h3>
+                    <p class="titulo-canal">${video.descricao}</p>
+                </div>
+            </li>
+            `;
+        });
+    } catch (error) {
+        containerVideos.innerHTML = `<p> Houve um erro ao carregar os vídeos: ${error} </p>`;
+    }
+}
+
+buscarEMostrarVideos();
+```
+
+2) Aplicando try/catch com finally
+
+- Siga a mesma estrutura do exercício anterior para criar uma função assíncrona com tratamento de erros usando `try/catch`;
+- Após o bloco `catch`, inclua um bloco `finally`. Dentro deste bloco, insira uma ação que você deseja que aconteça sempre após a tentativa de carregar os vídeos, como mostrar uma mensagem no console.
+
+*Essa prática é útil para ações de limpeza ou confirmação, como fechar conexões de banco de dados, remover indicadores de carregamento da UI, ou simplesmente confirmar o término da operação.*
+
+Veja uma possível solução em código JavaScript:
+
+```js
+async function buscarEMostrarVideos() {
+    try {
+        const busca = await fetch("http://localhost:3000/videos");
+        const videos = await busca.json();
+
+        videos.forEach((video) => {
+            // Código para tratar cada vídeo
+        });
+    } catch (error) {
+        containerVideos.innerHTML = `<p> Houve um erro ao carregar os vídeos: ${error}</p>`;
+    } finally {
+        console.log('Tentativa de carregar vídeos finalizada.');
+    }
+}
+
+buscarEMostrarVideos();
+```
+
+- Exemplo:
+  - js_vidflow_api_29
 
 
 
