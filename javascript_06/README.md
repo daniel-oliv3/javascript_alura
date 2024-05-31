@@ -1995,7 +1995,59 @@ json-server --watch backend/videos.json
 
 **Construindo a lógica de pesquisa**
 
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
 
+- Exemplo:
+  - js_vidflow_api_33
+
+
+### 34 - Desafio: refatorando a barra de pesquisa
+
+**Desafio: refatorando a barra de pesquisa**
+
+Neste desafio, você terá a oportunidade de praticar os seus conhecimentos sobre refatoração de código para melhorar a funcionalidade da barra de pesquisa do VidFlow. O código atual funciona, mas pode ser aprimorado para maior clareza e eficiência.
+
+- Abaixo, temos alguns passos que podem te auxiliar nesse processo:
+  - Analise o código atual e compreenda como a barra de pesquisa filtra os vídeos com base no título;
+  - Pense em outras possíveis estruturas de loop para percorrer os elementos videos;
+  - Observe se há uso de variáveis desnecessárias;
+  - Pense em maneiras de deixar a estrutura condicional mais concisa;
+  - Garanta que a funcionalidade de exibir/ocultar vídeos seja mantida.
+
+*Caso sinta alguma dificuldade, observe o gabarito com o código refatorado como referência para a melhoria do código. Certifique-se de que seu código final funcione da mesma forma, mas com melhor legibilidade e eficiência*.
+
+Boa sorte na refatoração!
+
+- Opinião do instrutor
+
+Implementamos a refatoração da seguinte forma:
+
+```js
+function filtrarPesquisa() {
+  const videos = document.querySelectorAll('.videos__item');
+  const valorFiltro = barraDePesquisa.value.toLowerCase();
+
+  videos.forEach((video) => {
+    const titulo = video.querySelector('.titulo-video').textContent.toLowerCase();
+
+    video.style.display = valorFiltro ? titulo.includes(valorFiltro) ? 'block' : 'none' : 'block';
+  });
+}
+```
+
+O código ainda cumpre a mesma função, mas está mais conciso e organizado. Isso ocorreu graças a duas principais mudanças:
+
+- Substituição do Loop for...of por forEach: O loop for...of é substituído por forEach para percorrer os elementos videos. Isso torna o código mais legível e conciso.
+
+- Condição Ternária: A lógica condicional que define o estilo de exibição (display) dos vídeos é simplificada usando uma condição ternária. Isso elimina a necessidade de blocos if...else.
+
+Quando escrevemos código, é muito importante pensar não só na funcionalidade, mas também na organização do que estamos escrevendo, afinal aquele código pode precisar de manutenções futuras e é essencial que todas as pessoas desenvolvedoras que o leiam, compreendam. Nem sempre o melhor código vai ser o mais curto, mas é crucial que você se lembre sempre de “codar” de modo organizado e legível.
+
+- Exemplo:
+  - js_vidflow_api_34
 
 
 
