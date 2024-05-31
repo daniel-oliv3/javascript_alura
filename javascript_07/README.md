@@ -29,5 +29,11 @@
   - javascript_01
 
 
+### 2 - Projeto Inicial
 
+**Projeto Inicial**
 
+Atenção: para esse curso precisaremos usar o NodeJS a partir da versão 13.0 pois ela adiciona a capacidade de usarmos módulos JS dentro do Node.
+
+- Exemplo:
+  - javascript_02
