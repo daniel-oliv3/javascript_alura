@@ -2063,9 +2063,17 @@ json-server --watch backend/videos.json
   - js_vidflow_api_35
 
 
+### 36 - Criando a lógica de filtragem
 
+**Criando a lógica de filtragem**
 
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
 
+- Exemplo:
+  - js_vidflow_api_36
 
 
 
