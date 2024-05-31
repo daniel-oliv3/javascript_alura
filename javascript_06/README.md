@@ -2076,10 +2076,53 @@ json-server --watch backend/videos.json
   - js_vidflow_api_36
 
 
+### 37 - Manipulando a filtragem de vídeos
 
+**Manipulando a filtragem de vídeos**
 
+Uma das funções que você aprendeu a implementar no VidFlow foi "filtrarPorCategoria", que permite aos usuários visualizar vídeos com base em categorias específicas.
 
+Agora, imagine o seguinte cenário: a categoria "música" deve ser exibida independentemente do filtro escolhido pelo usuário.
 
+Como você alteraria a função "filtrarPorCategoria" para garantir que os vídeos da categoria "música" fossem sempre exibidos, independentemente do valor do filtro?
+
+- A: 
+
+```js
+if((!categoria.includes(valorFiltro) || categoria == 'musica') && valorFiltro != 'tudo'){
+    video.style.display = "none";
+}
+```
+
+- B: 
+
+```js
+if((!categoria.includes(valorFiltro) && categoria != "musica") && valorFiltro != 'tudo'){
+    video.style.display = "none";
+} else {
+    video.style.display = "block";
+}
+```
+
+`Muito bem! Essa opção verifica se a categoria não inclui o valorFiltro e se a categoria não é "musica". Se ambas as condições forem verdadeiras, o vídeo é ocultado (display = "none"). Caso contrário, o vídeo é exibido (display = "block").`
+
+- C: 
+
+```js
+if(categoria != filtro && valorFiltro._contains('musica') && valorFiltro != 'tudo'){
+    video.style.display = "none";
+}
+```
+
+- D: 
+
+```js
+if(valorFiltro != 'tudo' && categoria != 'musica'){
+    video.style.display = "none";
+} else {
+    video.style.display = "block";
+}
+```
 
 
 
