@@ -2050,7 +2050,17 @@ Quando escrevemos código, é muito importante pensar não só na funcionalidade
   - js_vidflow_api_34
 
 
+### 35 - Adicionando filtro de categorias
 
+**Adicionando filtro de categorias**
+
+- Roda o --watch
+```
+json-server --watch backend/videos.json
+```
+
+- Exemplo:
+  - js_vidflow_api_35
 
 
 
