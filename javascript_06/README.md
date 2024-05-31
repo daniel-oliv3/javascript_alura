@@ -2300,9 +2300,12 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
   - js_vidflow_api_40
 
 
+### 41 - Conclusão
 
+**Conclusão**
 
-
+- Exemplo:
+  - js_vidflow_api_41
 
 
 
