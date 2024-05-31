@@ -2138,7 +2138,152 @@ if(valorFiltro != 'tudo' && categoria != 'musica'){
   - js_vidflow_api_38
 
 
+### 39 - Lista de exercícios
 
+**Lista de exercícios**
+
+
+
+Vamos praticar o que aprendemos até aqui?
+
+1) Implementando uma barra de pesquisa com JavaScript
+
+A próxima tarefa será a implementação de uma funcionalidade de pesquisa que permita aos usuários filtrar os vídeos disponíveis por título. Utilize JavaScript para criar uma barra de pesquisa funcional que atenda a essa necessidade. Siga as orientações abaixo:
+
+No arquivo index.html, certifique-se de que cada vídeo esteja dentro de um elemento com a classe .videos__item e que cada um tenha um atributo data-title contendo o título do vídeo;
+No arquivo script.js, utilize o código fornecido para iniciar a implementação da barra de pesquisa;
+Modifique a função filtrarPesquisa para que ela compare o valor inserido na barra de pesquisa com o atributo data-title de cada vídeo, tornando visíveis apenas os vídeos cujos títulos correspondam ao texto pesquisado.
+
+2) Filtrando conteúdo dinamicamente
+
+Imagine que você está desenvolvendo um site de reviews de filmes. Sua liderança solicitou que, para melhorar a experiência do usuário, você implemente uma barra de pesquisa que permita aos usuários filtrar os filmes por título. Os filmes estão listados em cards na página, cada um com uma classe .filme-card e o título está dentro de um elemento com a classe .titulo-filme. Crie a lógica JavaScript para essa barra de pesquisa funcionar, de forma que, ao digitar no campo de pesquisa, apenas os filmes cujos títulos correspondam ao texto inserido sejam exibidos.
+
+3) Criando um filtro de categorias dinâmico para seu site
+
+Você já possui a estrutura básica do site e agora precisa adicionar a funcionalidade de filtragem de categorias, utilizando JavaScript para manipular os elementos da página com base na categoria selecionada pelo usuário.
+
+O site já está recebendo as categorias dos vídeos por meio de uma API e armazenando essas informações de forma oculta na página, dentro de elementos <p> com a classe .categoria. Seu objetivo é criar uma função, podendo se chamar por exemplo, filtrarPorCategoria que receba um argumento filtro, correspondendo à categoria que o usuário deseja visualizar.
+
+A função deve iterar sobre todos os vídeos disponíveis na página, comparar a categoria de cada vídeo com o filtro selecionado e, com base nisso, decidir se o vídeo deve ser exibido ou escondido.
+
+Você pode seguir essas dicas para realizar o exercício:
+
+Capture todos os elementos de vídeo na página.
+Para cada vídeo, obtenha a categoria a partir do elemento oculto.
+Compare a categoria do vídeo com o filtro selecionado pelo usuário.
+Se a categoria não corresponder ao filtro e o filtro for diferente de "tudo", esconda o vídeo. Caso contrário, mostre o vídeo.
+Lembre-se de que o filtro "Tudo" deve exibir todos os vídeos, independentemente de suas categorias.
+
+- VER OPINIÃO DO INSTRUTOR
+
+
+Veja as soluções dos exercícios, lembrando de que há várias maneiras de solucionar um mesmo problema (e tudo bem caso seu código tenha saído diferente). O importante é que ele esteja organizado, bem escrito e funcione.
+
+1) Implementando uma barra de pesquisa com JavaScript
+
+Identifique a barra de pesquisa e os vídeos no HTML:
+A barra de pesquisa é identificada pela classe .pesquisar__input;
+Cada vídeo deve ter uma classe .videos__item e um atributo data-title com o título do vídeo;
+No script.js, a constante barraDePesquisa já está criada para selecionar o elemento da barra de pesquisa.
+Implemente a função filtrarPesquisa:
+Use document.querySelectorAll(".videos__item") para selecionar todos os vídeos;
+Itere sobre cada vídeo com forEach para verificar se o título do vídeo (obtido através - do atributo data-title) contém o texto digitado na barra de pesquisa.
+Mostre apenas os vídeos que correspondem ao termo da pesquisa, escondendo os demais.
+Veja uma possível solução em código JavaScript:
+
+```js
+const barraDePesquisa = document.querySelector(".pesquisar__input");
+
+function filtrarPesquisa() {
+    const termoPesquisa = barraDePesquisa.value.toLowerCase();
+    const videos = document.querySelectorAll(".videos__item");
+
+    videos.forEach(video => {
+        const titulo = video.getAttribute("data-title").toLowerCase();
+        if (titulo.includes(termoPesquisa)) {
+            video.style.display = "";
+        } else {
+            video.style.display = "none";
+        }
+    });
+}
+
+barraDePesquisa.addEventListener("input", filtrarPesquisa);
+```
+
+2) Filtrando conteúdo dinamicamente
+
+Para implementar a barra de pesquisa que filtra filmes por título no site de reviews de filmes, siga os passos abaixo:
+
+Selecione o input da barra de pesquisa e armazene em uma variável;
+Utilize o método document.querySelector() com a classe ou ID do campo de pesquisa;
+Adicione um evento de input ao campo de pesquisa para detectar cada vez que o usuário digita algo;
+Selecione, dentro da função de callback do evento, todos os cards de filmes utilizando document.querySelectorAll() e a classe .filme-card;
+Percorra cada filme com um loop for...of. Para cada filme, obtenha o texto do título e converta-o para minúsculo para facilitar a comparação;
+Compare o título do filme com o valor atual do campo de pesquisa (também convertido para minúsculo). Se o título não incluir o valor de pesquisa, oculte o filme com style.display = "none". Caso contrário, exiba-o com style.display = "block".
+Veja uma possível solução em código JavaScript:
+
+```js
+const barraDePesquisa = document.querySelector("#barra-pesquisa-filmes");
+
+barraDePesquisa.addEventListener("input", function() {
+    const termoPesquisa = barraDePesquisa.value.toLowerCase();
+    const filmes = document.querySelectorAll(".filme-card");
+
+    for (let filme of filmes) {
+        const titulo = filme.querySelector(".titulo-filme").textContent.toLowerCase();
+        if (!titulo.includes(termoPesquisa)) {
+            filme.style.display = "none";
+        } else {
+            filme.style.display = "block";
+        }
+    }
+});
+```
+
+3) Criando um filtro de categorias dinâmico para seu site
+No seu arquivo HTML, adicione botões de filtro. Cada botão deve ter um atributo name que corresponde à categoria que ele representa. Veja um exemplo de HTML:
+
+```html
+<button class="superior__item" name="debates">Debates</button>
+<button class="superior__item" name="ao vivo">Ao vivo</button>
+<button class="superior__item" name="podcasts">Podcasts</button>
+<button class="superior__item" name="front-end">Front-end</button>
+<button class="superior__item" name="tudo">Todos</button>
+```
+
+No arquivo JavaScript, selecione todos os botões de categoria e adicione um evento de clique que chama a função filtrarPorCategoria com o nome da categoria como argumento, conforme o exemplo JavaScript:
+
+```js
+const botaoCategoria = document.querySelectorAll(".superior__item");
+
+botaoCategoria.forEach((botao) => {
+    let nomeCategoria = botao.getAttribute("name");
+    botao.addEventListener("click", () => filtrarPorCategoria(nomeCategoria));
+});
+```
+
+Implemente a função filtrarPorCategoria para filtrar os conteúdos. Esta função deve iterar sobre todos os itens de conteúdo, verificar se a categoria do conteúdo corresponde à categoria selecionada (ou mostrar todos os conteúdos se a categoria for "tudo") e alterar a propriedade de exibição conforme necessário, conforme código JavaScript abaixo:
+
+```js
+function filtrarPorCategoria(filtro){
+    const videos = document.querySelectorAll(".videos__item");
+    for(let video of videos){
+        let categoria = video.querySelector(".categoria").textContent.toLowerCase();
+        let valorFiltro = filtro.toLowerCase();
+
+        if(!categoria.includes(valorFiltro) && valorFiltro != 'tudo'){
+            video.style.display = "none";
+        } else {
+            video.style.display = "block";
+        }
+    }
+}
+```
+Muito bom! Você chegou ao fim de mais uma lista de exercícios!
+
+- Exemplo:
+  - js_vidflow_api_39
 
 
 
