@@ -1991,8 +1991,9 @@ json-server --watch backend/videos.json
   - js_vidflow_api_32
 
 
+### 33 - Construindo a lógica de pesquisa
 
-
+**Construindo a lógica de pesquisa**
 
 
 
