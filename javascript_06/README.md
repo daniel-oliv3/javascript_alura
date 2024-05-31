@@ -2287,10 +2287,17 @@ Muito bom! Você chegou ao fim de mais uma lista de exercícios!
 
 
 
+### 40 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nessa aula, você aprendeu como:
+  - Implementar uma barra de pesquisa para filtrar vídeos por título;
+  - Refatorar o código para torná-lo mais sucinto e organizado;
+  - Implementar funcionalidade ao filtro de categorias.
 
-
+- Exemplo:
+  - js_vidflow_api_40
 
 
 
