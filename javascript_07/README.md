@@ -144,8 +144,17 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_07
 
 
+##
+### Parte 2 - Herança
+##
 
 
+### 8 - Projeto da Aula anterior
+
+**Projeto da Aula anterior**
+
+- Exemplo:
+  - javascript_08
 
 
 
