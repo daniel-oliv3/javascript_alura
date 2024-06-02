@@ -61,7 +61,12 @@ node ./index.js
 
 
 
+### 4 - Compartilhando código
 
+**Compartilhando código**
+
+- Exemplo:
+  - javascript_04
 
 
 
