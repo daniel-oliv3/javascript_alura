@@ -129,10 +129,19 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_06
 
 
+### 7 - O que aprendemos?
 
+**O que aprendemos?**
 
+- O que aprendemos nessa aula:
+  - Relembramos conceitos de classe, propriedades e métodos
+  - Boas práticas na hora de declarar atributos
+  - Declarando sempre as propriedades como sendo privadas inicialmente
+  - Problemas de duplicação de código
+  - Problemas de código extremamente compartilhado
 
-
+- Exemplo:
+  - javascript_07
 
 
 
