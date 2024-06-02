@@ -37,3 +37,79 @@ Atenção: para esse curso precisaremos usar o NodeJS a partir da versão 13.0 p
 
 - Exemplo:
   - javascript_02
+
+
+### 3 - Relembrando o projeto
+
+**Relembrando o projeto**
+
+- Classes
+  - Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
