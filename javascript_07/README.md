@@ -165,7 +165,42 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_09
 
 
+### 10 - Sintaxe do JS
 
+**Sintaxe do JS**
+
+
+Qual a sintaxe do JavaScript para herdarmos de uma classe?
+
+- A:
+
+```js
+class Carro extends Veiculo
+```
+`Exatamente! dessa forma a classe carro herda as propriedades e métodos da classe Veículo`
+
+
+- B:
+
+```js
+class Carro(Veiculo)
+```
+
+- C:
+
+```js
+class Carro : Veiculo
+```
+
+- D:
+
+```js
+class Carro < veiculo
+```
+
+
+- Exemplo:
+  - javascript_10
 
 
 
