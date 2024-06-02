@@ -69,7 +69,48 @@ node ./index.js
   - javascript_04
 
 
+### 5 - Pensando na manutenção
 
+**Pensando na manutenção**
+
+Laís está escrevendo um código para seu cliente e acabou criando duas classes para representar os alunos e professores do seu sistema de ensino.
+
+Seu código está assim:
+
+```js
+class Aluno{
+    constructor(nome, cpf, idade) {
+            this.nome = nome;
+            this.cpf = cpf;
+        this.idade = idade;
+    }
+}
+
+class Professor{
+    constructor(nome, cpf, idade) {
+            this.nome = nome;
+            this.cpf = cpf;
+        this.idade = idade;
+    }
+}
+```
+
+Agora a escola pediu para que ela adicionasse uma nova propriedade "RG" para o aluno e o professor. Qual o problema desse código nesse contexto?
+
+- Alternativa correta
+
+- A: Da maneira que está o código não será executado pelo JS, pois ela apenas declarou propriedades, mas não adicionou nenhum método na classe.
+
+
+- B: Ela terá que adicionar a propriedade individualmente em cada classe e em casos com mais classes que compartilham propriedades esses trabalho será maior ainda.
+
+`Exatamente! Além do fato dela poder esquecer de alterar alguma classe por ter código duplicado no projeto`
+
+
+- C: O problema é que ela declarou todos os atributos da classe como sendo públicos e sabemos que a boa prática é sempre declarar eles de forma privada.
+
+- Exemplo:
+  - javascript_05
 
 
 
