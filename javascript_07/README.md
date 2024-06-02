@@ -157,6 +157,12 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_08
 
 
+### 9 - Herança
+
+**Herança**
+
+- Exemplo:
+  - javascript_09
 
 
 
