@@ -257,7 +257,16 @@ O problema é que quando ele instanciou um DiretorTI e chamou o método GetBonif
   - javascript_13
 
 
+### 14 - Faça como eu fiz na aula
 
+**Faça como eu fiz na aula**
+
+Praticar ajuda bastante no aprendizado de um novo conceito. Assim, é muito importante que você implemente o que foi apresentado nesta aula.
+
+- VER OPINIÃO DO INSTRUTOR
+
+
+Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos te esperando no fórum da Alura caso alguma dúvida surja.
 
 
 
