@@ -291,9 +291,25 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 
 
+##
+### Parte 3 - Classes abstratas
+##
 
 
+### 16 - Projeto da Aula anterior
 
+**Projeto da Aula anterior**
+
+- Exemplo:
+  - javascript_16
+
+
+### 17 - Propriedade constructor
+
+**Propriedade constructor**
+
+- Exemplo:
+  - javascript_17
 
 
 
