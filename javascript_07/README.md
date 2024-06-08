@@ -237,7 +237,7 @@ O problema é que quando ele instanciou um DiretorTI e chamou o método GetBonif
 
 - Selecione 2 alternativas
 
--A: Só acontece porque a classe DiretorTI não sobrescreveu o método getBonificacao
+- A: Só acontece porque a classe DiretorTI não sobrescreveu o método getBonificacao
 `Sim, se ele sobrescrever esse método a classe funcionará da maneira que ele espera. Porém esse código estará sendo sobrescrito em todas as camadas da hierarquia de classes. Será que é uma boa opção?`
 
 - B: Isso acontece porque a classe DiretorTI herda da classe Diretor e ela está sobrescrevendo o método getBonificacao da classe `Funcionário.
@@ -249,7 +249,12 @@ O problema é que quando ele instanciou um DiretorTI e chamou o método GetBonif
   - javascript_12
 
 
+### 13 - Privado e protegido
 
+**Privado e protegido**
+
+- Exemplo:
+  - javascript_13
 
 
 

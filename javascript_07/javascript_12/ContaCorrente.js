@@ -13,13 +13,10 @@ export class ContaCorrente extends Conta{
         console.log("Teste na classe conta corrente");
     }
 
+    /* Sobreescrevendo o comportamento de sacar */
     sacar(valor){
-        let taxa = 1.1;       
-        const valorSacado = taxa * valor;
-        if(this._saldo >= valorSacado) {
-            this._saldo -= valorSacado;
-            console.log('Saque efetuado com sucesso!');
-            return valorSacado;
-        }
+        let taxa = 1.1;
+        // return super._sacar();  /*mesma coisa que a linha de baixo*/      
+        return this._sacar(valor, taxa);
     }
 }
