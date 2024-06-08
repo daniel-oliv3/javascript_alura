@@ -203,10 +203,20 @@ class Carro < veiculo
   - javascript_10
 
 
+### 11 - Super e sobrescrita
+
+**Super e sobrescrita**
+
+- Exemplo:
+  - javascript_11
 
 
+### 12 - Métodos de mesmo nome
 
+**Métodos de mesmo nome**
 
+- Exemplo:
+  - javascript_12
 
 
 
