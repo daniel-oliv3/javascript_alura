@@ -215,6 +215,36 @@ class Carro < veiculo
 
 **Métodos de mesmo nome**
 
+Douglas começou a testar o que aprendeu com herança e escreveu o código abaixo:
+
+```js
+class Funcionario{
+    getBonificacao(){
+        return 100;
+    }
+}
+class Diretor extends Funcionario{
+    getBonificacao(){
+        return 200;
+    }
+}
+class DiretorTI extends Diretor{
+
+}
+```
+
+O problema é que quando ele instanciou um DiretorTI e chamou o método GetBonificacao ele recebeu o valor de 200 e não de 100 como ele esperava. Por que isso aconteceu?
+
+- Selecione 2 alternativas
+
+-A: Só acontece porque a classe DiretorTI não sobrescreveu o método getBonificacao
+`Sim, se ele sobrescrever esse método a classe funcionará da maneira que ele espera. Porém esse código estará sendo sobrescrito em todas as camadas da hierarquia de classes. Será que é uma boa opção?`
+
+- B: Isso acontece porque a classe DiretorTI herda da classe Diretor e ela está sobrescrevendo o método getBonificacao da classe `Funcionário.
+`Isso mesmo! Com a herança podemos herdar classes que herdam de outras classes. E conforme essa cadeia cresce a complexidade do código tbm cresce. Por isso é considerada uma má prática criarmos árvores de herança muito profundas.`
+
+- C: Isso acontece por que ele herdou da classe Funcionario e essa é a maneira que ela implementa o código.
+
 - Exemplo:
   - javascript_12
 
