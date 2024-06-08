@@ -308,6 +308,12 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 **Propriedade constructor**
 
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
 - Exemplo:
   - javascript_17
 
