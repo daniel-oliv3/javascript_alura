@@ -268,12 +268,26 @@ Praticar ajuda bastante no aprendizado de um novo conceito. Assim, é muito impo
 
 Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos te esperando no fórum da Alura caso alguma dúvida surja.
 
+- Exemplo:
+  - javascript_14
 
 
+### 15 - O que aprendemos?
 
+**O que aprendemos?**
 
+- O que aprendemos nessa aula:
+  - Especializando código
+  - Herdando propriedades e atributos
+  - Sobrescrita de métodos
+  - Compartilhando código de forma segura
+  - Mantendo nosso código na linguagem do cliente
+  - Evitando código muito complicado através da herança
+  - Palavra-chave Super
+  - Método e propriedades privadas e protegidas
 
-
+- Exemplo:
+  - javascript_15
 
 
 
