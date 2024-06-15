@@ -318,4 +318,15 @@ node ./index.js
   - javascript_17
 
 
+### 18 - Classes Abstratas
 
+**Classes Abstratas**
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_18
