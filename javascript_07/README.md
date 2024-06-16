@@ -381,3 +381,71 @@ Qual o problema com essa decisão?
 - Exemplo:
   - javascript_19
 
+
+
+### 20 - Métodos Abstratos
+
+**Métodos Abstratos**
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
