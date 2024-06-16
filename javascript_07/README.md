@@ -405,7 +405,31 @@ node ./index.js
 
 
 
+### 21 - Refletindo sobre o tema
 
+**Refletindo sobre o tema**
+
+Aprendemos nessa aula sobre o conceito de Métodos e Classes abstratas. Selecione as afirmativas corretas sobre esses temas:
+
+- Selecione 2 alternativas
+
+- A: Classes abstratas são classes que possuem classes filhas, mas ainda podem ser instanciadas diretamente.
+
+
+- B: Classes abstratas são pensadas de forma que elas apenas possam ser herdadas por outras.
+`Exatamente, elas nos ajudam a criar abstrações no código e a compartilhar código entre outras classes`
+
+- C: Métodos abstratos devem ser sobrescritos pelas classes filhas.
+`Isso mesmo, dessa forma não faz sentido termos um método abstrato fora de uma classe abstrata. Tome esse cuidado quando for criar seu código.`
+
+- D: Um método abstrato é qualquer método que lance um erro quando for chamado.
+
+
+- E: Nosso programa pode ser composto apenas de classes abstrata.
+
+
+- Exemplo:
+  - javascript_21
 
 
 
