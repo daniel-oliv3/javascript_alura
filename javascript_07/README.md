@@ -699,10 +699,13 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_36
 
 
+### 37 - Projeto Final do Curso
+
+**Projeto Final do Curso**
 
 
-
-
+- Exemplo:
+  - javascript_37
 
 
 
