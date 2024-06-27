@@ -683,12 +683,20 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_35
 
 
+### 36 - O que aprendemos?
+
+**O que aprendemos?**
+
+- O que aprendemos nessa aula:
+  - operador in
+  - operador instanceof
+  - Como proteger nossos sistemas
+  - interfaces padronizadas
+  - Ducky Type
 
 
-
-
-
-
+- Exemplo:
+  - javascript_36
 
 
 
