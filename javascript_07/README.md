@@ -527,7 +527,46 @@ node ./index.js
 
 
 
+### 28 - Comportamento indefinido
 
+**Comportamento indefinido**
+
+
+André está criando um sistema de Contas para o banco ByteBank e está tendo alguns comportamentos inesperados quando executa o seguinte código:
+
+```js
+class Conta {
+  constructor(titular, numero) {
+    this.titular = titular;
+    this.numero = numero;
+    this._saldo = 0;
+  }
+}
+
+class ContaCorrente extends Conta {
+  constructor(titular, numero) {
+    super(titular, numero);
+  }
+}
+
+const conta = new ContaCorrente("Andre", 1245);
+console.log(conta.saldo)
+```
+
+Acontece que, na hora que ele executa o código, o que aparece no console é o texto "undefined". Por que isso acontece?
+
+- Alternativa correta
+
+- A: O problema é que André está tentando herdar propriedades de uma classe que não é abstrata.
+
+- B: André não pode ter acesso a uma propriedade que é protegida e por isso o JS retorna undefined quando tentamos acessá-la.
+
+- C: Isso acontece pois a propriedade saldo não está definida dentro do objeto conta e por isso retorna undefined
+
+`Correto, por padrão o JS adiciona como undefined no objeto uma propriedade que tentamos acessar caso ela não exista.`
+
+- Exemplo:
+  - javascript_28
 
 
 
