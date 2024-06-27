@@ -598,4 +598,18 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_30
 
 
+##
+### Parte 5 - Interfaces e Duck Type
+##
+
+### 31 - Projeto da Aula anterior
+
+**Projeto da Aula anterior**
+
+
+- Exemplo:
+  - javascript_31
+
+
+
 
