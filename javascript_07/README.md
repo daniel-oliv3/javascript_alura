@@ -652,10 +652,21 @@ Ao criarmos o Sistema de Autenticação do bytebank, precisamos autenticar diver
 
 
 
+### 34 - Duck Type
 
+**Duck Type**
 
+- Executar no PowerShell/GitBash --
 
+```
+node ./index.js
+```
 
+- Duck typing
+  - Site: https://pt.wikipedia.org/wiki/Duck_typing
+
+- Exemplo:
+  - javascript_34
 
 
 
