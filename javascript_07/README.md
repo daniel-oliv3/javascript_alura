@@ -498,7 +498,18 @@ node ./index.js
 
 
 
+### 26 - Polimorfismo
 
+**Polimorfismo**
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_26
 
 
 
