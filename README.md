@@ -19,3 +19,5 @@
 ### 6 - JavaScript: consumindo e tratando dados de uma API
 
 ### 7 - JavaScript: interfaces e Herança em Orientação a Objetos
+
+### 8 - JavaScript: de padrões a uma abordagem funcional
