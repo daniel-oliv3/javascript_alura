@@ -624,3 +624,62 @@ node ./index.js
 
 - Exemplo:
   - javascript_32
+
+
+### 33 - N objetos e um comportamento
+
+**N objetos e um comportamento**
+
+
+Ao criarmos o Sistema de Autenticação do bytebank, precisamos autenticar diversas classes com esse sistema. Como isso é possível?
+
+- Selecione 2 alternativas
+
+- A: Isso é possível porque o JS não é uma linguagem fortemente tipada e por isso não depende apenas dos tipos pré-definidos mas sim se eles possuem ou não as propriedades que queremos utilizar.
+`Exatamente, assim não estamos limitados aos tipos e sim as interfaces que as classes expões.`
+
+- B: Isso é possível porque estamos sempre herdando todos os objetos a partir de uma classe comum e por isso todos tem o mesmo tipo base.
+
+
+- C: Através do polimorfismo o JS consegue tratar diferentes objetos de maneiras semelhantes e por isso conseguimos autenticar diferentes tipos de objetos em nosso sistema
+`Sim! O Polimorfismo é uma ferramenta muito importante dentro das linguagens de programação, por isso é importante que você saiba como utilizá-lo`
+
+- D: Como cada objeto pode ser de um tipo diferente precisamos criar condicionais explicitas para cada um desses tipos assim garantimos que o código não dará nenhum erro.
+
+
+- Exemplo:
+  - javascript_33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
