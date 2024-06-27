@@ -612,4 +612,15 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 
 
+### 32 - Verificando propriedades e tipos
 
+**Verificando propriedades e tipos**
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_32
