@@ -703,12 +703,8 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 **Projeto Final do Curso**
 
-
 - Exemplo:
   - javascript_37
-
-
-
 
 
 ### 38 - Conclusão
@@ -718,4 +714,3 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
 
 - Exemplo:
   - javascript_38
-
