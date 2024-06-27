@@ -512,6 +512,18 @@ node ./index.js
   - javascript_26
 
 
+### 27 - Interfaces
+
+**Interfaces**
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_27
 
 
 
