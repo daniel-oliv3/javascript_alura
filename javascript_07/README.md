@@ -482,7 +482,18 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_24
 
 
+### 25 - Criando funcionarios
 
+**Criando funcionarios**
+
+- Executar no PowerShell/GitBash --
+
+```
+node ./index.js
+```
+
+- Exemplo:
+  - javascript_25
 
 
 
