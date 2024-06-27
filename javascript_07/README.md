@@ -584,3 +584,18 @@ Não deixe de sanar suas dúvidas antes de dar continuidade ao curso. Estaremos 
   - javascript_29
 
 
+### 30 - O que aprendemos?
+
+**O que aprendemos?**
+
+- O que aprendemos nessa aula:
+  - Revisão de herança,boas práticas de código e encapsulamento
+  - Polimorfismo
+  - Métodos estáticos
+  - Maneiras de tratar objetos de diferentes tipos de maneira parecida
+
+- Exemplo:
+  - javascript_30
+
+
+
