@@ -335,8 +335,24 @@ Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ain
   - javascript_11
 
 
+### 12 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Nesta aula aprendemos:
+  - Os requisitos de infraestrutura necessários para o curso
+  - A levantar o servidor disponibilizado com o projeto baixado
+  - A utilizar o mecanismo de importação nativa de módulos do ES2015 suportado pelo Chrome
+  - Saber avaliar quando utilizar a importação nativa ou loaders com processos de build.
+  - O papel de Promises e da API Fetch ao longo do curso.
+  - A Consumir a API do projeto através da API Fetch
+
+- Exemplo:
+  - javascript_12
+
+##
+### Parte - 2 Adequação dos dados recebidos
+##
 
 
 
