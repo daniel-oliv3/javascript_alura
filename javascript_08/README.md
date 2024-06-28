@@ -110,8 +110,31 @@ Agora com tudo em seu devido lugar, podemos dar início ao treinamento. Vamos co
   - javascript_03
 
 
+### 4 - Problemas ao levantar o servidor
+
+**Problemas ao levantar o servidor**
+
+Fernando baixou o projeto do curso descompactando-o na sua área de trabalho (Desktop). Através do seu sistema operacional, ele abriu seu terminal (ou prompt de comando no Windows), se dirigiu para a pasta project e executou o comando node server. Contudo, o servidor não foi iniciado.
+
+Marque as opções que indicam as possíveis causas da não execução do servidor:
+
+- Selecione 3 alternativas
+
+- A: Em um sistema operacional Linux, não é raro o binário do node se chamar node.js. Nesse sentido, deve ser utilizado o comando nodejs server.
+`Ok`
+
+- B: A plataforma Node.js não foi instalada, desta maneira, o binário node não estará disponível através do terminal/prompt de comando.
+`Ok`
+
+- C: Ele digitou o comando errado, deveria ser server apenas.
 
 
+- D: A pasta acessada através do terminal/prompt de comando não é a pasta project, logo, a execução do comando node server não encontrará o arquivo server.js. Para resolver, basta entrar na pasta correta e repetir o último comando.
+`Ok`
 
+- E: Provavelmente ele utilizou o sistema operacional Windows, que não suporta a plataforma Node.js.
+
+- Exemplo:
+  - javascript_04
 
 
