@@ -138,3 +138,18 @@ Marque as opções que indicam as possíveis causas da não execução do servid
   - javascript_04
 
 
+### 5 - Organizando o código em módulos
+
+**Organizando o código em módulos**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_05
