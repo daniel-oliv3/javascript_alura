@@ -252,5 +252,42 @@ Ao longo deste treinamento extrapolaremos o conhecimento que temos sobre Promise
 
 
 
+### 8 - Sobre Promise
+
+**Sobre Promise**
+
+Temos uma Promise que ao ser resolvida, retornará a quantidade de alunos de uma turma de uma API.
+
+Marque a única alternativa correta que resolve a Promise obtendo seu valor, inclusive lidando com possíveis exceções durante a operação:
+
+- A:
+```js
+promise
+    .then(quantidade => alert(quantidade))
+    .catch(err => console.log(err));
+```
+`Exato! Ela define corretamente o método then e catch.`
+
+- B:
+```js
+promise
+    .then(quantidade => alert(quantidade));
+    .catch(err => console.log(err));
+```
+- C:
+```js
+promise
+    .then(() => alert(quantidade))
+    .catch(err => console.log(err));
+```
+
+- Exemplo:
+  - javascript_08
+
+
+
+
+
+
 
 
