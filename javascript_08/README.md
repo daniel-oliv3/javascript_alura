@@ -98,3 +98,20 @@ Agora com tudo em seu devido lugar, podemos dar início ao treinamento. Vamos co
 
 - Exemplo:
   - javascript_02
+
+
+
+
+### 3 - Projeto e sua estrutura
+
+**Projeto e sua estrutura**
+
+- Exemplo:
+  - javascript_03
+
+
+
+
+
+
+
