@@ -196,7 +196,7 @@ No entanto, se o programador front-end é focado na criação de páginas webs t
   - javascript_07
 
 
-### 7 - Relembrando Promises e a API Fetch
+### 8 - Relembrando Promises e a API Fetch
 
 **Relembrando Promises e a API Fetch**
 
