@@ -318,3 +318,26 @@ node server
   - javascript_10
 
 
+
+
+### 11 - Consolidando seu conhecimento
+
+**Consolidando seu conhecimento**
+
+ 
+Para que você consiga acompanhar as próximas aulas, implemente o que foi apresentado no vídeo. Caso já tenha feito, a ideia é que revise todo o conteúdo antes de continuar.
+
+- VER OPINIÃO DO INSTRUTOR
+
+Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ainda assim as dúvidas continuarem, procure imediatamente ajuda em nosso fórum.
+
+- Exemplo:
+  - javascript_11
+
+
+
+
+
+
+
+
