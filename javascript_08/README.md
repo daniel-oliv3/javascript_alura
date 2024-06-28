@@ -153,3 +153,31 @@ node server
 
 - Exemplo:
   - javascript_05
+
+
+
+### 6 - Sobre carregamento de módulos
+
+**Sobre carregamento de módulos**
+
+
+Marque as afirmativas verdadeiras a respeito do carregamento de módulos nos navegadores:
+
+- Selecione 2 alternativas
+
+- A: Em 2017, alguns navegadores do mercado começaram a ensaiar um sistema de carregamento nativo de módulos que dispensa bibliotecas (loaders) ou qualquer processo de build no backend. Por mais que seja um passo importante, aplicações em produção ainda precisam se valer de loaders e processos de build para que seja compatível com todos os navegadores do mercado.
+`Ainda em janeiro de 2018 não podemos confiar no suporte nativo de módulos dos navegadores, pois nem todos suportam. Sendo assim, utilizar em produção loaders e processos de build ainda é necessário. No entanto, em um futuro próximo eles não serão mais necessários.`
+
+- B: Hoje, (janeiro/2018) podemos usar o sistema de módulo nativos dos navegadores sem receio algum.
+
+
+- C: O ES2015 não especificou como seus módulos devem ser carregados pelos navegadores. Deixando esse ponto em aberto, a comunidade tapou essa lacuna na especificação através de bibliotecas (loaders) focadas no carregamento de módulos.
+`Os loaders visam atender a necessidade de carregamento de módulos nos navegadores!`
+
+- D: Carregamento de módulos nativos também são feitos através da tag script desta maneira: `<script src="modulo.js"></script>`.
+
+- Exemplo:
+  - javascript_06
+
+
+
