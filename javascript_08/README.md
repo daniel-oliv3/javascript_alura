@@ -180,6 +180,21 @@ Marque as afirmativas verdadeiras a respeito do carregamento de módulos nos nav
   - javascript_06
 
 
+### 7 - Carregamento nativo ou via build?
+
+**Carregamento nativo ou via build?**
+
+Supondo a web perfeita e que todos os navegadores suportam o carregamento nativo de módulos do ES2015, podemos abdicar de build para adequação e carregamento dos módulos em qualquer navegador?
+
+A resposta para essa pergunta é depende. Quando usamos o carregamento nativo realizamos uma requisição para cada módulo da aplicação. Se por algum motivo essas requisições tiverem impacto no tempo de carregamento da aplicação e por conseguinte na experiência do usuário, agrupar módulos em bundles e carregá-los sob demanda pode ser a solução. Nesse sentido, torna-se necessário um ferramental mais elaborado para o build do projeto.
+
+Por fim, fica evidente que o carregamento nativo de módulos não veio substituir por completo processos de builds que geram e otimizam bundles de módulos para serem carregados pela aplicação sob demanda ou não. Tudo depende da complexidade da aplicação em si.
+
+No entanto, se o programador front-end é focado na criação de páginas webs tradicionais não SPA, migrar para o carregamento de módulos nativos (quando consolidado nos navegadores) será uma opção melhor do que carregar cada script em separado da aplicação e ter que lembrar a ordem de precedência entre eles.
+
+- Exemplo:
+  - javascript_07
+
 
 ### 7 - Relembrando Promises e a API Fetch
 
@@ -248,11 +263,11 @@ fetch('http://endereco-de-uma-api')
 Ao longo deste treinamento extrapolaremos o conhecimento que temos sobre Promises, por isso estar seguro nesta tecnologia é importante.
 
 - Exemplo:
-  - javascript_07
+  - javascript_08
 
 
 
-### 8 - Sobre Promise
+### 9 - Sobre Promise
 
 **Sobre Promise**
 
@@ -282,7 +297,7 @@ promise
 ```
 
 - Exemplo:
-  - javascript_08
+  - javascript_09
 
 
 
