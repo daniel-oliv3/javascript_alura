@@ -301,8 +301,20 @@ promise
 
 
 
+### 10 - Consumindo endpoint REST com a API Fetch
 
+**Consumindo endpoint REST com a API Fetch**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
 
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_10
 
 
