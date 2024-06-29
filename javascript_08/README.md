@@ -363,3 +363,44 @@ Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ain
 
 
 
+### 14 - Recordando a função Array.filter
+
+**Recordando a função Array.filter**
+
+Temos a seguinte lista de números:
+
+```js
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+```
+
+Podemos filtrar a lista a partir de algum critério:
+
+```js
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+const filteredNumbers = numbers.filter(number => number % 2);
+```
+
+Marque a opção que possui o valor de filteredNumbers:
+
+- A: 
+```js
+[1, 3, 5, 7, 9]
+```
+`Correto!`
+
+- B: 
+```js
+[]
+```
+
+- C: 
+```js
+[2, 4, 6, 9, 10]
+```
+
+
+- Exemplo:
+  - javascript_14
+
+
+
