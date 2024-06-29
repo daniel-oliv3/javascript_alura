@@ -448,3 +448,71 @@ Marque a opção que exibe o valor de newNumbers:
 
 - Exemplo:
   - javascript_15
+
+
+
+
+### 16 - Recordando a função Array.reduce
+
+**Recordando a função Array.reduce**
+
+Temos o seguinte lista de números:
+
+```js
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+```
+
+Marque a opção que aplica corretamente a função Array.reduce retornando o total da soma dos números:
+
+- Selecione uma alternativa
+
+- A: 
+```js
+const sum = numbers
+    .reduce(previous, number => 
+        previous + number, 0);
+```
+
+- B: 
+```js
+const sum = numbers
+    .reduce(previous, number) =>
+         previous + number, 0);
+```
+
+- C: 
+```js
+const sum = numbers
+    .reduce((previous, number) => 
+        previous + number, 0);
+```
+`Extato!`
+
+
+- Exemplo:
+  - javascript_16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
