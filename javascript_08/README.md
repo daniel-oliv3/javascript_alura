@@ -351,9 +351,15 @@ Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ain
   - javascript_12
 
 ##
-### Parte - 2 Adequação dos dados recebidos
+### Parte 2 - Adequação dos dados recebidos
 ##
 
+### 13 - Somando todos os itens com código específico
+
+**Somando todos os itens com código específico**
+
+- Exemplo:
+  - javascript_13
 
 
 
