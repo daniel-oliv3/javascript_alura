@@ -403,4 +403,48 @@ Marque a opção que possui o valor de filteredNumbers:
   - javascript_14
 
 
+### 15 - Recordando a função Array.map
 
+
+**Recordando a função Array.map**
+
+Temos a seguinte lista de números:
+
+```js
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+```
+
+Podemos aplicar uma regra de transformação em cada elemento do array resultando em um novo array com a mesma quantidade de elementos do array original. Isso é feito através da função Array.map:
+
+```js
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+const newNumbers = numbers.map(number => {
+    if(number % 2) return ++number
+    return number;
+});
+```
+
+Marque a opção que exibe o valor de newNumbers:
+
+- Selecione uma alternativa
+
+
+- A:
+```js
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+
+- B:
+```js
+[1, 3, 3, 5, 5, 7, 7, 9, 9, 11]
+```
+
+- C:
+```js
+[2, 2, 4, 4, 6, 6, 8, 8, 10, 10]
+```
+`Exato! Se o número não for divisível por dois, retornaremos seu valor acrescido de um, caso contrário retornaremos o seu valor original.`
+
+
+- Exemplo:
+  - javascript_15
