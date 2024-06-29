@@ -494,9 +494,21 @@ const sum = numbers
 
 
 
+### 17 - Implementando a função Log
 
+**Implementando a função Log**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
 
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_17
 
 
 
