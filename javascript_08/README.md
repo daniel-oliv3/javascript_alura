@@ -512,9 +512,21 @@ node server
 
 
 
+### 18 - Implementando a função flatMap
 
+**Implementando a função flatMap**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
 
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_18
 
 
 
