@@ -563,9 +563,31 @@ Sobre o código anterior, podemos afirmar que:
   - javascript_19
 
 
+### 20 - Sobre Array, Functor e flatmap
+
+**Sobre Array, Functor e flatmap**
 
 
+- Temos as seguintes afirmativas:
+
+a) Apesar de possuir a função map, o tipo Array não pode ser considerado um Functor.
+
+b) No jargão da programação funcional um Functor é simplesmente algo mapeável, ou seja, que suporta a operação map.
+
+c) A operação flatMap se assemelha da função map, com a diferença de que retorna o resultado em uma dimensão apenas.
+
+Marque a alternativa verdadeira:
+
+- Selecione uma alternativa
+
+- A: A e C são falsas
 
 
+- B: Todas são verdadeiras
 
 
+- C: Apenas A é falsa
+`Correta! O Array é um Functor, pois permite realizar operações de mapeamento em seus itens, isto é, nos dados que possui.`
+
+- Exemplo:
+  - javascript_20
