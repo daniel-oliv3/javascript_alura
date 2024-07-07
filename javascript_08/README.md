@@ -635,3 +635,10 @@ node server
 - Exemplo:
   - javascript_22
 
+
+### 23 - Consolidando seu conhecimento
+
+**Consolidando seu conhecimento**
+
+- Exemplo:
+  - javascript_23
