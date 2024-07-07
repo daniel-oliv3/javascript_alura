@@ -642,3 +642,36 @@ node server
 
 - Exemplo:
   - javascript_23
+
+
+### 24 - O que aprendemos?
+
+**O que aprendemos?**
+
+- Aprendemos neste capítulo:
+  - Recordarmos operações clássicas com Array.map, Array.filter, Array.reduce
+  - Implementamos uma função para nos auxiliar no log das chamadas de Promises
+  - Aprendemos a definição de Functor e sua finalidade.
+  - Entendemos e implementamos a função $flatMap adicionando-a no prototype de Array, um Functor.
+  - Deixamos clara a intenção do nosso código separando um trecho de código em uma função.
+
+- Exemplo:
+  - javascript_24
+
+##
+### Parte 3 - Composição de funções
+##
+
+
+### 25 - Separando responsabilidades
+
+**Separando responsabilidades**
+
+- Exemplo:
+  - javascript_25
+
+
+
+
+
+
