@@ -591,3 +591,32 @@ Marque a alternativa verdadeira:
 
 - Exemplo:
   - javascript_20
+
+
+
+
+
+
+
+### 21 - Deixando clara nossa intenção
+
+**Deixando clara nossa intenção**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+
+- Exemplo:
+  - javascript_21
+
+
+
+
+
+
