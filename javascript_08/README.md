@@ -714,3 +714,57 @@ Marque a única alternativa verdadeira a respeito do trecho de código anterior:
   - javascript_26
 
 
+
+### 27 - Refatorando o código
+
+**Refatorando o código**
+
+Refatorar consiste em alterar a estrutura do código sem alterar seu comportamento. Vejamos um código candidato à refatoração:
+
+```js
+// código anterior omitido
+for (let [key, store] of stores) {
+    if(transactionalConn.objectStoreNames.contains(store)) 
+        transactionalConn.deleteObjectStore(store);
+    transactionalConn.createObjectStore(store, { autoIncrement: true });
+}  
+```
+
+Podemos reescrevê-lo da seguinte maneira:
+
+```js
+const storeExists = (conn, store) => conn.objectStoreNames.contains(store);
+const createStore = (conn, store) => conn.createObjectStore(store, { autoIncrement: true });
+const deleteStore = (conn, store) => conn.deleteObjectStore(store);
+
+// código anterior omitido 
+
+for (let [key, store] of stores) {
+    if(storeExists(conn, store)) deleteStore(conn, store);
+    createStore(conn, store);
+}  
+```
+
+Separar as responsabilidades tornou o código mais fácil de ler e de manter.
+
+- Exemplo:
+  - javascript_27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
