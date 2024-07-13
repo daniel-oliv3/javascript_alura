@@ -667,11 +667,50 @@ node server
 
 **Separando responsabilidades**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
 - Exemplo:
   - javascript_25
 
 
 
+### 26 - Análise de um código
 
+**Análise de um código**
+
+Temos um trecho de código que itera em uma Map chamado stores.
+
+```js
+// código anterior omitido
+for (let [key, value] of stores) {
+    if(transactionalConn.objectStoreNames.contains(value)) 
+        transactionalConn.deleteObjectStore(value);
+    transactionalConn.createObjectStore(value, { autoIncrement: true });
+}
+```
+
+Por mais que seja um código que não foi abordado neste curso, o programador deve ser capaz de compreender o que ele faz.
+
+Marque a única alternativa verdadeira a respeito do trecho de código anterior:
+
+- Selecione uma alternativa
+
+- A: Verifica através de uma conexão se uma store já existe para em seguida criar a store.
+
+
+- B: Verifica através de uma conexão se uma store já existe. Caso a store exista, ela é apagada e criada novamente.
+`Exato!`
+
+- C: Verifica através de uma conexão se uma store já existe. Caso a store não exista, ela é criada.
+
+- Exemplo:
+  - javascript_26
 
 
