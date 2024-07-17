@@ -751,8 +751,21 @@ Separar as responsabilidades tornou o código mais fácil de ler e de manter.
   - javascript_27
 
 
+### 28 - Partial application
 
+**Partial application**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_28
 
 
 
