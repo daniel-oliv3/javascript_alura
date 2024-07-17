@@ -770,7 +770,67 @@ node server
 
 
 
+### 29 - Aplicação parcial de uma função
 
+**Aplicação parcial de uma função**
+
+Temos a seguinte função
+
+```js
+const changeTextFromElement = (element, text) => 
+    element.textContent = text;
+
+const message = document.querySelector('#message');
+changeTextFromElement(message, 'Welcome');
+changeTextFromElement(message, 'See ya');
+```
+
+Marque a opção que realiza a partial application do primeiro parâmetro da função:
+
+- Selecione uma alternativa
+
+- A:
+```js
+const changeTextFromElement = (element, text) => 
+    element.textContent = text;
+
+const message = document.querySelector('#message');
+const changeText = changeTextFromElement.bind(null, message);
+
+changeText('Welcome');
+changeText('See ya!');
+```
+
+`Exato!`
+
+
+- B:
+```js
+const changeTextFromElement = (element, text) => 
+    element.textContent = text;
+
+const message = document.querySelector('#message');
+const changeText = changeText.bind(null, message);
+
+changeText('Welcome');
+changeText('See ya!');
+```
+
+- C:
+```js
+const changeTextFromElement = (element, text) => 
+    element.textContent = text;
+
+const message = document.querySelector('#message');
+const changeText = changeTextFromElement.bind( message, null);
+
+changeText('Welcome');
+changeText('See ya!');
+```
+
+
+- Exemplo:
+  - javascript_29
 
 
 
