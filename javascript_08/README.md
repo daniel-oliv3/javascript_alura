@@ -834,8 +834,21 @@ changeText('See ya!');
 
 
 
+### 30 - Compondo funções
 
+**Compondo funções**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_30
 
 
 
