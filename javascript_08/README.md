@@ -943,6 +943,28 @@ node server
 
 
 
+### 33 - Relembrando...
 
+**Relembrando...**
 
+Temos o seguinte trecho de código:
 
+```js
+const letters = ['z', 'a', 'c', 'w']
+const word = letters.reduceRight((previous, letter) => previous + letter)
+console.log(word);
+```
+
+Qual é o resultado de `word`?
+
+- Selecione uma alternativa
+
+- A: 'zacw'
+
+- B: 'wcaz'
+`Exato!`
+
+- C: Nenhum, pois o código resultará em um erro, pois não foi inicializado o valor inicial da variável acumuladora.
+
+- Exemplo:
+  - javascript_33
