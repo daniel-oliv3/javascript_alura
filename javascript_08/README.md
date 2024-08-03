@@ -988,3 +988,19 @@ node server
 - Exemplo:
   - javascript_34
 
+
+
+### 35 - Consolidando seu conhecimento
+
+**Consolidando seu conhecimento**
+
+Para que você consiga acompanhar as próximas aulas, implemente o que foi apresentado no vídeo. Caso já tenha feito, a ideia é que revise todo o conteúdo antes de continuar.
+
+- Opinião do instrutor
+
+Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ainda assim as dúvidas continuarem, procure imediatamente ajuda em nosso fórum.
+
+- Exemplo:
+  - javascript_35
+
+
