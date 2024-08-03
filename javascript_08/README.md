@@ -851,6 +851,76 @@ node server
   - javascript_30
 
 
+### 31 - Uma abordagem mais funcional
 
+**Uma abordagem mais funcional**
+
+Temos o seguinte código que remove os espaços das extremidades, transforma o texto para caixa alta e quebra as palavras retornando um array:
+
+```js
+const text = ' Alura Cursos ';
+const words = text.trim()
+  .toUpperCase()
+  .split(' ');
+
+console.log(words); // ['ALURA', 'CURSOS']
+```
+
+Podemos reescrever o código anterior de uma maneira que lembre a aplicação de funções matemáticas. Marque a opção que realiza essa reescrita corretamente:
+
+- Selecione uma alternativa
+
+- A: 
+```js
+const trim = text => text.trim();
+const toUpperCase = text => text.toUpperCase();
+const split = separator => text => text.split(separator);
+
+const words = 
+  trim(' Alura cursos ')( 
+    toUpperCase(
+      split(' ')
+    )
+  );
+
+console.log(words);
+```
+
+- B: 
+```js
+const trim = text => text.trim();
+const toUpperCase = text => text.toUpperCase();
+const split = separator => text.split(separator);
+
+const words = 
+  split(' ')( 
+    toUpperCase(
+      trim(' Alura Cursos ')
+    )
+  );
+
+console.log(words);
+```
+
+- C: 
+```js
+const trim = text => text.trim();
+const toUpperCase = text => text.toUpperCase();
+const split = separator => text => text.split(separator);
+
+const words = 
+  split(' ')( 
+    toUpperCase(
+      trim(' Alura Cursos ')
+    )
+  );
+
+console.log(words);
+```
+
+`Correto!`
+
+- Exemplo:
+  - javascript_31
 
 
