@@ -1040,6 +1040,26 @@ node server
   - javascript_37
 
 
+### 38 - Véspera de carnaval
+
+**Véspera de carnaval**
+
+Henrique criou a seguinte função inspirado na semana de carnaval:
+
+```js
+const carnavalizar = adereco => texto => `${adereco}${texto}${adereco}`;
+const resultado = carnavalizar('@')('Nota 10!');
+```
+
+Qual o valor de resultado?
+
+- A: @Nota 10!@
+`Exato!`
+
+- B: Nenhum, pois o código é inválido para o interpretador JavaScript.
 
 
+- C: Nota@@10!
 
+- Exemplo:
+  - javascript_38
