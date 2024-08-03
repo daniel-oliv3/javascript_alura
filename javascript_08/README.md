@@ -968,3 +968,23 @@ Qual é o resultado de `word`?
 
 - Exemplo:
   - javascript_33
+
+
+
+### 34 - Compose vs Pipe
+
+**Compose vs Pipe**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+
+- Exemplo:
+  - javascript_34
+
