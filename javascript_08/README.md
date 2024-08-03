@@ -1017,3 +1017,29 @@ Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ain
 
 - Exemplo:
   - javascript_36
+
+##
+### Parte 4 - Adequação da interação do usuário
+##
+
+
+### 37 - Limitando operações - takeUntil
+
+**Limitando operações - takeUntil**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_37
+
+
+
+
+
