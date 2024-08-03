@@ -1003,4 +1003,17 @@ Dúvidas? Você pode recorrer ao vídeo e às explicações do capítulo. Se ain
 - Exemplo:
   - javascript_35
 
+### 36 - O que aprendemos?
 
+**O que aprendemos?**
+
+- Neste capítulo:
+  - Deixamos mais claro nosso código desmembrando uma função em outras funções.
+  - Vimos que para realizarmos a composição de funções elas precisam receber um parâmetro.
+  - Aprendemos o conceito de aplicação parcial, inclusive criamos uma função utilitária com essa finalidade.
+  - Realizamos a composição de funções através das funções utilitárias que criamos chamadas compose e pipe.
+  - Compreendemos o que é uma função ser point free.
+  - Isolamos a complexidade de acesso de uma API em uma classe de serviço.
+
+- Exemplo:
+  - javascript_36
