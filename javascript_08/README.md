@@ -924,3 +924,25 @@ console.log(words);
   - javascript_31
 
 
+### 32 - Facilitando a composição de funções
+
+**Facilitando a composição de funções**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+
+- Exemplo:
+  - javascript_32
+
+
+
+
+
+
