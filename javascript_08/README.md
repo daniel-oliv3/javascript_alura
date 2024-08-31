@@ -1196,11 +1196,19 @@ Para que você consiga acompanhar as próximas aulas, implemente o que foi apres
 - Exemplo:
   - javascript_43
 
+### 44 - O que aprendemos?
+
+**O que aprendemos?**
+
+Neste capítulo aprendemos:
+
+A executar uma ação do usuário um determinado números de vezes.
+A aplicar o pattern debounce para lidar com múltiplos cliques.
+A realizar a composição de funções que recebem callbacks como parâmetros e que retornam funções.
 
 
-
-
-
+- Exemplo:
+  - javascript_44
 
 
 
