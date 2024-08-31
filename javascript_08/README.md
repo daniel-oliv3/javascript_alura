@@ -1081,3 +1081,119 @@ node server
 
 - Exemplo:
   - javascript_39
+
+
+### 40 - De uma API a sua implementação
+
+**De uma API a sua implementação**
+
+Temos a seguinte chamada de função stoppableInterval:
+
+```js
+const stop = stoppableInterval(() => 
+  console.log('Yo!'), 1000);
+stop();
+```
+A função `stoppableInterval` recebe dois parâmetros. O primeiro é a função que desejamos invocar de tempo em tempo, já a segunda é o intervalo entre as chamadas da função. O retorno de `stoppableInterval` é uma função que ao ser chamada parará o `setInterval` utilizado por debaixo dos panos.
+
+Marque a opção que implementa a função `stoppableInterval` em acordo com a API descrita acima:
+
+- Selecione uma alternativa
+
+
+
+- A:
+```js
+const stoppableInterval = (fn, milisseconds) => {
+    return () {
+        const timer = setInterval(fn, milisseconds);
+        clearTimeout(timer);
+    }
+}
+```
+
+- B:
+```js
+const stoppableInterval = (fn, milisseconds) => {
+    return () => {
+        const timer = setInterval(fn, milisseconds);
+        clearTimeout(timer);
+    }
+}
+```
+
+- C:
+```js
+const stoppableInterval = (fn, milisseconds) => {
+    const timer = setInterval(fn, milisseconds);
+    return () => {
+        clearTimeout(timer);
+    }
+}
+```
+`Exato.`
+
+
+- Exemplo:
+  - javascript_40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
