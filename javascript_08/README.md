@@ -1138,11 +1138,33 @@ const stoppableInterval = (fn, milisseconds) => {
   - javascript_40
 
 
+### 41 - Resultado esperado
+
+**Resultado esperado**
+
+Temos o seguinte trecho de código:
+
+```js
+const fn = array => () => array.reverse();
+const numbers = [1,2,3,4,5,6];
+const reverse = fn(numbers);
+reverse();
+console.log(reverse());
+```
+
+Qual será o valor exibido através da instrução console.log(reverse());?
+
+- Selecione uma alternativa
+
+- A: O código esta sintaticamente incorreto.
 
 
+- B: [6,5,4,3,2,1]
 
 
+- C: [1,2,3,4,5,6]
 
+`Exato!`
 
 
 
