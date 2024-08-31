@@ -1063,3 +1063,21 @@ Qual o valor de resultado?
 
 - Exemplo:
   - javascript_38
+
+
+### 39 - Limitando operações - debounceTime
+
+**Limitando operações - debounceTime**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+
+- Exemplo:
+  - javascript_39
