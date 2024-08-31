@@ -1187,11 +1187,14 @@ node server
   - javascript_42
 
 
+### 43 - Consolidando seu conhecimento
 
+**Consolidando seu conhecimento**
 
+Para que você consiga acompanhar as próximas aulas, implemente o que foi apresentado no vídeo. Caso já tenha feito, a ideia é que revise todo o conteúdo antes de continuar.
 
-
-
+- Exemplo:
+  - javascript_43
 
 
 
