@@ -1166,7 +1166,8 @@ Qual será o valor exibido através da instrução console.log(reverse());?
 
 `Exato!`
 
-
+- Exemplo:
+  - javascript_41
 
 
 
