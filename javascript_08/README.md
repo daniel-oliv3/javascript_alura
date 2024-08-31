@@ -1170,10 +1170,21 @@ Qual será o valor exibido através da instrução console.log(reverse());?
   - javascript_41
 
 
+### 42 - Mais composição
 
+**Mais composição**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
 
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
 
+- Exemplo:
+  - javascript_42
 
 
 
