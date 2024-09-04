@@ -1256,7 +1256,44 @@ node server
 
 
 
+### 47 - Corrida de Promises
 
+
+**Corrida de Promises**
+
+
+Temos o seguinte código que utiliza Promise.race:
+
+```js
+const promise1 = new Promise((resolve, reject) => 
+    setTimeout(() => resolve('promise 1 resolvida'), 3000));
+
+const promise2 = new Promise((resolve, reject) => 
+    setTimeout(() => resolve('promise 2 resolvida'), 1000));
+
+Promise.race(
+    promise1, 
+    promise2
+)
+.then(console.log)
+.catch(console.log);
+```
+
+Podemos afirmar que:
+
+- Selecione uma alternativa
+
+- A: A mensagem "promise 2 resolvida" será exibida no console.log.
+
+
+- B: A mensagem "promise 1 resolvida" será exibida no console.log.
+
+
+- C: O código não funcionará.
+`Exato. A função Promise.race recebe um único parâmetro, um array com as Promises que serão processadas.`
+
+- Exemplo:
+  - javascript_47
 
 
 
