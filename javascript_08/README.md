@@ -1211,16 +1211,28 @@ A realizar a composição de funções que recebem callbacks como parâmetros e 
   - javascript_44
 
 
+##
+### Parte 5 - Lidando com problemas na rede
+##
 
 
+### 45 - Lentidão na rede
 
 
+**Lentidão na rede**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
 
 
-
-
-
-
+- Exemplo:
+  - javascript_45
 
 
 
