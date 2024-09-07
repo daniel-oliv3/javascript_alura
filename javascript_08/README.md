@@ -1299,9 +1299,21 @@ Podemos afirmar que:
 
 
 
+### 48 - Implementando timeout em Promises
 
+**Implementando timeout em Promises**
 
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
 
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_48
 
 
 
