@@ -1317,5 +1317,19 @@ node server
 
 
 
+### 49 - Repetindo operações
 
+**Repetindo operações**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_49
 
