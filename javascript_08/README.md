@@ -1352,10 +1352,35 @@ node server
 
 
 
+### 51 - Sobre a função delay
+
+**Sobre a função delay**
+
+Vejamos a implementação da função utilitária delay. Ela permite realizar um atraso entre as chamadas encadeada à função `then()`:
+
+```js
+export const delay = milliseconds =>
+    new Promise((resolve, reject) => 
+        setTimeout(() => resolve(), milliseconds)
+    );
+```
+
+Marque a alternativa verdadeira a respeito código anterior.
+
+- Selecione uma alternativa
+
+- A: Funciona perfeitamente, inclusive repassando os valores recebidos da Promise anterior para a próxima.
 
 
+- B: O código possui erro de sintaxe.
 
 
+- C: Apesar de funcionar, ela não é capaz de passar os dados da função then anterior para a próxima.
+`Exato!`
+
+
+- Exemplo:
+  - javascript_51
 
 
 
