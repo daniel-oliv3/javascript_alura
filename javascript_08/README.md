@@ -1333,3 +1333,63 @@ node server
 - Exemplo:
   - javascript_49
 
+
+### 50 - Implementando delay em Promises
+
+**Implementando delay em Promises**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
