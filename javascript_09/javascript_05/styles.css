@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #F55B64;
+    --cor-secundaria: #C2373F;
+    --neutro: #F9F9F9;
+    --preto: #131730;
+    --fonte-titulo: "Krona One", sans-serif;
+    --fonte-texto: 'Numans', sans-serif;
+    --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
+}
+
+body {
+    background: var(--degrade-azul);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main {
+    margin-top: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 440px;
+    align-items: center;
+
+    background-color: var(--neutro);
+    padding: 56px;
+    border-radius: 16px;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    font-size: 20px;
+    line-height: 33px;
+    text-align: left;
+}
+
+hr {
+    border: none;
+    border-bottom:  3px dotted var(--cor-primaria);
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+p {
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
