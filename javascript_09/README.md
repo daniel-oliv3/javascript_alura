@@ -17,9 +17,19 @@
 
 **Apresentação**
 
+- O que aprenderemos?
+  - HTML e CSS
+  - JavaScript
+  - Manipulação do DOM
+  - Inserção de funcionalidades
 
 - Exemplo:
   - javascript_01
 
 
+### 2 - Preparando o ambiente
 
+**Preparando o ambiente**
+
+- Exemplo:
+  - javascript_02
