@@ -1402,9 +1402,60 @@ node server
 
 
 
+### 53 - Um pouco mais sobre recursão
 
+**Um pouco mais sobre recursão**
 
+Temos o seguinte trecho de código que realiza uma contagem regressiva:
 
+```js
+const showCountDown = counter => {
+  while(counter >= 0) {
+    console.log(counter--);
+  }
+};
+showCountDown(3);
+```
+
+O código anterior pode ser implementado através de recursão. É importante lembrar que as chamadas recursivas terminarão quando a condição de um leave event for atendida.
+
+Marque a opção abaixo que possui o mesmo comportamento do código anterior, mas implementado através de recursão.
+
+- Selecione uma alternativa
+
+- A:
+```js
+const showCountDown = counter => {
+  console.log(counter);
+  showCountDown(--counter);
+};
+showCountDown(3);
+```
+
+- B:
+```js
+const showCountDown = counter => {
+  if (counter < 0) return;
+  console.log(counter);
+  showCountDown(counter);
+};
+showCountDown(3);
+```
+
+- C:
+```js
+const showCountDown = counter => {
+  if (counter < 0) return;
+  console.log(counter);
+  showCountDown(--counter);
+};
+showCountDown(3);
+```
+
+Exato! O leave event foi representado pela instrução `if(counter < 0) return;.`
+
+- Exemplo:
+  - javascript_53
 
 
 
