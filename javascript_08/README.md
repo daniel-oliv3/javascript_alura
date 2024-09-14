@@ -1468,9 +1468,18 @@ Exato! O leave event foi representado pela instrução `if(counter < 0) return;.
   - javascript_54
 
 
+### 55 - O que aprendemos?
 
+**O que aprendemos?**
 
+- Neste capítulo aprendemos:
+  - A finalidade de Promise.race.
+  - A implementarmos um mecanismo de timeout com Promises.
+  - A realizar o delay entre chamadas encadeadas à then() de Promises.
+  - A implementar um mecanismo de retry com Promises utilizando recursão.
 
+- Exemplo:
+  - javascript_55
 
 
 
