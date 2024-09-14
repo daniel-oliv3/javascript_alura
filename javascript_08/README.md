@@ -1460,12 +1460,12 @@ Exato! O leave event foi representado pela instrução `if(counter < 0) return;.
 
 
 
+### 54 - Consolidando seu conhecimento
 
+**Consolidando seu conhecimento**
 
-
-
-
-
+- Exemplo:
+  - javascript_54
 
 
 
