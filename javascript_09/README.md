@@ -33,3 +33,23 @@
 
 - Exemplo:
   - javascript_02
+
+
+### 3 - Elementos HTML
+
+**Elementos HTML**
+
+- Figma: https://www.figma.com/design/QtW96TPE97jTKiTbl2ZNcD/JavaScript%3A-construindo-p%C3%A1ginas-din%C3%A2micas-%7C-Checklist?fuid=1034807242317048751
+
+- Exemplo:
+  - javascript_03
+
+
+
+
+### 4 - 
+
+****
+
+- Exemplo:
+  - javascript_04

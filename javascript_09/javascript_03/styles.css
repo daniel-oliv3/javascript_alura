@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #F55B64;
+    --cor-secundaria: #C2373F;
+    --neutro: #F9F9F9;
+    --preto: #131730;
+    --fonte-titulo: "Krona One", sans-serif;
+    --fonte-texto: 'Numans', sans-serif;
+    --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
+}
