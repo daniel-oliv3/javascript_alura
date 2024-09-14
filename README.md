@@ -21,3 +21,5 @@
 ### 7 - JavaScript: interfaces e Herança em Orientação a Objetos
 
 ### 8 - JavaScript: de padrões a uma abordagem funcional
+
+### 9 - JavaScript: construindo páginas dinâmicas
