@@ -1383,7 +1383,21 @@ Marque a alternativa verdadeira a respeito código anterior.
   - javascript_51
 
 
+### 52 - Implementando retry em Promises
 
+**Implementando retry em Promises**
+
+- Terminal VSCode (GitBash, Prompt)
+```
+node server
+```
+
+- Localhost
+  - Link: http://localhost:3000
+  - Notas: http://localhost:3000/notas
+
+- Exemplo:
+  - javascript_52
 
 
 
