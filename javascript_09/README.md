@@ -110,3 +110,12 @@ h2, li {
 
 - Exemplo:
   - javascript_05
+
+
+
+### 6 - Estilos da lista
+
+**Estilos da lista**
+
+- Exemplo:
+  - javascript_06
