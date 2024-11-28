@@ -119,3 +119,11 @@ h2, li {
 
 - Exemplo:
   - javascript_06
+
+
+### 7 - Checkbox customizado
+
+**Checkbox customizado**
+
+- Exemplo:
+  - javascript_07
